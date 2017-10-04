@@ -890,7 +890,7 @@ Hide #utility flasks
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
-Hide
+Show
 	SocketGroup "RGB"
 	SetBackgroundColor 0 0 0 140
 	SetBorderColor 170 158 130 180
