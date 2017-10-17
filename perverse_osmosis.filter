@@ -105,6 +105,11 @@ Show
 	SetBackgroundColor 0 0 0 180
 	SetBorderColor 184 218 242 220
 	SetFontSize 28
+Show
+	Corrupted False
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	SetBackgroundColor 0 0 0 180
+	SetFontSize 26
 	
 ###000a
 #	Vendor Recipes
