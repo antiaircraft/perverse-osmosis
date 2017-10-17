@@ -94,9 +94,28 @@ Show
 Show
 	Corrupted False
 	ItemLevel >= 84
-	Rarity >= Rare
+	Rarity = Rare
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
 	SetBorderColor 184 218 242 255
+Show
+	Corrupted False
+	Sockets = 6
+	Rarity = Rare
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	PlayAlertSoundPositional 11 125
+	SetBorderColor 170 158 130 255
+	SetFontSize 30
+Show
+	Corrupted False
+	SocketGroup "RGB"
+	Rarity = Rare
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	SetBorderColor 170 158 130 255
+	SetFontSize 30
+Show
+	Corrupted False
+	Rarity = Rare
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
 	SetFontSize 30
 Show
 	Corrupted False
@@ -105,6 +124,28 @@ Show
 	SetBackgroundColor 0 0 0 180
 	SetBorderColor 184 218 242 220
 	SetFontSize 28
+Show
+	Corrupted False
+	Sockets = 6
+	Rarity = Rare
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	PlayAlertSoundPositional 11 125
+	SetBackgroundColor 0 0 0 180
+	SetBorderColor 170 158 130 220
+	SetFontSize 26
+Show
+	Corrupted False
+	SocketGroup "RGB"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	SetBackgroundColor 0 0 0 180
+	SetBorderColor 170 158 130 220
+	SetFontSize 26
+Show
+	Corrupted False
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	SetBackgroundColor 0 0 0 180
+	SetFontSize 26
+	
 	
 ###000a
 #	Vendor Recipes
@@ -125,6 +166,13 @@ Show
 	Width = 1
 	Height = 3
 	SetBorderColor 170 158 130 255
+	SetFontSize 26
+Show
+	SocketGroup "RGB"
+	Width = 2
+	Height = 2
+	SetBackgroundColor 0 0 0 180
+	SetBorderColor 170 158 130 220
 	SetFontSize 26
 Show
 	SocketGroup "RGB"
