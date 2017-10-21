@@ -6,7 +6,7 @@
 #12
 #11, 16, 2, 10
 
-###000f
+###0010
 #	Maps
 Show
 	Class "Map Fragments"
@@ -30,7 +30,7 @@ Show
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 0 0 0 0
 	
-###000e
+###000f
 #	Fishing Rods & Talismans
 Show
 	Corrupted False
@@ -64,14 +64,14 @@ Show
 	SetBorderColor 210 0 0 255
 	SetFontSize 43
 	
-###000d
+###000e
 #	Divine Recipie
 Show
 	LinkedSockets = 6
 	PlayAlertSound 2 175
 	SetBorderColor 170 158 130 255
 	
-###000c
+###000d
 #	Uniques
 Show
 	Sockets = 6
@@ -89,7 +89,7 @@ Show
 Show
 	Rarity >= Unique
 	
-###000b
+###000c
 #	Map-Only Bases
 Show
 	Corrupted False
@@ -147,7 +147,7 @@ Show
 	SetFontSize 26
 	
 	
-###000a
+###000b
 #	Vendor Recipes
 Show
 	Sockets = 6
@@ -180,6 +180,19 @@ Show
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 170 158 130 200
 	SetFontSize 24
+	
+###000a
+#	Jewels
+Show
+	Corrupted True
+	Rarity > Normal
+	Class "Jewel"
+	SetBorderColor 210 0 0 255
+	SetFontSize 30
+Show
+	Rarity > Normal
+	Class "Jewel"
+	SetFontSize 30
 	
 ###0009
 #	Corrupted Rares
