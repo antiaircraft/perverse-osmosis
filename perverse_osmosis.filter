@@ -93,9 +93,15 @@ Show
 #	Map-Only Bases
 Show
 	Corrupted False
+	ItemLevel >= 85
+	Rarity = Rare
+	BaseType "Sacrificial Garb"
+	SetBorderColor 184 218 242 255
+Show
+	Corrupted False
 	ItemLevel >= 84
 	Rarity = Rare
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
 	SetBorderColor 184 218 242 255
 Show
 	Corrupted False
@@ -119,15 +125,21 @@ Show
 	SetFontSize 30
 Show
 	Corrupted False
+	ItemLevel >= 85
+	BaseType "Sacrificial Garb"
+	SetBackgroundColor 0 0 0 180
+	SetBorderColor 184 218 242 220
+	SetFontSize 28
+Show
+	Corrupted False
 	ItemLevel >= 84
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
 	SetBackgroundColor 0 0 0 180
 	SetBorderColor 184 218 242 220
 	SetFontSize 28
 Show
 	Corrupted False
 	Sockets = 6
-	Rarity = Rare
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
 	PlayAlertSoundPositional 11 125
 	SetBackgroundColor 0 0 0 180
@@ -213,7 +225,7 @@ Show
 ###0008
 #	Rare Bases
 Show #body armour
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "Body Armour"
 	BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb"
@@ -253,7 +265,7 @@ Show #shields
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #bows
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "Bows"
 	BaseType "Thicket Bow" "Imperial Bow" "Harbinger Bow" "Maraketh Bow"
@@ -261,7 +273,7 @@ Show #bows
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #claws
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "Claws"
 	BaseType "Eye Gouger" "Vaal Claw" "Imperial Claw" "Terror Claw" "Gemini Claw"
@@ -269,7 +281,7 @@ Show #claws
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #daggers
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "Daggers"
 	BaseType "Platinum Kris" "Imperial Skean" "Demon Dagger" "Sai"
@@ -277,7 +289,7 @@ Show #daggers
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #1h axes
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "One Hand Axe"
 	BaseType "Siege Axe" "Royal Axe" "Infernal Axe" "Runic Hatchet"
@@ -285,7 +297,7 @@ Show #1h axes
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #1h maces
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "One Hand Mace"
 	BaseType "Gavel" "Auric Mace" "Nightmare Mace" "Behemoth Mace"
@@ -293,7 +305,7 @@ Show #1h maces
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #1h swords
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "One Hand Sword"
 	BaseType "Corsair Sword" "Legion Sword" "Vaal Blade" "Eternal Sword" "Midnight Blade" "Tiger Hook"
@@ -301,7 +313,7 @@ Show #1h swords
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #sceptres
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "Sceptres"
 	BaseType "Opal Sceptre" "Vaal Sceptre" "Carnal Sceptre" "Void Sceptre" "Sambar Sceptre"
@@ -317,7 +329,7 @@ Show #staves
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #1h rapier
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "Thrusting One Hand Sword"
 	BaseType "Courtesan Sword" "Tempered Foil" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Dragoon Sword"
@@ -325,7 +337,7 @@ Show #1h rapier
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #2h axes
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "Two Hand Axe"
 	BaseType "Ezomyte Axe" "Vaal Axe" "Fleshripper"
@@ -333,7 +345,7 @@ Show #2h axes
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #2h maces
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "Two Hand Mace"
 	BaseType "Coronal Maul" "Meatgrinder" "Piledriver"
@@ -341,7 +353,7 @@ Show #2h maces
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #2h swords
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "Two Hand Sword"
 	BaseType "Reaver Sword" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Exquisite Blade"
@@ -785,7 +797,7 @@ Hide
 	SetBorderColor 210 0 0 180
 	SetFontSize 18
 Hide #body armour
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Body Armour"
 	BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb"
 	SetBackgroundColor 0 0 0 160
@@ -820,49 +832,49 @@ Hide #shields
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #bows
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Class "Bows"
 	BaseType "Thicket Bow" "Imperial Bow" "Harbinger Bow" "Maraketh Bow"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #claws
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Class "Claws"
 	BaseType "Eye Gouger" "Vaal Claw" "Imperial Claw" "Terror Claw" "Gemini Claw"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #daggers
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Class "Daggers"
 	BaseType "Platinum Kris" "Imperial Skean" "Demon Dagger" "Sai"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #1h axes
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Class "One Hand Axe"
 	BaseType "Siege Axe" "Royal Axe" "Infernal Axe" "Runic Hatchet"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #1h maces
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Class "One Hand Mace"
 	BaseType "Gavel" "Auric Mace" "Nightmare Mace" "Behemoth Mace"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #1h swords
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Class "One Hand Sword"
 	BaseType "Corsair Sword" "Legion Sword" "Vaal Blade" "Eternal Sword" "Midnight Blade" "Tiger Hook"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #sceptres
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Class "Sceptres"
 	BaseType "Opal Sceptre" "Vaal Sceptre" "Carnal Sceptre" "Void Sceptre" "Sambar Sceptre"
 	SetBackgroundColor 0 0 0 160
@@ -876,28 +888,28 @@ Hide #staves
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #1h rapier
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Class "Thrusting One Hand Sword"
 	BaseType "Courtesan Sword" "Tempered Foil" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Dragoon Sword"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #2h axes
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Class "Two Hand Axe"
 	BaseType "Ezomyte Axe" "Vaal Axe" "Fleshripper"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #2h maces
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Class "Two Hand Mace"
 	BaseType "Coronal Maul" "Meatgrinder" "Piledriver"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #2h swords
-	ItemLevel >= 83
+	ItemLevel >= 85
 	Class "Two Hand Sword"
 	BaseType "Reaver Sword" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Exquisite Blade"
 	SetBackgroundColor 0 0 0 160
