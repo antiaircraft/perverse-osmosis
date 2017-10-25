@@ -723,12 +723,12 @@ Show #corrupt rares
 	SetBorderColor 210 0 0 255
 Show #magic
 	Class "Divination Card"
-	BaseType "Prosperity" "Shard of Fate" "Struck by Lightning" "The Carrion Crow" "The Endurance" "The Inoculated" "The King's Blade" "The Lord in Black" "The Sigil" "The Surgeon"
+	BaseType "Prosperity" "Shard of Fate" "Struck by Lightning" "The Carrion Crow" "The Endurance" "The Inoculated" "The King's Blade" "The Lord in Black" "The Sigil" "The Surgeon" "The Rabid Rhoa" "The Twins"
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 136 136 255 180
 Show #craftable magic
 	Class "Divination Card"
-	BaseType "Merciless Armament" "The Jester" "The Rabid Rhoa" "The Road to Power" "The Spoiled Prince" "The Twins" "The Tyrant"
+	BaseType "Merciless Armament" "The Jester" "The Road to Power" "The Spoiled Prince" "The Tyrant"
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 136 136 255 180
 	SetBorderColor 184 218 242 255
