@@ -321,7 +321,7 @@ Show #sceptres
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #staves
-	ItemLevel >= 83
+	ItemLevel >= 84
 	Rarity = Rare
 	Class "Staves"
 	BaseType "Lathi" "Ezomyte Staff" "Maelström Staff" "Imperial Staff" "Judgement Staff" "Eclipse Staff"
@@ -361,7 +361,7 @@ Show #2h swords
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #wands
-	ItemLevel >= 83
+	ItemLevel >= 84
 	Rarity = Rare
 	Class "Wands"
 	BaseType "Imbued Wand" "Prophecy Wand" "Profane Wand"
@@ -881,7 +881,7 @@ Hide #sceptres
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #staves
-	ItemLevel >= 83
+	ItemLevel >= 84
 	Class "Staves"
 	BaseType "Lathi" "Ezomyte Staff" "Maelström Staff" "Imperial Staff" "Judgement Staff" "Eclipse Staff"
 	SetBackgroundColor 0 0 0 160
@@ -916,7 +916,7 @@ Hide #2h swords
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #wands
-	ItemLevel >= 83
+	ItemLevel >= 84
 	Class "Wands"
 	BaseType "Imbued Wand" "Prophecy Wand" "Profane Wand"
 	SetBackgroundColor 0 0 0 160
