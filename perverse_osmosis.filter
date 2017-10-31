@@ -780,8 +780,239 @@ Show #prophecies
 Show
 	Class "Divination Card"
 	PlayAlertSoundPositional 3 125
-
+	
 ###0001
+#	Identified Items
+Show
+	Identified True
+	Rarity >= Magic
+	Corrupted True
+	SocketGroup "RGB"
+	SetBackgroundColor 0 0 0 140
+	SetBorderColor 170 158 130 180
+	SetFontSize 20
+Show
+	Identified True
+	Rarity >= Magic
+	Corrupted True
+	SetBackgroundColor 0 0 0 140
+	SetBorderColor 210 0 0 180
+	SetFontSize 18
+Show #body armour
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 85
+	Class "Body Armour"
+	BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #boots
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 84
+	Class "Boots"
+	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #gloves
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 84
+	Class "Gloves"
+	BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #helmets
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 84
+	Class "Helmets"
+	BaseType "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Deicide Mask" "Vaal Mask"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #shields
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 84
+	Class "Shields"
+	BaseType "Shagreen Tower Shield" "Ezomyte Tower Shield" "Colossal Tower Shield" "Pinnacle Tower Shield" "Lacquered Buckler" "Vaal Buckler" "Crusader Buckler" "Imperial Buckler" "Fossilised Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Teak Round Shield" "Spiny Round Shield" "Cardinal Round Shield" "Elegant Round Shield" "Branded Kite Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Alder Spiked Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #bows
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 85
+	Class "Bows"
+	BaseType "Thicket Bow" "Imperial Bow" "Harbinger Bow" "Maraketh Bow"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #claws
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 85
+	Class "Claws"
+	BaseType "Eye Gouger" "Vaal Claw" "Imperial Claw" "Terror Claw" "Gemini Claw"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #daggers
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 85
+	Class "Daggers"
+	BaseType "Platinum Kris" "Imperial Skean" "Demon Dagger" "Sai"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Hide #1h axes
+	ItemLevel >= 85
+	Class "One Hand Axe"
+	BaseType "Siege Axe" "Royal Axe" "Infernal Axe" "Runic Hatchet"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Hide #1h maces
+	ItemLevel >= 85
+	Class "One Hand Mace"
+	BaseType "Gavel" "Auric Mace" "Nightmare Mace" "Behemoth Mace"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Hide #1h swords
+	ItemLevel >= 85
+	Class "One Hand Sword"
+	BaseType "Corsair Sword" "Legion Sword" "Vaal Blade" "Eternal Sword" "Midnight Blade" "Tiger Hook"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #sceptres
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 85
+	Class "Sceptres"
+	BaseType "Opal Sceptre" "Vaal Sceptre" "Carnal Sceptre" "Void Sceptre" "Sambar Sceptre"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #staves
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 84
+	Class "Staves"
+	BaseType "Lathi" "Ezomyte Staff" "Maelström Staff" "Imperial Staff" "Judgement Staff" "Eclipse Staff"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Hide #1h rapier
+	ItemLevel >= 85
+	Class "Thrusting One Hand Sword"
+	BaseType "Courtesan Sword" "Tempered Foil" "Vaal Rapier" "Jewelled Foil" "Harpy Rapier" "Dragoon Sword"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Hide #2h axes
+	ItemLevel >= 85
+	Class "Two Hand Axe"
+	BaseType "Ezomyte Axe" "Vaal Axe" "Fleshripper"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Hide #2h maces
+	ItemLevel >= 85
+	Class "Two Hand Mace"
+	BaseType "Coronal Maul" "Meatgrinder" "Piledriver"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Hide #2h swords
+	ItemLevel >= 85
+	Class "Two Hand Sword"
+	BaseType "Reaver Sword" "Vaal Greatsword" "Lion Sword" "Infernal Sword" "Exquisite Blade"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #wands
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 84
+	Class "Wands"
+	BaseType "Imbued Wand" "Prophecy Wand" "Profane Wand"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #quivers
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 84
+	Class "Quivers"
+	BaseType "Two-Point Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #belts
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 84
+	Class "Belts"
+	BaseType "Vanguard Belt" "Crystal Belt" "Leather Belt" "Rustic Sash" "Heavy Belt" "Cloth Belt" "Golden Obi" "Studded Belt"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #rings
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 84
+	Class "Rings"
+	BaseType "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #amulets
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 84
+	Class "Amulets"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Ruby Amulet" "Onyx Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Gold Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #restore flasks
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 20
+	Class "Life Flasks" "Mana Flasks" "Hybrid Flasks"
+	BaseType "Hallowed Hybrid Flask" "Eternal Life Flask" "Divine Life Flask" "Eternal Mana Flask" "Divine Mana Flask" "Sanctified Mana Flask"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #utility flasks
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 20
+	Class "Utility Flasks"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show
+	Identified True
+	Rarity >= Magic
+	SocketGroup "RGB"
+	SetBackgroundColor 0 0 0 140
+	SetBorderColor 170 158 130 180
+	SetFontSize 20
+Show
+	Identified True
+	Rarity >= Magic
+	SetBackgroundColor 0 0 0 140
+	SetFontSize 18
+	
+###0000
 #	Catch-all Styles
 Show
 	Class "Quest Items" "Currency" "Pantheon Soul"
