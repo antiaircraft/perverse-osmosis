@@ -193,8 +193,11 @@ Show
 	SetBorderColor 170 158 130 200
 	SetFontSize 24
 Show #all onyx amulets (for Star of Wraeclast recipe)
+	Identified False
+	Rarity < Rare
 	Class "Amulets"
 	BaseType "Onyx Amulet"
+	SetFontSize 20
 	
 ###000a
 #	Jewels
