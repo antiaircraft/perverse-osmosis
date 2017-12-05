@@ -195,8 +195,6 @@ Show
 Show #all onyx amulets (for Star of Wraeclast recipe)
 	Class "Amulets"
 	BaseType "Onyx Amulet"
-	SetBackgroundColor 0 0 0 180
-	SetFontSize 20
 	
 ###000a
 #	Jewels
