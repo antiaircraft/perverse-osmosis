@@ -93,9 +93,15 @@ Show
 #	Notable Bases
 Show
 	Corrupted False
+	ItemLevel >= 86
+	Rarity = Rare
+	BaseType "Two-Toned Boots" "Sacrificial Garb"
+	SetBorderColor 184 218 242 255
+Show
+	Corrupted False
 	ItemLevel >= 85
 	Rarity = Rare
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise"
 	SetBorderColor 184 218 242 255
 Show
 	Corrupted False
@@ -119,8 +125,15 @@ Show
 	SetFontSize 30
 Show
 	Corrupted False
+	ItemLevel >= 86
+	BaseType "Two-Toned Boots" "Sacrificial Garb"
+	SetBackgroundColor 0 0 0 180
+	SetBorderColor 184 218 242 220
+	SetFontSize 28
+Show
+	Corrupted False
 	ItemLevel >= 85
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise"
 	SetBackgroundColor 0 0 0 180
 	SetBorderColor 184 218 242 220
 	SetFontSize 28
@@ -212,7 +225,7 @@ Show
 ###0008
 #	Rare Bases
 Show #body armour
-	ItemLevel >= 85
+	ItemLevel >= 86
 	Rarity = Rare
 	Class "Body Armour"
 	BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb"
@@ -797,7 +810,7 @@ Show #body armour
 Show #boots
 	Identified True
 	Rarity >= Magic
-	ItemLevel >= 85
+	ItemLevel >= 86
 	Class "Boots"
 	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots"
 	SetBackgroundColor 0 0 0 160
@@ -1015,14 +1028,14 @@ Hide
 	SetBorderColor 210 0 0 180
 	SetFontSize 18
 Hide #body armour
-	ItemLevel >= 85
+	ItemLevel >= 86
 	Class "Body Armour"
 	BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #boots
-	ItemLevel >= 85
+	ItemLevel >= 86
 	Class "Boots"
 	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots"
 	SetBackgroundColor 0 0 0 160
