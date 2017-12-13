@@ -90,24 +90,24 @@ Show
 	Rarity >= Unique
 	
 ###000c
-#	Map-Only Bases
+#	Notable Bases
+Show
+	Corrupted False
+	ItemLevel >= 86
+	Rarity = Rare
+	BaseType "Two-Toned Boots" "Sacrificial Garb"
+	SetBorderColor 184 218 242 255
 Show
 	Corrupted False
 	ItemLevel >= 85
 	Rarity = Rare
-	BaseType "Sacrificial Garb"
-	SetBorderColor 184 218 242 255
-Show
-	Corrupted False
-	ItemLevel >= 84
-	Rarity = Rare
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise"
 	SetBorderColor 184 218 242 255
 Show
 	Corrupted False
 	Sockets = 6
 	Rarity = Rare
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Sacrificial Garb"
 	PlayAlertSoundPositional 11 125
 	SetBorderColor 170 158 130 255
 	SetFontSize 30
@@ -115,32 +115,32 @@ Show
 	Corrupted False
 	SocketGroup "RGB"
 	Rarity = Rare
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
 	SetBorderColor 170 158 130 255
 	SetFontSize 30
 Show
 	Corrupted False
 	Rarity = Rare
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise"
 	SetFontSize 30
 Show
 	Corrupted False
-	ItemLevel >= 85
-	BaseType "Sacrificial Garb"
+	ItemLevel >= 86
+	BaseType "Two-Toned Boots" "Sacrificial Garb"
 	SetBackgroundColor 0 0 0 180
 	SetBorderColor 184 218 242 220
 	SetFontSize 28
 Show
 	Corrupted False
-	ItemLevel >= 84
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	ItemLevel >= 85
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise"
 	SetBackgroundColor 0 0 0 180
 	SetBorderColor 184 218 242 220
 	SetFontSize 28
 Show
 	Corrupted False
 	Sockets = 6
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Sacrificial Garb"
 	PlayAlertSoundPositional 11 125
 	SetBackgroundColor 0 0 0 180
 	SetBorderColor 170 158 130 220
@@ -148,13 +148,13 @@ Show
 Show
 	Corrupted False
 	SocketGroup "RGB"
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
 	SetBackgroundColor 0 0 0 180
 	SetBorderColor 170 158 130 220
 	SetFontSize 26
 Show
 	Corrupted False
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise"
 	SetBackgroundColor 0 0 0 180
 	SetFontSize 26
 	
@@ -231,7 +231,7 @@ Show
 ###0008
 #	Rare Bases
 Show #body armour
-	ItemLevel >= 85
+	ItemLevel >= 86
 	Rarity = Rare
 	Class "Body Armour"
 	BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb"
@@ -239,7 +239,7 @@ Show #body armour
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #boots
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "Boots"
 	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots"
@@ -247,7 +247,7 @@ Show #boots
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #gloves
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "Gloves"
 	BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts"
@@ -255,7 +255,7 @@ Show #gloves
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #helmets
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "Helmets"
 	BaseType "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Deicide Mask" "Vaal Mask"
@@ -263,7 +263,7 @@ Show #helmets
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #shields
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "Shields"
 	BaseType "Shagreen Tower Shield" "Ezomyte Tower Shield" "Colossal Tower Shield" "Pinnacle Tower Shield" "Lacquered Buckler" "Vaal Buckler" "Crusader Buckler" "Imperial Buckler" "Fossilised Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Teak Round Shield" "Spiny Round Shield" "Cardinal Round Shield" "Elegant Round Shield" "Branded Kite Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Alder Spiked Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
@@ -327,7 +327,7 @@ Show #sceptres
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #staves
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "Staves"
 	BaseType "Lathi" "Ezomyte Staff" "Maelström Staff" "Imperial Staff" "Judgement Staff" "Eclipse Staff"
@@ -367,7 +367,7 @@ Show #2h swords
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #wands
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "Wands"
 	BaseType "Imbued Wand" "Prophecy Wand" "Profane Wand"
@@ -375,7 +375,7 @@ Show #wands
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #quivers
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Rarity = Rare
 	Class "Quivers"
 	BaseType "Two-Point Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver"
@@ -387,21 +387,21 @@ Show #quivers
 #	Rare Jewellery Bases
 Show #belts
 	Rarity = Rare
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Belts"
-	BaseType "Vanguard Belt" "Crystal Belt" "Leather Belt" "Rustic Sash" "Heavy Belt" "Cloth Belt" "Golden Obi" "Studded Belt"
+	BaseType "Vanguard Belt" "Crystal Belt" "Leather Belt" "Rustic Sash" "Heavy Belt" "Cloth Belt" "Golden Obi" "Studded Belt" "Stygian Vise"
 	SetBorderColor 184 218 242 255
 	SetFontSize 30
 Show #rings
 	Rarity = Rare
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Rings"
 	BaseType "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring"
 	SetBorderColor 184 218 242 255
 	SetFontSize 30
 Show #amulets
 	Rarity = Rare
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Amulets"
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Ruby Amulet" "Onyx Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Gold Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet"
 	SetBorderColor 184 218 242 255
@@ -774,7 +774,7 @@ Show #corrupt gems
 	SetBorderColor 210 0 0 255
 Show #quality gems
 	Class "Divination Card"
-	BaseType "Gemcutter's Promise" "Grave Knowledge" "The Doppelganger" "The Summoner"
+	BaseType "Gemcutter's Promise" "Grave Knowledge" "The Doppelganger" "The Summoner" "The Realm"
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 27 162 155 180
 	SetBorderColor 136 136 255 255
@@ -816,7 +816,7 @@ Show #body armour
 Show #boots
 	Identified True
 	Rarity >= Magic
-	ItemLevel >= 84
+	ItemLevel >= 86
 	Class "Boots"
 	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots"
 	SetBackgroundColor 0 0 0 160
@@ -825,7 +825,7 @@ Show #boots
 Show #gloves
 	Identified True
 	Rarity >= Magic
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Gloves"
 	BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts"
 	SetBackgroundColor 0 0 0 160
@@ -834,7 +834,7 @@ Show #gloves
 Show #helmets
 	Identified True
 	Rarity >= Magic
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Helmets"
 	BaseType "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Deicide Mask" "Vaal Mask"
 	SetBackgroundColor 0 0 0 160
@@ -843,7 +843,7 @@ Show #helmets
 Show #shields
 	Identified True
 	Rarity >= Magic
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Shields"
 	BaseType "Shagreen Tower Shield" "Ezomyte Tower Shield" "Colossal Tower Shield" "Pinnacle Tower Shield" "Lacquered Buckler" "Vaal Buckler" "Crusader Buckler" "Imperial Buckler" "Fossilised Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Teak Round Shield" "Spiny Round Shield" "Cardinal Round Shield" "Elegant Round Shield" "Branded Kite Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Alder Spiked Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
 	SetBackgroundColor 0 0 0 160
@@ -909,7 +909,7 @@ Show #sceptres
 Show #staves
 	Identified True
 	Rarity >= Magic
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Staves"
 	BaseType "Lathi" "Ezomyte Staff" "Maelström Staff" "Imperial Staff" "Judgement Staff" "Eclipse Staff"
 	SetBackgroundColor 0 0 0 160
@@ -946,7 +946,7 @@ Hide #2h swords
 Show #wands
 	Identified True
 	Rarity >= Magic
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Wands"
 	BaseType "Imbued Wand" "Prophecy Wand" "Profane Wand"
 	SetBackgroundColor 0 0 0 160
@@ -955,7 +955,7 @@ Show #wands
 Show #quivers
 	Identified True
 	Rarity >= Magic
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Quivers"
 	BaseType "Two-Point Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver"
 	SetBackgroundColor 0 0 0 160
@@ -964,7 +964,7 @@ Show #quivers
 Show #belts
 	Identified True
 	Rarity >= Magic
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Belts"
 	BaseType "Vanguard Belt" "Crystal Belt" "Leather Belt" "Rustic Sash" "Heavy Belt" "Cloth Belt" "Golden Obi" "Studded Belt"
 	SetBackgroundColor 0 0 0 160
@@ -973,7 +973,7 @@ Show #belts
 Show #rings
 	Identified True
 	Rarity >= Magic
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Rings"
 	BaseType "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring"
 	SetBackgroundColor 0 0 0 160
@@ -982,7 +982,7 @@ Show #rings
 Show #amulets
 	Identified True
 	Rarity >= Magic
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Amulets"
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Ruby Amulet" "Onyx Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Gold Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet"
 	SetBackgroundColor 0 0 0 160
@@ -1034,35 +1034,35 @@ Hide
 	SetBorderColor 210 0 0 180
 	SetFontSize 18
 Hide #body armour
-	ItemLevel >= 85
+	ItemLevel >= 86
 	Class "Body Armour"
 	BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #boots
-	ItemLevel >= 84
+	ItemLevel >= 86
 	Class "Boots"
 	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #gloves
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Gloves"
 	BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #helmets
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Helmets"
 	BaseType "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Deicide Mask" "Vaal Mask"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #shields
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Shields"
 	BaseType "Shagreen Tower Shield" "Ezomyte Tower Shield" "Colossal Tower Shield" "Pinnacle Tower Shield" "Lacquered Buckler" "Vaal Buckler" "Crusader Buckler" "Imperial Buckler" "Fossilised Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield" "Titanium Spirit Shield" "Teak Round Shield" "Spiny Round Shield" "Cardinal Round Shield" "Elegant Round Shield" "Branded Kite Shield" "Champion Kite Shield" "Mosaic Kite Shield" "Archon Kite Shield" "Alder Spiked Shield" "Ezomyte Spiked Shield" "Mirrored Spiked Shield" "Supreme Spiked Shield"
 	SetBackgroundColor 0 0 0 160
@@ -1118,7 +1118,7 @@ Hide #sceptres
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #staves
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Staves"
 	BaseType "Lathi" "Ezomyte Staff" "Maelström Staff" "Imperial Staff" "Judgement Staff" "Eclipse Staff"
 	SetBackgroundColor 0 0 0 160
@@ -1153,35 +1153,35 @@ Hide #2h swords
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #wands
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Wands"
 	BaseType "Imbued Wand" "Prophecy Wand" "Profane Wand"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #quivers
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Quivers"
 	BaseType "Two-Point Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #belts
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Belts"
-	BaseType "Vanguard Belt" "Crystal Belt" "Leather Belt" "Rustic Sash" "Heavy Belt" "Cloth Belt" "Golden Obi" "Studded Belt"
+	BaseType "Vanguard Belt" "Crystal Belt" "Leather Belt" "Rustic Sash" "Heavy Belt" "Cloth Belt" "Golden Obi" "Studded Belt" "Stygian Vise"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #rings
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Rings"
 	BaseType "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #amulets
-	ItemLevel >= 84
+	ItemLevel >= 85
 	Class "Amulets"
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Ruby Amulet" "Onyx Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Gold Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet"
 	SetBackgroundColor 0 0 0 160
