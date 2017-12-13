@@ -95,13 +95,13 @@ Show
 	Corrupted False
 	ItemLevel >= 86
 	Rarity = Rare
-	BaseType "Two-Toned Boots" "Sacrificial Garb"
+	BaseType "Two-Toned Boots" "Sacrificial Garb" "Vanguard Belt" "Crystal Belt" "Stygian Vise"
 	SetBorderColor 184 218 242 255
 Show
 	Corrupted False
 	ItemLevel >= 85
 	Rarity = Rare
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring"  "Bone Helmet" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" 
 	SetBorderColor 184 218 242 255
 Show
 	Corrupted False
@@ -126,14 +126,14 @@ Show
 Show
 	Corrupted False
 	ItemLevel >= 86
-	BaseType "Two-Toned Boots" "Sacrificial Garb"
+	BaseType "Two-Toned Boots" "Sacrificial Garb" "Vanguard Belt" "Crystal Belt" "Stygian Vise"
 	SetBackgroundColor 0 0 0 180
 	SetBorderColor 184 218 242 220
 	SetFontSize 28
 Show
 	Corrupted False
 	ItemLevel >= 85
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring"  "Bone Helmet" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" 
 	SetBackgroundColor 0 0 0 180
 	SetBorderColor 184 218 242 220
 	SetFontSize 28
@@ -201,6 +201,12 @@ Show
 	Class "Jewel"
 	SetBorderColor 210 0 0 255
 	SetFontSize 30
+Show #abyss jewels
+	ItemLevel >= 84
+	Rarity > Normal
+	Class "Abyss Jewel"
+	SetFontSize 30
+	SetBorderColor 184 218 242 255
 Show
 	Rarity > Normal
 	Class "Jewel"
@@ -233,7 +239,7 @@ Show #body armour
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 Show #boots
-	ItemLevel >= 85
+	ItemLevel >= 86
 	Rarity = Rare
 	Class "Boots"
 	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots"
@@ -381,7 +387,7 @@ Show #quivers
 #	Rare Jewellery Bases
 Show #belts
 	Rarity = Rare
-	ItemLevel >= 85
+	ItemLevel >= 86
 	Class "Belts"
 	BaseType "Vanguard Belt" "Crystal Belt" "Leather Belt" "Rustic Sash" "Heavy Belt" "Cloth Belt" "Golden Obi" "Studded Belt" "Stygian Vise"
 	SetBorderColor 184 218 242 255
@@ -801,7 +807,7 @@ Show
 Show #body armour
 	Identified True
 	Rarity >= Magic
-	ItemLevel >= 85
+	ItemLevel >= 86
 	Class "Body Armour"
 	BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb"
 	SetBackgroundColor 0 0 0 160
@@ -958,7 +964,7 @@ Show #quivers
 Show #belts
 	Identified True
 	Rarity >= Magic
-	ItemLevel >= 85
+	ItemLevel >= 86
 	Class "Belts"
 	BaseType "Vanguard Belt" "Crystal Belt" "Leather Belt" "Rustic Sash" "Heavy Belt" "Cloth Belt" "Golden Obi" "Studded Belt"
 	SetBackgroundColor 0 0 0 160
@@ -1161,7 +1167,7 @@ Hide #quivers
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #belts
-	ItemLevel >= 85
+	ItemLevel >= 86
 	Class "Belts"
 	BaseType "Vanguard Belt" "Crystal Belt" "Leather Belt" "Rustic Sash" "Heavy Belt" "Cloth Belt" "Golden Obi" "Studded Belt" "Stygian Vise"
 	SetBackgroundColor 0 0 0 160
@@ -1191,6 +1197,12 @@ Hide #restore flasks
 Hide #utility flasks
 	ItemLevel >= 20
 	Class "Utility Flasks"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Hide #abyss jewels
+	ItemLevel >= 84
+	Class "Abyss Jewel"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
