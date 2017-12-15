@@ -701,7 +701,7 @@ Show #uniques
 	SetBackgroundColor 175 96 37 180
 Show #corrupt uniques
 	Class "Divination Card"
-	BaseType "Anarchy's Price" "Atziri's Arsenal" "Audacity" "Blind Venture" "Hope" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Avenger" "The Brittle Emperor" "The Cursed King" "The Devastator" "The Encroaching Darkness" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek" "The Eye of the Dragon"
+	BaseType "Anarchy's Price" "Atziri's Arsenal" "Audacity" "Blind Venture" "Hope" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Avenger" "The Brittle Emperor" "The Cursed King" "The Devastator" "The Encroaching Darkness" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek"
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 175 96 37 180
 	SetBorderColor 210 0 0 255
