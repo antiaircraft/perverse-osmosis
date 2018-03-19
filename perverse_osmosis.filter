@@ -753,7 +753,7 @@ Show #currency magic
 	SetBorderColor 170 158 130 255
 Show #normal
 	Class "Divination Card"
-	BaseType "Boundless Realms" "Cartographer's Delight" "Her Mask" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Metalsmith's Gift" "The Surveyor"
+	BaseType "Boundless Realms" "Cartographer's Delight" "Her Mask" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Obscured" "The Metalsmith's Gift" "The Surveyor"
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 200 200 200 180
 Show #craftable normal
