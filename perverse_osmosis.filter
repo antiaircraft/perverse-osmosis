@@ -638,7 +638,7 @@ Show
 #	Divination Cards
 Show #currency
 	Class "Divination Card"
-	BaseType "Loyalty" "Emperor's Luck" "Lucky Connections" "The Scholar" "The Survivalist" "Vinia's Token"
+	BaseType "Loyalty" "Emperor's Luck" "Lucky Connections" "The Puzzle" "The Scholar" "The Survivalist" "Vinia's Token"
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 Show #divine
@@ -701,7 +701,7 @@ Show #uniques
 	SetBackgroundColor 175 96 37 180
 Show #corrupt uniques
 	Class "Divination Card"
-	BaseType "Anarchy's Price" "Atziri's Arsenal" "Audacity" "Blind Venture" "Hope" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Avenger" "The Brittle Emperor" "The Cursed King" "The Devastator" "The Encroaching Darkness" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek"
+	BaseType "Anarchy's Price" "Atziri's Arsenal" "Audacity" "Blind Venture" "Hope" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Avenger" "The Brittle Emperor" "The Cursed King" "The Deceiver" "The Devastator" "The Encroaching Darkness" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek"
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 175 96 37 180
 	SetBorderColor 210 0 0 255
