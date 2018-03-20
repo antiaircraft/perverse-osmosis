@@ -504,8 +504,8 @@ Show
 Show
 	BaseType "Annulment Shard" "Horizon Shard" "Ancient Shard"
 	PlayAlertSoundPositional 2 300
-	SetBackgroundColor 0 0 0 220
-	SetBorderColor 170 158 130 255
+	SetBackgroundColor 0 0 0 180
+	SetBorderColor 170 158 130 220
 	SetFontSize 36
 Show
 	Class "Currency"
@@ -541,16 +541,16 @@ Show
 Show
 	BaseType "Chaos Shard" "Regal Shard"
 	PlayAlertSoundPositional 16 275
-	SetBackgroundColor 0 0 0 220
-	SetBorderColor 170 158 130 255
+	SetBackgroundColor 0 0 0 180
+	SetBorderColor 170 158 130 220
 Show
 	BaseType "Orb of Regret" "Engineer's Orb"
 	PlayAlertSoundPositional 16 250
 Show
 	BaseType "Engineer's Shard"
 	PlayAlertSoundPositional 16 225
-	SetBackgroundColor 0 0 0 220
-	SetBorderColor 170 158 130 255
+	SetBackgroundColor 0 0 0 180
+	SetBorderColor 170 158 130 220
 Show
 	BaseType "Orb of Fusing" "Orb of Alchemy" "Glassblower's Bauble"
 	PlayAlertSoundPositional 11 200
@@ -569,8 +569,8 @@ Show
 Show
 	BaseType "Alchemy Shard"
 	PlayAlertSoundPositional 11 175
-	SetBackgroundColor 0 0 0 220
-	SetBorderColor 170 158 130 255
+	SetBackgroundColor 0 0 0 180
+	SetBorderColor 170 158 130 220
 Show
 	BaseType "Silver Coin"
 	SetBorderColor 181 75 255 255
@@ -587,24 +587,24 @@ Show
 Show
 	BaseType "Binding Shard"
 	PlayAlertSoundPositional 11 125
-	SetBackgroundColor 0 0 0 220
-	SetBorderColor 170 158 130 255
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 170 158 130 200
 	SetFontSize 30
 Show
 	BaseType "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Alteration"
 	SetFontSize 28
 Show
 	BaseType "Alteration Shard"
-	SetBackgroundColor 0 0 0 220
-	SetBorderColor 170 158 130 255
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 170 158 130 200
 	SetFontSize 28
 Show
 	BaseType "Scroll of Wisdom" "Portal Scroll" "Armourer's Scrap" "Orb of Transmutation"
 	SetFontSize 26
 Show
 	BaseType "Scroll Fragment" "Transmutation Shard"
-	SetBackgroundColor 0 0 0 220
-	SetBorderColor 170 158 130 255
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 170 158 130 200
 	SetFontSize 26
 
 ###0003
