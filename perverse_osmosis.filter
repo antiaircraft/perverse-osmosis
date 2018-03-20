@@ -594,9 +594,11 @@ Show
 	SetFontSize 28
 Show
 	BaseType "Scroll of Wisdom" "Portal Scroll" "Armourer's Scrap" "Orb of Transmutation"
+	DisableDropSound
 	SetFontSize 26
 Show
 	BaseType "Scroll Fragment" "Transmutation Shard"
+	DisableDropSound
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 170 158 130 200
 	SetFontSize 26
