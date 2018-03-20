@@ -586,6 +586,8 @@ Show
 	SetFontSize 30
 Show
 	BaseType "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Alteration"
+	DisableDropSound
+	PlayAlertSoundPositional 11 75
 	SetFontSize 28
 Show
 	BaseType "Alteration Shard"
@@ -595,6 +597,7 @@ Show
 Show
 	BaseType "Scroll of Wisdom" "Portal Scroll" "Armourer's Scrap" "Orb of Transmutation"
 	DisableDropSound
+	PlayAlertSoundPositional 11 50
 	SetFontSize 26
 Show
 	BaseType "Scroll Fragment" "Transmutation Shard"
