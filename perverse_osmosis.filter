@@ -503,7 +503,7 @@ Show
 	SetFontSize 36
 Show
 	BaseType "Annulment Shard" "Horizon Shard" "Ancient Shard"
-	PlayAlertSoundPositional 2 300
+	PlayAlertSoundPositional 2 200
 	SetBackgroundColor 0 0 0 180
 	SetBorderColor 170 158 130 220
 	SetFontSize 36
@@ -540,19 +540,15 @@ Show
 	SetFontSize 34
 Show
 	BaseType "Chaos Shard" "Regal Shard"
-	PlayAlertSoundPositional 16 275
+	PlayAlertSoundPositional 16 175
 	SetBackgroundColor 0 0 0 180
 	SetBorderColor 170 158 130 220
 Show
-	BaseType "Orb of Regret" "Engineer's Orb"
-	PlayAlertSoundPositional 16 250
+	BaseType "Sextant"
+	PlayAlertSound 16 150
+	SetBorderColor 96 96 96 255
 Show
-	BaseType "Engineer's Shard"
-	PlayAlertSoundPositional 16 225
-	SetBackgroundColor 0 0 0 180
-	SetBorderColor 170 158 130 220
-Show
-	BaseType "Orb of Fusing" "Orb of Alchemy" "Glassblower's Bauble"
+	BaseType "Orb of Fusing" "Orb of Alchemy" "Glassblower's Bauble" "Orb of Regret" "Engineer's Orb"
 	PlayAlertSoundPositional 11 200
 Show
 	BaseType "Orb of Scouring"
@@ -567,7 +563,7 @@ Show
 	PlayAlertSoundPositional 11 200
 	SetBorderColor 27 162 155 255
 Show
-	BaseType "Alchemy Shard"
+	BaseType "Alchemy Shard" "Engineer's Shard"
 	PlayAlertSoundPositional 11 175
 	SetBackgroundColor 0 0 0 180
 	SetBorderColor 170 158 130 220
@@ -582,10 +578,12 @@ Show
 	SetFontSize 30
 Show
 	BaseType "Orb of Chance" "Jeweller's Orb" "Chromatic Orb" "Orb of Binding"
+	DisableDropSound
 	PlayAlertSoundPositional 11 150
 	SetFontSize 30
 Show
 	BaseType "Binding Shard"
+	DisableDropSound
 	PlayAlertSoundPositional 11 125
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 170 158 130 200
@@ -597,13 +595,18 @@ Show
 	SetFontSize 28
 Show
 	BaseType "Alteration Shard"
+	DisableDropSound
+	PlayAlertSoundPositional 11 50
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 170 158 130 200
 	SetFontSize 28
 Show
-	BaseType "Scroll of Wisdom" "Portal Scroll" "Armourer's Scrap" "Orb of Transmutation"
+	BaseType "Armourer's Scrap" "Orb of Transmutation"
 	DisableDropSound
 	PlayAlertSoundPositional 11 50
+	SetFontSize 26
+Show
+	BaseType "Scroll of Wisdom" "Portal Scroll"
 	SetFontSize 26
 Show
 	BaseType "Scroll Fragment" "Transmutation Shard"
