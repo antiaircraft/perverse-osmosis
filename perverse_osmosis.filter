@@ -648,6 +648,7 @@ Show
 	MinimapIcon 2 Yellow Circle
 	PlayAlertSoundPositional 11 200
 Show
+	Class "Currency"
 	BaseType "Fossil"
 	MinimapIcon 2 Yellow Triangle
 	PlayAlertSoundPositional 11 200
