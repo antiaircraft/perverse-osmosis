@@ -71,11 +71,29 @@ Show
 	SetFontSize 43
 Show
 	SocketGroup "RGB"
+	Rarity >= Unique
+	Class "Fishing Rods"
+	MinimapIcon 1 Brown Square
+	PlayEffect Brown
+	PlayAlertSoundPositional 1 300
+	SetBorderColor 170 158 130 255
+	SetFontSize 43
+Show
+	SocketGroup "RGB"
 	Class "Fishing Rods"
 	MinimapIcon 1 White Square
 	PlayEffect White
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 170 158 130 255
+	SetFontSize 43
+Show
+	Corrupted True
+	Rarity >= Unique
+	Class "Fishing Rods"
+	MinimapIcon 1 Brown Square
+	PlayEffect Brown
+	PlayAlertSoundPositional 1 300
+	SetBorderColor 210 0 0 255
 	SetFontSize 43
 Show
 	Corrupted True
@@ -86,10 +104,27 @@ Show
 	SetBorderColor 210 0 0 255
 	SetFontSize 43
 Show
+	Rarity >= Unique
+	Class "Fishing Rods"
+	MinimapIcon 1 Brown Square
+	PlayEffect Brown
+	PlayAlertSoundPositional 1 300
+	SetFontSize 43
+Show
 	Class "Fishing Rods"
 	MinimapIcon 1 White Square
 	PlayEffect White
 	PlayAlertSoundPositional 1 300
+	SetFontSize 43
+Show
+	Corrupted True
+	Rarity >= Unique
+	Class "Amulets"
+	BaseType "Talisman"
+	MinimapIcon 0 Brown Square
+	PlayEffect Brown
+	PlayAlertSoundPositional 1 300
+	SetBorderColor 210 0 0 255
 	SetFontSize 43
 Show
 	Corrupted True
@@ -99,12 +134,21 @@ Show
 	PlayEffect Red Temp
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 210 0 0 255
-	SetFontSize 43
+	SetFontSize 36
 	
 ###000f
 #	Divine Recipie
 Show
 	LinkedSockets = 6
+	Rarity >= Unique
+	MinimapIcon 1 Brown Square
+	PlayEffect Brown
+	PlayAlertSound 2 175
+	SetBorderColor 170 158 130 255
+Show
+	LinkedSockets = 6
+	MinimapIcon 2 Yellow Square
+	PlayEffect Yellow Temp
 	PlayAlertSound 2 175
 	SetBorderColor 170 158 130 255
 	
