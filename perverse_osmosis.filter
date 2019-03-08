@@ -47,7 +47,7 @@ Show
 Show
 	Corrupted True
 	Class "Map"
-	MinimapIcon 2 Red Hexagon
+	MinimapIcon 2 White Hexagon
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 210 0 0 255
 Show
@@ -64,8 +64,8 @@ Show
 	ItemLevel >= 88
 	Rarity < Unique
 	Class "Fishing Rods"
-	MinimapIcon 0 White Square
-	PlayEffect White
+	MinimapIcon 0 Red Square
+	PlayEffect Red
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 184 218 242 255
 	SetFontSize 43
@@ -81,8 +81,8 @@ Show
 Show
 	SocketGroup "RGB"
 	Class "Fishing Rods"
-	MinimapIcon 1 White Square
-	PlayEffect White
+	MinimapIcon 1 Red Square
+	PlayEffect Red
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 170 158 130 255
 	SetFontSize 43
@@ -91,15 +91,15 @@ Show
 	Rarity >= Unique
 	Class "Fishing Rods"
 	MinimapIcon 1 Brown Square
-	PlayEffect Brown
+	PlayEffect Red
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 210 0 0 255
 	SetFontSize 43
 Show
 	Corrupted True
 	Class "Fishing Rods"
-	MinimapIcon 1 White Square
-	PlayEffect White
+	MinimapIcon 1 Red Square
+	PlayEffect Red
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 210 0 0 255
 	SetFontSize 43
@@ -112,8 +112,8 @@ Show
 	SetFontSize 43
 Show
 	Class "Fishing Rods"
-	MinimapIcon 1 White Square
-	PlayEffect White
+	MinimapIcon 1 Red Square
+	PlayEffect Red
 	PlayAlertSoundPositional 1 300
 	SetFontSize 43
 Show
@@ -141,8 +141,8 @@ Show
 Show
 	LinkedSockets = 6
 	Rarity >= Unique
-	MinimapIcon 1 Brown Square
-	PlayEffect Brown
+	MinimapIcon 2 Yellow Square
+	PlayEffect Brown Temp
 	PlayAlertSound 2 175
 	SetBorderColor 170 158 130 255
 Show
@@ -529,8 +529,8 @@ Show
 Show
 	Class "Currency"
 	BaseType "Remnant of Corruption"
-	MinimapIcon 2 Red Circle
-	PlayEffect Red Temp
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow Temp
 	PlayAlertSound 16 175
 	SetBorderColor 210 0 0 255
 	SetTextColor 184 218 242 255
@@ -540,7 +540,7 @@ Show
 	BaseType "Essence"
 	DropLevel >= 68
 	MinimapIcon 2 Yellow Circle
-	PlayEffect Blue Temp
+	PlayEffect Yellow Temp
 	PlayAlertSound 16 175
 	SetBorderColor 184 218 242 255
 	SetTextColor 184 218 242 255
@@ -548,7 +548,7 @@ Show
 	Class "Currency"
 	BaseType "Essence"
 	MinimapIcon 2 Yellow Circle
-	PlayEffect Blue Temp
+	PlayEffect Yellow Temp
 	PlayAlertSoundPositional 16 175
 	SetTextColor 184 218 242 255
 	
@@ -579,8 +579,8 @@ Show
 	SetFontSize 43
 Show
 	BaseType "Albino Rhoa Feather"
-	MinimapIcon 0 White Star
-	PlayEffect White
+	MinimapIcon 0 Red Circle
+	PlayEffect Red
 	PlayAlertSound 13 275
 	SetBackgroundColor 255 255 255 240
 	SetTextColor 0 0 0 255
@@ -669,7 +669,7 @@ Show
 	SetFontSize 34
 Show
 	BaseType "Vaal Orb"
-	MinimapIcon 2 Red Circle
+	MinimapIcon 2 Yellow Circle
 	PlayAlertSound 16 175
 	SetBorderColor 210 0 0 255
 	SetFontSize 34
