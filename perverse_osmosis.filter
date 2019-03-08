@@ -43,6 +43,51 @@ Show
 	MinimapIcon 2 Brown Hexagon
 	PlayEffect Brown Temp
 	SetBackgroundColor 57 57 57 247
+	SetBorderColor 0 0 0 
+Show
+	Corrupted True
+	Class "Map"
+	MapTier > 10
+	ShapedMap True
+	MinimapIcon 2 Red Hexagon
+	PlayEffect Red Temp
+	SetBackgroundColor 57 57 57 247
+	SetBorderColor 210 0 0 255
+Show
+	Class "Map"
+	MapTier > 10
+	ShapedMap True
+	MinimapIcon 2 Red Hexagon
+	PlayEffect Red Temp
+	SetBackgroundColor 57 57 57 247
+	SetBorderColor 0 0 0 0
+Show
+	Corrupted True
+	Class "Map"
+	ShapedMap True
+	MinimapIcon 2 Red Hexagon
+	SetBackgroundColor 57 57 57 247
+	SetBorderColor 210 0 0 255
+Show
+	Class "Map"
+	ShapedMap True
+	MinimapIcon 2 Red Hexagon
+	SetBackgroundColor 57 57 57 247
+	SetBorderColor 0 0 0 0
+Show
+	Corrupted True
+	Class "Map"
+	MapTier > 10
+	MinimapIcon 2 White Hexagon
+	PlayEffect White Temp
+	SetBackgroundColor 57 57 57 247
+	SetBorderColor 210 0 0 255
+Show
+	Class "Map"
+	MapTier > 10
+	MinimapIcon 2 White Hexagon
+	PlayEffect White Temp
+	SetBackgroundColor 57 57 57 247
 	SetBorderColor 0 0 0 0
 Show
 	Corrupted True
@@ -957,7 +1002,7 @@ Show #currency normal
 	SetBorderColor 170 158 130 255
 Show #essences
 	Class "Divination Card"
-	BaseType "Three Voices"
+	BaseType "Three Voices" "Harmony of Souls"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 184 218 242 180
