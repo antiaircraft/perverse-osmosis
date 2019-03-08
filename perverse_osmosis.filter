@@ -520,7 +520,7 @@ Show
 Show
 	Class "Labyrinth"
 	MinimapIcon 1 Green Star
-	PlayEffect Green
+	PlayEffect Green Temp
 	SetBorderColor 74 230 58 255
 	SetTextColor 74 230 58 255
 
@@ -538,7 +538,8 @@ Show
 	Class "Currency"
 	#BaseType "Deafening Essence of" "Shrieking Essence of" "Screaming Essence of" "Essence of Delirium" "Essence of Horror" "Essence of Insanity" "Essence of Hysteria"
 	BaseType "Essence"
-	DropLevel >= 68 
+	DropLevel >= 68
+	MinimapIcon 2 Yellow Circle
 	PlayEffect Blue Temp
 	PlayAlertSound 16 175
 	SetBorderColor 184 218 242 255
@@ -546,6 +547,7 @@ Show
 Show
 	Class "Currency"
 	BaseType "Essence"
+	MinimapIcon 2 Yellow Circle
 	PlayEffect Blue Temp
 	PlayAlertSoundPositional 16 175
 	SetTextColor 184 218 242 255
