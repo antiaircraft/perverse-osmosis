@@ -12,12 +12,14 @@ Show
 	Class "Map Fragments"
 	BaseType "Divine Vessel"
 	MinimapIcon 2 White Hexagon
+	PlayEffect White Temp
 	PlayAlertSound 13 150
 	SetBorderColor 96 96 96 255
 Show
 	Class "Map Fragments"
 	BaseType "Scarab"
 	MinimapIcon 2 White Hexagon
+	PlayEffect White Temp
 	PlayAlertSound 13 150
 	SetBorderColor 96 96 96 255
 Show
@@ -26,7 +28,8 @@ Show
 	SetBorderColor 96 96 96 255
 Show
 	Class "Leaguestone"
-	MinimapIcon 2 White Hexagon
+	MinimapIcon 1 White Hexagon
+	PlayEffect White
 	PlayAlertSound 13 150
 	SetBorderColor 96 96 96 255
 Show
@@ -43,7 +46,24 @@ Show
 	MinimapIcon 2 Brown Hexagon
 	PlayEffect Brown Temp
 	SetBackgroundColor 57 57 57 247
-	SetBorderColor 0 0 0 
+	SetBorderColor 0 0 0 0
+Show
+	Corrupted True
+	Class "Map"
+	MapTier > 15
+	ShapedMap True
+	MinimapIcon 1 Red Hexagon
+	PlayEffect Red
+	SetBackgroundColor 57 57 57 247
+	SetBorderColor 210 0 0 255
+Show
+	Class "Map"
+	MapTier > 15
+	ShapedMap True
+	MinimapIcon 1 Red Hexagon
+	PlayEffect Red
+	SetBackgroundColor 57 57 57 247
+	SetBorderColor 0 0 0 0
 Show
 	Corrupted True
 	Class "Map"
@@ -72,6 +92,21 @@ Show
 	Class "Map"
 	ShapedMap True
 	MinimapIcon 2 Red Hexagon
+	SetBackgroundColor 57 57 57 247
+	SetBorderColor 0 0 0 0
+Show
+	Corrupted True
+	Class "Map"
+	MapTier > 10
+	MinimapIcon 1 White Hexagon
+	PlayEffect White
+	SetBackgroundColor 57 57 57 247
+	SetBorderColor 210 0 0 255
+Show
+	Class "Map"
+	MapTier > 10
+	MinimapIcon 1 White Hexagon
+	PlayEffect White
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 0 0 0 0
 Show
@@ -578,14 +613,21 @@ Show
 Show
 	Class "Currency"
 	BaseType "Remnant of Corruption"
-	MinimapIcon 2 Yellow Circle
-	PlayEffect Blue
+	MinimapIcon 2 Red Circle
+	PlayEffect Red
 	PlayAlertSound 16 175
 	SetBorderColor 210 0 0 255
 	SetTextColor 184 218 242 255
 Show
 	Class "Currency"
-	#BaseType "Deafening Essence of" "Shrieking Essence of" "Screaming Essence of" "Essence of Delirium" "Essence of Horror" "Essence of Insanity" "Essence of Hysteria"
+	BaseType "Essence of Delirium" "Essence of Horror" "Essence of Insanity" "Essence of Hysteria"
+	MinimapIcon 2 Red Circle
+	PlayEffect Red
+	PlayAlertSound 16 175
+	SetBorderColor 184 218 242 255
+	SetTextColor 184 218 242 255
+Show
+	Class "Currency"
 	BaseType "Essence"
 	DropLevel >= 68
 	MinimapIcon 2 Yellow Circle
@@ -597,7 +639,7 @@ Show
 	Class "Currency"
 	BaseType "Essence"
 	MinimapIcon 2 Yellow Circle
-	PlayEffect Blue
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 16 175
 	SetTextColor 184 218 242 255
 	
@@ -643,7 +685,7 @@ Show
 	SetFontSize 40
 Show
 	BaseType "Harbinger's Orb"
-	MinimapIcon 1 Yellow Circle
+	MinimapIcon 1 White Circle
 	PlayEffect Yellow
 	PlayAlertSound 10 250
 	SetBorderColor 96 96 96 255
@@ -725,6 +767,7 @@ Show
 Show
 	BaseType "Stacked Deck"
 	MinimapIcon 2 Blue Circle
+	PlayEffect Blue Temp
 	PlayAlertSound 3 175
 	SetBorderColor 14 186 255 255
 	SetFontSize 34
@@ -856,12 +899,24 @@ Show #currency
 	Class "Divination Card"
 	BaseType "Loyalty" "Emperor's Luck" "Lucky Connections" "The Master Artisan" "The Puzzle" "The Scholar" "The Survivalist" "Vinia's Token"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
+Show #mirror
+	Class "Divination Card"
+	BaseType "House of Mirrors"
+	MinimapIcon 0 Red Diamond
+	PlayEffect Red
+	PlayAlertSound 6 275
+	PlayAlertSoundPositional 3 125
+	SetBackgroundColor 170 158 130 180
+	SetBorderColor 184 218 242 255
+	SetFontSize 43
 Show #divine
 	Class "Divination Card"
-	BaseType "The Sephirot" "House of Mirrors"
+	BaseType "The Sephirot"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 184 218 242 255
@@ -869,6 +924,7 @@ Show #regal
 	Class "Divination Card"
 	BaseType "Coveted Possession"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 136 136 255 255
@@ -876,6 +932,7 @@ Show #chaos / exalted
 	Class "Divination Card"
 	BaseType "Abandoned Wealth" "Chaotic Disposition" "Rain of Chaos" "The Hoarder" "The Saint's Treasure" "The Wrath" "Three Faces in the Dark"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 255 255 119 255
@@ -883,6 +940,7 @@ Show #vaal orbs
 	Class "Divination Card"
 	BaseType "The Catalyst" "The Inventor"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 210 0 0 255
@@ -890,6 +948,7 @@ Show #gemcutter's
 	Class "Divination Card"
 	BaseType "The Gemcutter" "The Union"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 27 162 155 255
@@ -897,6 +956,7 @@ Show #cartographer's
 	Class "Divination Card"
 	BaseType "The Cartographer"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 96 96 96 255
@@ -904,6 +964,7 @@ Show #stacked decks
 	Class "Divination Card"
 	BaseType "Lucky Deck"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 14 186 255 255
@@ -911,12 +972,14 @@ Show #cards
 	Class "Divination Card"
 	BaseType "The Gambler"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 14 186 255 180
 Show #mirror cards
 	Class "Divination Card"
 	BaseType "The Immortal"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 14 186 255 180
 	SetBorderColor 170 158 130 255
@@ -924,12 +987,14 @@ Show #uniques
 	Class "Divination Card"
 	BaseType "A Dab of Ink" "A Mother's Parting Gift" "Assassin's Favour" "Birth of the Three" "Death" "Doedre's Madness" "Earth Drinker" "Glimmer of Hope" "Heterochromia" "Hubris" "Hunter's Resolve" "Hunter's Reward" "Jack in the Box" "Light and Truth" "Might is Right" "Mitts" "Rats" "Scholar of the Seas" "The Aesthete" "The Army of Blood" "The Battle Born" "The Beast" "The Betrayal" "The Blazing Fire" "The Body" "The Breach" "The Calling" "The Coming Storm" "The Conduit" "The Demoness" "The Doctor" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Formless Sea" "The Forsaken" "The Garish Power" "The Gladiator" "The Harvester" "The Hermit" "The Hunger" "The Incantation" "The King's Heart" "The Last One Standing" "The Lion" "The Lunaris Priestess" "The Mayor" "The Oath" "The Offering" "The Pack Leader" "The Pact" "The Penitent" "The Polymath" "The Professor" "The Queen" "The Risk" "The Scarred Meadow" "The Scavenger" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Sun" "The Tower" "The Valkyrie" "The Vast" "The Visionary" "The Watcher" "The Wind" "The Witch" "The Wolf" "The Wolf's Shadow" "The Wolven King's Bite" "The Wretched" "Thunderous Skies" "Time-Lost Relic" "Tranquillity"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 175 96 37 180
 Show #corrupt uniques
 	Class "Divination Card"
 	BaseType "Anarchy's Price" "Atziri's Arsenal" "Audacity" "Blind Venture" "Forbidden Power" "Hope" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Avenger" "The Brittle Emperor" "The Cursed King" "The Deceiver" "The Devastator" "The Encroaching Darkness" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Insatiable" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 175 96 37 180
 	SetBorderColor 210 0 0 255
@@ -937,6 +1002,7 @@ Show #currency uniques
 	Class "Divination Card"
 	BaseType "Humility"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 175 96 37 180
 	SetBorderColor 170 158 130 255
@@ -944,12 +1010,14 @@ Show #rares
 	Class "Divination Card"
 	BaseType "Lantador's Lost Love" "The Lover"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 255 255 119 180
 Show #craftable rares
 	Class "Divination Card"
 	BaseType "Destined to Crumble" "The Opulent"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 255 255 119 180
 	SetBorderColor 184 218 242 255
@@ -957,6 +1025,7 @@ Show #corrupt rares
 	Class "Divination Card"
 	BaseType "Call to the First Ones" "Lingering Remnants" "The Explorer" "The Trial" "The Warden"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 255 255 119 180
 	SetBorderColor 210 0 0 255
@@ -964,12 +1033,14 @@ Show #magic
 	Class "Divination Card"
 	BaseType "Prosperity" "Shard of Fate" "Struck by Lightning" "The Carrion Crow" "The Endurance" "The Inoculated" "The King's Blade" "The Lord in Black" "The Sigil" "The Surgeon" "The Rabid Rhoa" "The Twins"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 136 136 255 180
 Show #craftable magic
 	Class "Divination Card"
 	BaseType "Merciless Armament" "The Jester" "The Road to Power" "The Spoiled Prince" "The Tyrant"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 136 136 255 180
 	SetBorderColor 184 218 242 255
@@ -977,6 +1048,7 @@ Show #currency magic
 	Class "Divination Card"
 	BaseType "The Web"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 136 136 255 180
 	SetBorderColor 170 158 130 255
@@ -984,12 +1056,14 @@ Show #normal
 	Class "Divination Card"
 	BaseType "Boundless Realms" "Cartographer's Delight" "Her Mask" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Obscured" "The Metalsmith's Gift" "The Surveyor"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 200 200 200 180
 Show #craftable normal
 	Class "Divination Card" 
 	BaseType "Bowyer's Dream" "The Dapper Prodigy" "The Warlord"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 200 200 200 180
 	SetBorderColor 184 218 242 255
@@ -997,25 +1071,29 @@ Show #currency normal
 	Class "Divination Card"
 	BaseType "Emperor of Purity" "The Celestial Justicar" "The Chains that Bind" "The Dark Mage" "The Ethereal" "The Flora's Gift" "The Porcupine"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 200 200 200 180
 	SetBorderColor 170 158 130 255
 Show #essences
 	Class "Divination Card"
-	BaseType "Three Voices" "Harmony of Souls"
+	BaseType "The Cacophony" "Three Voices" "Harmony of Souls"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 184 218 242 180
 Show #gems
 	Class "Divination Card"
 	BaseType "Dying Anguish" "Gift of the Gemling Queen" "The Enlightened" "The Fox"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 27 162 155 180
 Show #corrupt gems
 	Class "Divination Card"
 	BaseType "Dialla's Subjugation" "The Artist" "The Cataclysm" "The Dragon's Heart" "Volatile Power" "Wealth and Power"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 27 162 155 180
 	SetBorderColor 210 0 0 255
@@ -1023,6 +1101,7 @@ Show #quality gems
 	Class "Divination Card"
 	BaseType "Gemcutter's Promise" "Grave Knowledge" "The Doppelganger" "The Summoner" "The Realm"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 27 162 155 180
 	SetBorderColor 136 136 255 255
@@ -1030,11 +1109,13 @@ Show #prophecies
 	Class "Divination Card"
 	BaseType "The Jeweller's Boon" "The Valley of Steel Boxes"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 181 75 255 180
 Show
 	Class "Divination Card"
 	MinimapIcon 2 Blue Diamond
+	PlayEffect Blue Temp
 	PlayAlertSoundPositional 3 125
 	
 ###0001
