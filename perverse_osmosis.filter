@@ -6,90 +6,135 @@
 #12
 #11, 16, 2, 10
 
-###0010
+###0011
 #	Maps
 Show
 	Class "Map Fragments"
 	BaseType "Divine Vessel"
-	PlayAlertSound 13 150
-	SetBorderColor 96 96 96 255
-Show
-	Class "Leaguestone"
+	MinimapIcon 2 White Hexagon
 	PlayAlertSound 13 150
 	SetBorderColor 96 96 96 255
 Show
 	Class "Map Fragments"
+	BaseType "Scarab"
+	MinimapIcon 2 Yellow Hexagon
+	PlayAlertSound 13 150
+	SetBorderColor 96 96 96 255
+Show
+	Class "Map Fragments"
+	MinimapIcon 2 White Triangle
+	SetBorderColor 96 96 96 255
+Show
+	Class "Leaguestone"
+	MinimapIcon 2 Yellow Hexagon
+	PlayAlertSound 13 150
 	SetBorderColor 96 96 96 255
 Show
 	Corrupted True
+	Rarity >= Unique
 	Class "Map"
+	MinimapIcon 2 Brown Hexagon
+	PlayEffect Brown Temp
+	SetBackgroundColor 57 57 57 247
+	SetBorderColor 210 0 0 255
+Show
+	Rarity >= Unique
+	Class "Map"
+	MinimapIcon 2 Brown Hexagon
+	PlayEffect Brown Temp
+	SetBackgroundColor 57 57 57 247
+	SetBorderColor 0 0 0 0
+Show
+	Corrupted True
+	Class "Map"
+	MinimapIcon 2 Red Hexagon
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 210 0 0 255
 Show
 	Class "Map"
+	MinimapIcon 2 White Hexagon
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 0 0 0 0
 	
-###000f
+	
+###00010
 #	Fishing Rods & Talismans
 Show
 	Corrupted False
 	ItemLevel >= 88
 	Rarity < Unique
 	Class "Fishing Rods"
+	MinimapIcon 0 White Square
+	PlayEffect White
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 184 218 242 255
 	SetFontSize 43
 Show
 	SocketGroup "RGB"
 	Class "Fishing Rods"
+	MinimapIcon 1 White Square
+	PlayEffect White
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 170 158 130 255
 	SetFontSize 43
 Show
 	Corrupted True
 	Class "Fishing Rods"
+	MinimapIcon 1 White Square
+	PlayEffect White
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 210 0 0 255
 	SetFontSize 43
 Show
 	Class "Fishing Rods"
+	MinimapIcon 1 White Square
+	PlayEffect White
 	PlayAlertSoundPositional 1 300
 	SetFontSize 43
 Show
 	Corrupted True
 	Class "Amulets"
 	BaseType "Talisman"
+	MinimapIcon 2 Red Square
+	PlayEffect Red Temp
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 210 0 0 255
 	SetFontSize 43
 	
-###000e
+###000f
 #	Divine Recipie
 Show
 	LinkedSockets = 6
 	PlayAlertSound 2 175
 	SetBorderColor 170 158 130 255
 	
-###000d
+###000e
 #	Uniques
 Show
 	Sockets = 6
 	Rarity >= Unique
+	MinimapIcon 2 Brown Square
+	PlayEffect Brown Temp
 	PlayAlertSoundPositional 11 125
 	SetBorderColor 170 158 130 255
 Show
 	SocketGroup "RGB"
 	Rarity >= Unique
+	MinimapIcon 2 Brown Square
+	PlayEffect Brown Temp
 	SetBorderColor 170 158 130 255
 Show
 	Corrupted True
 	Rarity >= Unique
+	MinimapIcon 2 Brown Square
+	PlayEffect Brown Temp
 	SetBorderColor 210 0 0 255
 Show
 	Rarity >= Unique
+	MinimapIcon 2 Brown Square
+	PlayEffect Brown Temp
 	
-###000c
+###000d
 #	Notable Bases
 Show
 	Corrupted False
@@ -159,7 +204,7 @@ Show
 	SetFontSize 26
 	
 	
-###000b
+###000c
 #	Vendor Recipes
 Show
 	Sockets = 6
@@ -200,7 +245,7 @@ Show #all onyx amulets (for Star of Wraeclast recipe)
 	BaseType "Onyx Amulet"
 	SetFontSize 20
 	
-###000a
+###000b
 #	Jewels
 Show
 	Corrupted True
@@ -219,7 +264,7 @@ Show
 	Class "Jewel"
 	SetFontSize 30
 	
-###0009
+###000a
 #	Corrupted Rares
 Show
 	Corrupted True
@@ -235,7 +280,7 @@ Show
 	SetBorderColor 210 0 0 200
 	SetFontSize 24
 
-###0008
+###0009
 #	Rare Bases
 Show #body armour
 	ItemLevel >= 86
@@ -390,7 +435,7 @@ Show #quivers
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
 	
-###0007
+###0008
 #	Rare Jewellery Bases
 Show #belts
 	Rarity = Rare
@@ -414,7 +459,7 @@ Show #amulets
 	SetBorderColor 184 218 242 255
 	SetFontSize 30
 	
-###0006
+###0007
 #	Other Rares
 Show
 	Rarity = Rare
@@ -425,12 +470,30 @@ Show
 	Rarity = Rare
 	SetBackgroundColor 0 0 0 160
 	SetFontSize 24
+	
+###0006
+#	Misc Items (Quest Items, Treasure Keys, Incursion, etc..) TODO
+Show
+	Class "Incursion"
+	MinimapIcon 1 Green Star
+	PlayEffect Green
+	SetBorderColor 74 230 58 255
+	SetTextColor 74 230 58 255
+Show
+	Class "Labyrinth"
+	MinimapIcon 1 Green Star
+	PlayEffect Green
+	SetBorderColor 74 230 58 255
+	SetTextColor 74 230 58 255
 
 ###0005
 #	Essences
 Show
 	Class "Currency"
 	BaseType "Remnant of Corruption"
+	MinimapIcon 2 Red Circle
+	PlayEffect Red Temp
+	PlayAlertSound 16 175
 	SetBorderColor 210 0 0 255
 	SetTextColor 184 218 242 255
 Show
@@ -438,17 +501,23 @@ Show
 	#BaseType "Deafening Essence of" "Shrieking Essence of" "Screaming Essence of" "Essence of Delirium" "Essence of Horror" "Essence of Insanity" "Essence of Hysteria"
 	BaseType "Essence"
 	DropLevel >= 68 
+	PlayEffect Blue Temp
+	PlayAlertSound 16 175
 	SetBorderColor 184 218 242 255
 	SetTextColor 184 218 242 255
 Show
 	Class "Currency"
 	BaseType "Essence"
+	PlayEffect Blue Temp
+	PlayAlertSoundPositional 16 175
 	SetTextColor 184 218 242 255
 	
 ###0004
 #	Currency
 Show
 	BaseType "Mirror of Kalandra"
+	MinimapIcon 0 Yellow Circle
+	PlayEffect Yellow
 	PlayAlertSound 5 300
 	SetBackgroundColor 170 158 130 240
 	SetBorderColor 184 218 242 255
@@ -456,53 +525,72 @@ Show
 	SetFontSize 45
 Show
 	BaseType "Mirror Shard"
+	MinimapIcon 0 Yellow Triangle
+	PlayEffect Yellow
 	PlayAlertSound 6 275
 	SetBorderColor 170 158 130 255
 	SetFontSize 44
 Show
 	BaseType "Eternal Orb"
+	MinimapIcon 0 Yellow Circle
+	PlayEffect Yellow
 	PlayAlertSound 4 275
 	SetBorderColor 184 218 242 255
 	SetFontSize 43
 Show
 	BaseType "Albino Rhoa Feather"
+	MinimapIcon 0 White Star
+	PlayEffect White
 	PlayAlertSound 13 275
 	SetBackgroundColor 255 255 255 240
 	SetTextColor 0 0 0 255
 	SetFontSize 43
 Show
 	BaseType "Exalted Orb"
+	MinimapIcon 1 Yellow Circle
+	PlayEffect Yellow
 	PlayAlertSound 10 250
 	SetBorderColor 255 255 119 255
 	SetFontSize 40
 Show
 	BaseType "Harbinger's Orb"
+	MinimapIcon 1 White Circle
+	PlayEffect Yellow
 	PlayAlertSound 10 250
 	SetBorderColor 96 96 96 255
 	SetFontSize 40
 Show
 	BaseType "Exalted Shard" "Harbinger's Shard"
+	MinimapIcon 1 Yellow Triangle
+	PlayEffect Yellow Temp
 	PlayAlertSound 10 225
 	SetBackgroundColor 0 0 0 220
 	SetBorderColor 170 158 130 255
 	SetFontSize 40
 Show
 	BaseType "Divine Orb" "Orb of Annulment"
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow Temp
 	PlayAlertSound 2 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 36
 Show
 	BaseType "Ancient Orb"
+	MinimapIcon 2 Brown Circle
+	PlayEffect Yellow Temp
 	PlayAlertSound 2 200
 	SetBorderColor 175 96 37 255
 	SetFontSize 36
 Show
 	BaseType "Orb of Horizons"
+	MinimapIcon 2 White Circle
+	PlayEffect Yellow Temp
 	PlayAlertSound 2 200
 	SetBorderColor 96 96 96 255
 	SetFontSize 36
 Show
 	BaseType "Annulment Shard" "Horizon Shard" "Ancient Shard"
+	MinimapIcon 2 Yellow Triangle
 	PlayAlertSoundPositional 2 200
 	SetBackgroundColor 0 0 0 180
 	SetBorderColor 170 158 130 220
@@ -510,31 +598,44 @@ Show
 Show
 	Class "Currency"
 	BaseType "Blessing of"
+	MinimapIcon 2 Brown Circle
+	PlayEffect Yellow
 	PlayAlertSound 12 175
 	SetBorderColor 175 96 37 255
 	SetFontSize 34
 Show
 	BaseType "Chaos Orb"
+	MinimapIcon 2 Yellow Circle
 	PlayAlertSound 16 175
 	SetBorderColor 255 255 119 255
 	SetFontSize 34
 Show
 	BaseType "Blessed Orb"
+	MinimapIcon 2 Yellow Circle
+	PlayAlertSound 16 175
+	SetBorderColor 184 218 242 255
+	SetFontSize 34
+Show
+	BaseType "Resonator"
+	MinimapIcon 2 Yellow Triangle
 	PlayAlertSound 16 175
 	SetBorderColor 184 218 242 255
 	SetFontSize 34
 Show
 	BaseType "Regal Orb"
+	MinimapIcon 2 Yellow Circle
 	PlayAlertSound 16 175
 	SetBorderColor 136 136 255 255
 	SetFontSize 34
 Show
 	BaseType "Vaal Orb"
+	MinimapIcon 2 Red Circle
 	PlayAlertSound 16 175
 	SetBorderColor 210 0 0 255
 	SetFontSize 34
 Show
 	BaseType "Stacked Deck"
+	MinimapIcon 2 Blue Circle
 	PlayAlertSound 3 175
 	SetBorderColor 14 186 255 255
 	SetFontSize 34
@@ -545,21 +646,32 @@ Show
 	SetBorderColor 170 158 130 220
 Show
 	BaseType "Sextant"
+	MinimapIcon 2 White Circle
 	PlayAlertSound 16 150
 	SetBorderColor 96 96 96 255
 Show
 	BaseType "Orb of Fusing" "Orb of Alchemy" "Glassblower's Bauble" "Orb of Regret" "Engineer's Orb"
+	MinimapIcon 2 Yellow Circle
 	PlayAlertSoundPositional 11 200
 Show
+	Class "Currency"
+	BaseType "Fossil"
+	MinimapIcon 2 Yellow Triangle
+	PlayAlertSoundPositional 11 200
+	SetBorderColor 184 218 242 255
+Show
 	BaseType "Orb of Scouring"
+	MinimapIcon 2 Yellow Circle
 	PlayAlertSoundPositional 11 200
 	SetBorderColor 184 218 242 255
 Show
 	BaseType "Cartographer's Chisel"
+	MinimapIcon 2 White Circle
 	PlayAlertSoundPositional 11 200
 	SetBorderColor 96 96 96 255
 Show
 	BaseType "Gemcutter's Prism"
+	MinimapIcon 2 Yellow Circle
 	PlayAlertSoundPositional 11 200
 	SetBorderColor 27 162 155 255
 Show
@@ -573,6 +685,7 @@ Show
 Show
 	Class "Currency"
 	BaseType "Splinter of"
+	MinimapIcon 2 White Triangle
 	PlayAlertSoundPositional 12 150
 	SetBackgroundColor 57 57 57 247
 	SetFontSize 30
@@ -652,154 +765,187 @@ Show
 #	Divination Cards
 Show #currency
 	Class "Divination Card"
-	BaseType "Loyalty" "Emperor's Luck" "Lucky Connections" "The Puzzle" "The Scholar" "The Survivalist" "Vinia's Token"
+	BaseType "Loyalty" "Emperor's Luck" "Lucky Connections" "The Master Artisan" "The Puzzle" "The Scholar" "The Survivalist" "Vinia's Token"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 Show #divine
 	Class "Divination Card"
 	BaseType "The Sephirot" "House of Mirrors"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 184 218 242 255
 Show #regal
 	Class "Divination Card"
 	BaseType "Coveted Possession"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 136 136 255 255
 Show #chaos / exalted
 	Class "Divination Card"
 	BaseType "Abandoned Wealth" "Chaotic Disposition" "Rain of Chaos" "The Hoarder" "The Saint's Treasure" "The Wrath" "Three Faces in the Dark"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 255 255 119 255
 Show #vaal orbs
 	Class "Divination Card"
 	BaseType "The Catalyst" "The Inventor"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 210 0 0 255
 Show #gemcutter's
 	Class "Divination Card"
 	BaseType "The Gemcutter" "The Union"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 27 162 155 255
 Show #cartographer's
 	Class "Divination Card"
 	BaseType "The Cartographer"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 96 96 96 255
 Show #stacked decks
 	Class "Divination Card"
 	BaseType "Lucky Deck"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 14 186 255 255
 Show #cards
 	Class "Divination Card"
 	BaseType "The Gambler"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 14 186 255 180
 Show #mirror cards
 	Class "Divination Card"
 	BaseType "The Immortal"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 14 186 255 180
 	SetBorderColor 170 158 130 255
 Show #uniques
 	Class "Divination Card"
-	BaseType "A Mother's Parting Gift" "Assassin's Favour" "Birth of the Three" "Death" "Doedre's Madness" "Earth Drinker" "Glimmer of Hope" "Heterochromia" "Hubris" "Hunter's Resolve" "Hunter's Reward" "Jack in the Box" "Light and Truth" "Might is Right" "Mitts" "Rats" "Scholar of the Seas" "The Aesthete" "The Battle Born" "The Betrayal" "The Blazing Fire" "The Body" "The Calling" "The Coming Storm" "The Conduit" "The Demoness" "The Doctor" "The Dragon" "The Drunken Aristocrat" "The Formless Sea" "The Forsaken" "The Garish Power" "The Gladiator" "The Harvester" "The Hermit" "The Hunger" "The Incantation" "The King's Heart" "The Last One Standing" "The Lion" "The Lunaris Priestess" "The Oath" "The Offering" "The Pack Leader" "The Pact" "The Penitent" "The Polymath" "The Queen" "The Risk" "The Scarred Meadow" "The Scavenger" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Sun" "The Tower" "The Valkyrie" "The Vast" "The Visionary" "The Watcher" "The Wind" "The Wolf" "The Wolf's Shadow" "The Wolven King's Bite" "The Wretched" "Thunderous Skies" "Time-Lost Relic" "Tranquillity"
+	BaseType "A Dab of Ink" "A Mother's Parting Gift" "Assassin's Favour" "Birth of the Three" "Death" "Doedre's Madness" "Earth Drinker" "Glimmer of Hope" "Heterochromia" "Hubris" "Hunter's Resolve" "Hunter's Reward" "Jack in the Box" "Light and Truth" "Might is Right" "Mitts" "Rats" "Scholar of the Seas" "The Aesthete" "The Army of Blood" "The Battle Born" "The Beast" "The Betrayal" "The Blazing Fire" "The Body" "The Breach" "The Calling" "The Coming Storm" "The Conduit" "The Demoness" "The Doctor" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Formless Sea" "The Forsaken" "The Garish Power" "The Gladiator" "The Harvester" "The Hermit" "The Hunger" "The Incantation" "The King's Heart" "The Last One Standing" "The Lion" "The Lunaris Priestess" "The Mayor" "The Oath" "The Offering" "The Pack Leader" "The Pact" "The Penitent" "The Polymath" "The Professor" "The Queen" "The Risk" "The Scarred Meadow" "The Scavenger" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Sun" "The Tower" "The Valkyrie" "The Vast" "The Visionary" "The Watcher" "The Wind" "The Witch" "The Wolf" "The Wolf's Shadow" "The Wolven King's Bite" "The Wretched" "Thunderous Skies" "Time-Lost Relic" "Tranquillity"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 175 96 37 180
 Show #corrupt uniques
 	Class "Divination Card"
 	BaseType "Anarchy's Price" "Atziri's Arsenal" "Audacity" "Blind Venture" "Forbidden Power" "Hope" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Avenger" "The Brittle Emperor" "The Cursed King" "The Deceiver" "The Devastator" "The Encroaching Darkness" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Insatiable" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 175 96 37 180
 	SetBorderColor 210 0 0 255
 Show #currency uniques
 	Class "Divination Card"
 	BaseType "Humility"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 175 96 37 180
 	SetBorderColor 170 158 130 255
 Show #rares
 	Class "Divination Card"
 	BaseType "Lantador's Lost Love" "The Lover"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 255 255 119 180
 Show #craftable rares
 	Class "Divination Card"
 	BaseType "Destined to Crumble" "The Opulent"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 255 255 119 180
 	SetBorderColor 184 218 242 255
 Show #corrupt rares
 	Class "Divination Card"
 	BaseType "Call to the First Ones" "Lingering Remnants" "The Explorer" "The Trial" "The Warden"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 255 255 119 180
 	SetBorderColor 210 0 0 255
 Show #magic
 	Class "Divination Card"
 	BaseType "Prosperity" "Shard of Fate" "Struck by Lightning" "The Carrion Crow" "The Endurance" "The Inoculated" "The King's Blade" "The Lord in Black" "The Sigil" "The Surgeon" "The Rabid Rhoa" "The Twins"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 136 136 255 180
 Show #craftable magic
 	Class "Divination Card"
 	BaseType "Merciless Armament" "The Jester" "The Road to Power" "The Spoiled Prince" "The Tyrant"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 136 136 255 180
 	SetBorderColor 184 218 242 255
 Show #currency magic
 	Class "Divination Card"
 	BaseType "The Web"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 136 136 255 180
 	SetBorderColor 170 158 130 255
 Show #normal
 	Class "Divination Card"
 	BaseType "Boundless Realms" "Cartographer's Delight" "Her Mask" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Obscured" "The Metalsmith's Gift" "The Surveyor"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 200 200 200 180
 Show #craftable normal
 	Class "Divination Card" 
 	BaseType "Bowyer's Dream" "The Dapper Prodigy" "The Warlord"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 200 200 200 180
 	SetBorderColor 184 218 242 255
 Show #currency normal
 	Class "Divination Card"
 	BaseType "Emperor of Purity" "The Celestial Justicar" "The Chains that Bind" "The Dark Mage" "The Ethereal" "The Flora's Gift" "The Porcupine"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 200 200 200 180
 	SetBorderColor 170 158 130 255
+Show #essences
+	Class "Divination Card"
+	BaseType "Three Voices"
+	MinimapIcon 2 Blue Diamond
+	PlayAlertSoundPositional 3 125
+	SetBackgroundColor 184 218 242 180
 Show #gems
 	Class "Divination Card"
 	BaseType "Dying Anguish" "Gift of the Gemling Queen" "The Enlightened" "The Fox"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 27 162 155 180
 Show #corrupt gems
 	Class "Divination Card"
 	BaseType "Dialla's Subjugation" "The Artist" "The Cataclysm" "The Dragon's Heart" "Volatile Power" "Wealth and Power"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 27 162 155 180
 	SetBorderColor 210 0 0 255
 Show #quality gems
 	Class "Divination Card"
 	BaseType "Gemcutter's Promise" "Grave Knowledge" "The Doppelganger" "The Summoner" "The Realm"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 27 162 155 180
 	SetBorderColor 136 136 255 255
 Show #prophecies
 	Class "Divination Card"
-	BaseType "The Valley of Steel Boxes"
+	BaseType "The Jeweller's Boon" "The Valley of Steel Boxes"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 181 75 255 180
 Show
 	Class "Divination Card"
+	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	
 ###0001
@@ -1036,7 +1182,11 @@ Show
 ###0000
 #	Catch-all Styles
 Show
-	Class "Quest Items" "Currency" "Pantheon Soul"
+	Class "Currency" "Pantheon Soul"
+Show
+	Class "Quest Items"
+	MinimapIcon 1 Green Triangle
+	PlayEffect Green
 Hide
 	Corrupted True
 	SocketGroup "RGB"
@@ -1227,5 +1377,6 @@ Show
 	SetBorderColor 170 158 130 180
 	SetFontSize 20
 Hide
+	Class "Belts" "Flasks" "Amulets" "Rings" "Quivers" "Shields" "Swords" "Sceptres" "Maces" "Bows" "Wands" "Boots" "Jewel" "Daggers" "Staves" "Axes" "Body Armours" "Helmet" "Gloves" "Claws"
 	SetBackgroundColor 0 0 0 140
 	SetFontSize 18
