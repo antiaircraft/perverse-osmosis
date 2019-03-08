@@ -17,7 +17,7 @@ Show
 Show
 	Class "Map Fragments"
 	BaseType "Scarab"
-	MinimapIcon 2 Yellow Hexagon
+	MinimapIcon 2 White Hexagon
 	PlayAlertSound 13 150
 	SetBorderColor 96 96 96 255
 Show
@@ -26,7 +26,7 @@ Show
 	SetBorderColor 96 96 96 255
 Show
 	Class "Leaguestone"
-	MinimapIcon 2 Yellow Hexagon
+	MinimapIcon 2 White Hexagon
 	PlayAlertSound 13 150
 	SetBorderColor 96 96 96 255
 Show
@@ -73,8 +73,8 @@ Show
 	SocketGroup "RGB"
 	Rarity >= Unique
 	Class "Fishing Rods"
-	MinimapIcon 1 Brown Square
-	PlayEffect Brown
+	MinimapIcon 1 Red Square
+	PlayEffect Red
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 170 158 130 255
 	SetFontSize 43
@@ -90,7 +90,7 @@ Show
 	Corrupted True
 	Rarity >= Unique
 	Class "Fishing Rods"
-	MinimapIcon 1 Brown Square
+	MinimapIcon 1 Red Square
 	PlayEffect Red
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 210 0 0 255
@@ -106,8 +106,8 @@ Show
 Show
 	Rarity >= Unique
 	Class "Fishing Rods"
-	MinimapIcon 1 Brown Square
-	PlayEffect Brown
+	MinimapIcon 1 Red Square
+	PlayEffect Red
 	PlayAlertSoundPositional 1 300
 	SetFontSize 43
 Show
@@ -121,8 +121,8 @@ Show
 	Rarity >= Unique
 	Class "Amulets"
 	BaseType "Talisman"
-	MinimapIcon 0 Brown Square
-	PlayEffect Brown
+	MinimapIcon 0 Red Square
+	PlayEffect Red
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 210 0 0 255
 	SetFontSize 43
@@ -154,6 +154,10 @@ Show
 	
 ###000e
 #	Uniques
+Show
+	Class "Piece"
+	MinimapIcon 2 Brown Triangle
+	PlayEffect Brown Temp
 Show
 	Sockets = 6
 	Rarity >= Unique
@@ -518,7 +522,7 @@ Show
 	SetBorderColor 74 230 58 255
 	SetTextColor 74 230 58 255
 Show
-	Class "Labyrinth"
+	Class "Labyrinth" "Pantheon"
 	MinimapIcon 1 Green Star
 	PlayEffect Green Temp
 	SetBorderColor 74 230 58 255
@@ -530,7 +534,7 @@ Show
 	Class "Currency"
 	BaseType "Remnant of Corruption"
 	MinimapIcon 2 Yellow Circle
-	PlayEffect Yellow Temp
+	PlayEffect Blue
 	PlayAlertSound 16 175
 	SetBorderColor 210 0 0 255
 	SetTextColor 184 218 242 255
@@ -540,7 +544,7 @@ Show
 	BaseType "Essence"
 	DropLevel >= 68
 	MinimapIcon 2 Yellow Circle
-	PlayEffect Yellow Temp
+	PlayEffect Blue
 	PlayAlertSound 16 175
 	SetBorderColor 184 218 242 255
 	SetTextColor 184 218 242 255
@@ -548,7 +552,7 @@ Show
 	Class "Currency"
 	BaseType "Essence"
 	MinimapIcon 2 Yellow Circle
-	PlayEffect Yellow Temp
+	PlayEffect Blue
 	PlayAlertSoundPositional 16 175
 	SetTextColor 184 218 242 255
 	
@@ -556,8 +560,8 @@ Show
 #	Currency
 Show
 	BaseType "Mirror of Kalandra"
-	MinimapIcon 0 Yellow Circle
-	PlayEffect Yellow
+	MinimapIcon 0 Red Circle
+	PlayEffect Red
 	PlayAlertSound 5 300
 	SetBackgroundColor 170 158 130 240
 	SetBorderColor 184 218 242 255
@@ -565,8 +569,8 @@ Show
 	SetFontSize 45
 Show
 	BaseType "Mirror Shard"
-	MinimapIcon 0 Yellow Triangle
-	PlayEffect Yellow
+	MinimapIcon 0 Red Triangle
+	PlayEffect Red
 	PlayAlertSound 6 275
 	SetBorderColor 170 158 130 255
 	SetFontSize 44
@@ -594,7 +598,7 @@ Show
 	SetFontSize 40
 Show
 	BaseType "Harbinger's Orb"
-	MinimapIcon 1 White Circle
+	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow
 	PlayAlertSound 10 250
 	SetBorderColor 96 96 96 255
@@ -616,14 +620,14 @@ Show
 	SetFontSize 36
 Show
 	BaseType "Ancient Orb"
-	MinimapIcon 2 Brown Circle
+	MinimapIcon 2 Yellow Circle
 	PlayEffect Yellow Temp
 	PlayAlertSound 2 200
 	SetBorderColor 175 96 37 255
 	SetFontSize 36
 Show
 	BaseType "Orb of Horizons"
-	MinimapIcon 2 White Circle
+	MinimapIcon 2 Yellow Circle
 	PlayEffect Yellow Temp
 	PlayAlertSound 2 200
 	SetBorderColor 96 96 96 255
@@ -638,7 +642,7 @@ Show
 Show
 	Class "Currency"
 	BaseType "Blessing of"
-	MinimapIcon 2 Brown Circle
+	MinimapIcon 2 Yellow Circle
 	PlayEffect Yellow
 	PlayAlertSound 12 175
 	SetBorderColor 175 96 37 255
@@ -686,7 +690,7 @@ Show
 	SetBorderColor 170 158 130 220
 Show
 	BaseType "Sextant"
-	MinimapIcon 2 White Circle
+	MinimapIcon 2 Yellow Circle
 	PlayAlertSound 16 150
 	SetBorderColor 96 96 96 255
 Show
@@ -706,7 +710,7 @@ Show
 	SetBorderColor 184 218 242 255
 Show
 	BaseType "Cartographer's Chisel"
-	MinimapIcon 2 White Circle
+	MinimapIcon 2 Yellow Circle
 	PlayAlertSoundPositional 11 200
 	SetBorderColor 96 96 96 255
 Show
@@ -1222,11 +1226,11 @@ Show
 ###0000
 #	Catch-all Styles
 Show
-	Class "Currency" "Pantheon Soul"
+	Class "Currency"
 Show
 	Class "Quest Items"
-	MinimapIcon 1 Green Triangle
-	PlayEffect Green
+	MinimapIcon 2 Green Star
+	PlayEffect Green Temp
 Hide
 	Corrupted True
 	SocketGroup "RGB"
