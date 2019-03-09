@@ -993,7 +993,7 @@ Show
 #	Divination Cards
 Show #currency
 	Class "Divination Card"
-	BaseType "Loyalty" "Emperor's Luck" "Lucky Connections" "The Master Artisan" "The Puzzle" "The Scholar" "The Survivalist" "Vinia's Token"
+	BaseType "Emperor's Luck" "Loyalty" "Lucky Connections" "Monochrome" "The Master Artisan" "The Puzzle" "The Scholar" "The Survivalist" "Vinia's Token"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
