@@ -75,16 +75,16 @@ Show
 	Class "Map"
 	MapTier > 10
 	ShapedMap True
-	MinimapIcon 1 Red Hexagon
-	PlayEffect Red Temp
+	MinimapIcon 0 White Hexagon
+	PlayEffect White Temp
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 210 0 0 255
 Show
 	Class "Map"
 	MapTier > 10
 	ShapedMap True
-	MinimapIcon 1 Red Hexagon
-	PlayEffect Red Temp
+	MinimapIcon 0 White Hexagon
+	PlayEffect White Temp
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 0 0 0 0
 Show
