@@ -598,6 +598,11 @@ Show
 	SetFontSize 30
 Show
 	Rarity = Rare
+	Width = 1
+	Height <= 3
+	SetFontSize 30
+Show
+	Rarity = Rare
 	SetBackgroundColor 0 0 0 160
 	SetFontSize 24
 	
@@ -638,7 +643,7 @@ Show
 	Class "Currency"
 	BaseType "Essence"
 	DropLevel >= 68
-	MinimapIcon 2 Yellow Circle
+	MinimapIcon 1 Yellow Circle
 	PlayEffect Blue Temp
 	PlayAlertSound 16 175
 	SetBorderColor 184 218 242 255
