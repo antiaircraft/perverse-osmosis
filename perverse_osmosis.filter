@@ -1603,6 +1603,12 @@ Hide #utility flasks
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
+Hide #abyss jewels
+	ItemLevel >= 84
+	Class "Abyss Jewel"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
 Hide
 	SocketGroup "RGB"
 	SetBackgroundColor 0 0 0 140
