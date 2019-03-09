@@ -360,7 +360,7 @@ Show
 	Width = 1
 	Height = 3
 	SetBorderColor 170 158 130 255
-	SetFontSize 26
+	SetFontSize 28
 Show
 	SocketGroup "RGB"
 	Width = 2
@@ -1606,7 +1606,7 @@ Hide #restore flasks
 Hide #utility flasks
 	ItemLevel >= 20
 	Class "Utility Flasks"
-	SetBackgroundColor 0 0 0 160
+	SetBackgroundColor 0 0 0 160 
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
 Hide #abyss jewels
