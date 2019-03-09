@@ -9,6 +9,12 @@
 ###0011
 #	Maps
 Show
+	BaseType "Breachstone"
+	MinimapIcon 1 Red Hexagon
+	PlayEffect Red Temp
+	SetBackgroundColor 57 57 57 247
+	SetBorderColor 0 0 0 0
+Show
 	Class "Map Fragments"
 	BaseType "Divine Vessel"
 	MinimapIcon 1 White Hexagon
@@ -69,16 +75,16 @@ Show
 	Class "Map"
 	MapTier > 10
 	ShapedMap True
-	MinimapIcon 1 Red Hexagon
-	PlayEffect Red Temp
+	MinimapIcon 0 White Hexagon
+	PlayEffect White Temp
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 210 0 0 255
 Show
 	Class "Map"
 	MapTier > 10
 	ShapedMap True
-	MinimapIcon 1 Red Hexagon
-	PlayEffect Red Temp
+	MinimapIcon 0 White Hexagon
+	PlayEffect White Temp
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 0 0 0 0
 Show
@@ -377,22 +383,33 @@ Show #all onyx amulets (for Star of Wraeclast recipe)
 	
 ###000b
 #	Jewels
-Show
-	Corrupted True
-	Rarity > Normal
-	Class "Jewel"
-	SetBorderColor 210 0 0 255
-	SetFontSize 30
 Show #abyss jewels
+	Corrupted False
 	ItemLevel >= 84
 	Rarity > Normal
 	Class "Abyss Jewel"
 	SetFontSize 30
 	SetBorderColor 184 218 242 255
 Show
-	Rarity > Normal
+	Corrupted True
+	Rarity = Rare
 	Class "Jewel"
+	SetBorderColor 210 0 0 255
 	SetFontSize 30
+Show #abyss jewels
+	Rarity = Rare
+	Class "Abyss Jewel"
+	SetFontSize 30
+Show
+	Corrupted True
+	Rarity = Magic
+	Class "Jewel"
+	SetBorderColor 210 0 0 255
+	SetFontSize 26
+Show
+	Rarity = Magic
+	Class "Jewel"
+	SetFontSize 26
 	
 ###000a
 #	Corrupted Rares
@@ -403,6 +420,13 @@ Show
 	Height = 1
 	SetBorderColor 210 0 0 255
 	SetFontSize 30
+Show
+	Corrupted True
+	Rarity = Rare
+	Width = 1
+	Height <= 3
+	SetBorderColor 210 0 0 255
+	SetFontSize 28
 Show
 	Corrupted True
 	Rarity = Rare
@@ -598,6 +622,11 @@ Show
 	SetFontSize 30
 Show
 	Rarity = Rare
+	Width = 1
+	Height <= 3
+	SetFontSize 28
+Show
+	Rarity = Rare
 	SetBackgroundColor 0 0 0 160
 	SetFontSize 24
 	
@@ -638,7 +667,7 @@ Show
 	Class "Currency"
 	BaseType "Essence"
 	DropLevel >= 68
-	MinimapIcon 2 Yellow Circle
+	MinimapIcon 1 Yellow Circle
 	PlayEffect Blue Temp
 	PlayAlertSound 16 175
 	SetBorderColor 184 218 242 255
@@ -693,7 +722,7 @@ Show
 	SetFontSize 40
 Show
 	BaseType "Harbinger's Orb"
-	MinimapIcon 1 White Circle
+	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow
 	PlayAlertSound 10 250
 	SetBorderColor 96 96 96 255
@@ -970,7 +999,7 @@ Show
 #	Divination Cards
 Show #currency
 	Class "Divination Card"
-	BaseType "Loyalty" "Emperor's Luck" "Lucky Connections" "The Master Artisan" "The Puzzle" "The Scholar" "The Survivalist" "Vinia's Token"
+	BaseType "Emperor's Luck" "Loyalty" "Lucky Connections" "Monochrome" "The Master Artisan" "The Puzzle" "The Scholar" "The Survivalist" "Vinia's Token"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
@@ -1108,7 +1137,7 @@ Show #currency magic
 	SetBorderColor 170 158 130 255
 Show #normal
 	Class "Divination Card"
-	BaseType "Boundless Realms" "Cartographer's Delight" "Her Mask" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Obscured" "The Metalsmith's Gift" "The Surveyor"
+	BaseType "Boundless Realms" "Cartographer's Delight" "Her Mask" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Obscured" "The Metalsmith's Gift" "The Surveyor" "Sambodhi's Vow"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 200 200 200 180
