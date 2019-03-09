@@ -874,22 +874,86 @@ Show
 Show
 	Corrupted True
 	Class "Gem"
-	BaseType "Vaal" "Empower" "Enhance" "Enlighten" "Added Chaos Damage Support" "Portal" "Detonate Mines" "Item Quantity"
+	BaseType "Empower" "Enhance" "Enlighten"
+	GemLevel >= 4
+	MinimapIcon 1 Red Square
+	PlayEffect Red
+	SetBorderColor 210 0 0 255
+Show
+	Class "Gem"
+	BaseType "Empower" "Enhance" "Enlighten"
+	GemLevel >= 3
+	MinimapIcon 1 Red Square
+	PlayEffect Red
+Show
+	Corrupted True
+	Class "Gem"
+	BaseType "Empower" "Enhance" "Enlighten" "Portal" "Added Chaos Damage Support"
+	MinimapIcon 2 Red Square
+	PlayEffect Red Temp
+	SetBorderColor 210 0 0 255
+Show
+	Class "Gem"
+	BaseType "Empower" "Enhance" "Enlighten" "Portal" "Added Chaos Damage Support"
+	MinimapIcon 2 Red Square
+	PlayEffect Red Temp
+Show
+	Corrupted True
+	Class "Gem"
+	BaseType "Item Quantity"
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+	SetBorderColor 210 0 0 255
+Show
+	Class "Gem"
+	BaseType "Item Quantity"
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+Show
+	Corrupted True
+	Class "Gem"
+	GemLevel >= 20
+	MinimapIcon 2 Red Square
+	PlayEffect Red Temp
+	SetBorderColor 210 0 0 255
+Show
+	Class "Gem"
+	GemLevel >= 20
+	MinimapIcon 2 Red Square
+	PlayEffect Red Temp
+Show
+	Corrupted True
+	Class "Gem"
+	Quality >= 20
+	MinimapIcon 2 Red Square
+	PlayEffect Red Temp
+	SetBorderColor 210 0 0 255
+Show
+	Class "Gem"
+	Quality >= 20
+	MinimapIcon 2 Red Square
+	PlayEffect Red Temp
+Show
+	Corrupted True
+	Class "Gem"
+	BaseType "Vaal"
+	MinimapIcon 2 Yellow Square
+	PlayEffect Blue Temp
 	SetBorderColor 210 0 0 255
 	SetFontSize 30
 Show
 	Corrupted True
 	Class "Gem"
 	Quality > 0
+	MinimapIcon 2 Yellow Square
+	PlayEffect Blue Temp
 	SetBorderColor 210 0 0 255
 	SetFontSize 30
 Show
 	Class "Gem"
 	Quality > 0
-	SetFontSize 30
-Show
-	Class "Gem"
-	BaseType "Empower" "Enhance" "Enlighten" "Added Chaos Damage Support" "Portal" "Detonate Mines" "Item Quantity"
+	MinimapIcon 2 Yellow Square
+	PlayEffect Blue Temp
 	SetFontSize 30
 Show
 	Corrupted True
