@@ -377,22 +377,33 @@ Show
 	
 ###000b
 #	Jewels
-Show
-	Corrupted True
-	Rarity > Normal
-	Class "Jewel"
-	SetBorderColor 210 0 0 255
-	SetFontSize 30
 Show #abyss jewels
+	Corrupted False
 	ItemLevel >= 84
 	Rarity > Normal
 	Class "Abyss Jewel"
 	SetFontSize 30
 	SetBorderColor 184 218 242 255
 Show
-	Rarity > Normal
+	Corrupted True
+	Rarity = Rare
 	Class "Jewel"
+	SetBorderColor 210 0 0 255
 	SetFontSize 30
+Show #abyss jewels
+	Rarity = Rare
+	Class "Abyss Jewel"
+	SetFontSize 30
+Show
+	Corrupted True
+	Rarity = Magic
+	Class "Jewel"
+	SetBorderColor 210 0 0 255
+	SetFontSize 26
+Show
+	Rarity = Magic
+	Class "Jewel"
+	SetFontSize 26
 	
 ###000a
 #	Corrupted Rares
@@ -403,6 +414,13 @@ Show
 	Height = 1
 	SetBorderColor 210 0 0 255
 	SetFontSize 30
+Show
+	Corrupted True
+	Rarity = Rare
+	Width = 1
+	Height <= 3
+	SetBorderColor 210 0 0 255
+	SetFontSize 28
 Show
 	Corrupted True
 	Rarity = Rare
@@ -600,7 +618,7 @@ Show
 	Rarity = Rare
 	Width = 1
 	Height <= 3
-	SetFontSize 30
+	SetFontSize 28
 Show
 	Rarity = Rare
 	SetBackgroundColor 0 0 0 160
@@ -1113,7 +1131,7 @@ Show #currency magic
 	SetBorderColor 170 158 130 255
 Show #normal
 	Class "Divination Card"
-	BaseType "Boundless Realms" "Cartographer's Delight" "Her Mask" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Obscured" "The Metalsmith's Gift" "The Surveyor"
+	BaseType "Boundless Realms" "Cartographer's Delight" "Her Mask" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Obscured" "The Metalsmith's Gift" "The Surveyor" "Sambodhi's Vow"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 200 200 200 180
@@ -1582,12 +1600,6 @@ Hide #restore flasks
 Hide #utility flasks
 	ItemLevel >= 20
 	Class "Utility Flasks"
-	SetBackgroundColor 0 0 0 160
-	SetBorderColor 184 218 242 200
-	SetFontSize 22
-Hide #abyss jewels
-	ItemLevel >= 84
-	Class "Abyss Jewel"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
