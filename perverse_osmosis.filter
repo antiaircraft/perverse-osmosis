@@ -1097,7 +1097,7 @@ Show #rares
 	SetBackgroundColor 255 255 119 180
 Show #craftable rares
 	Class "Divination Card"
-	BaseType "Destined to Crumble" "The Opulent"
+	BaseType "Destined to Crumble" "The Opulent" "Perfection"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 255 255 119 180
