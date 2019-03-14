@@ -1009,8 +1009,8 @@ Show #mirror
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 184 218 242 255
 	SetFontSize 43
-Show #divine
-	Class "Divination Card"
+Show #crafting
+	Class "Divination Card" "No Traces"
 	BaseType "The Sephirot"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
@@ -1079,7 +1079,7 @@ Show #uniques
 	SetBackgroundColor 175 96 37 180
 Show #corrupt uniques
 	Class "Divination Card"
-	BaseType "Anarchy's Price" "Atziri's Arsenal" "Audacity" "Blind Venture" "Forbidden Power" "Hope" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Avenger" "The Brittle Emperor" "The Cursed King" "The Darkest Dream" "The Deceiver" "The Devastator" "The Encroaching Darkness" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Insatiable" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek"
+	BaseType "Anarchy's Price" "Arrogance of the Vaal" "Atziri's Arsenal" "Audacity" "Blind Venture" "Forbidden Power" "Hope" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Avenger" "The Brittle Emperor" "The Cursed King" "The Darkest Dream" "The Deceiver" "The Devastator" "The Encroaching Darkness" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Insatiable" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 175 96 37 180
@@ -1133,7 +1133,7 @@ Show #currency magic
 	SetBorderColor 170 158 130 255
 Show #normal
 	Class "Divination Card"
-	BaseType "Boundless Realms" "Cartographer's Delight" "Her Mask" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Obscured" "The Metalsmith's Gift" "The Surveyor" "Sambodhi's Vow"
+	BaseType "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Her Mask" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Obscured" "The Metalsmith's Gift" "The Surveyor" "Sambodhi's Vow"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 200 200 200 180
