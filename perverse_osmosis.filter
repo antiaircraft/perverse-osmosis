@@ -1016,8 +1016,8 @@ Show #mirror
 	SetBorderColor 184 218 242 255
 	SetFontSize 43
 Show #crafting
-	Class "Divination Card" "No Traces"
-	BaseType "The Sephirot"
+	Class "Divination Card"
+	BaseType "No Traces" "The Sephirot"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
