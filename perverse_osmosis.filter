@@ -222,7 +222,7 @@ Show
 	PlayEffect Red Temp
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 210 0 0 255
-	SetFontSize 36
+	SetFontSize 37
 	
 ###000f
 #	Divine Recipie
@@ -693,7 +693,7 @@ Show
 	PlayEffect Red
 	PlayAlertSound 6 275
 	SetBorderColor 170 158 130 255
-	SetFontSize 44
+	SetFontSize 45
 Show
 	BaseType "Eternal Orb"
 	MinimapIcon 0 Yellow Circle
@@ -730,28 +730,28 @@ Show
 	PlayAlertSound 10 225
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 170 158 130 240
-	SetFontSize 38
+	SetFontSize 40
 Show
 	BaseType "Divine Orb" "Orb of Annulment"
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Yellow Temp
 	PlayAlertSound 2 200
 	SetBorderColor 184 218 242 255
-	SetFontSize 36
+	SetFontSize 37
 Show
 	BaseType "Ancient Orb"
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Yellow Temp
 	PlayAlertSound 2 200
 	SetBorderColor 175 96 37 255
-	SetFontSize 36
+	SetFontSize 37
 Show
 	BaseType "Orb of Horizons" "Harbinger's Orb"
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Yellow Temp
 	PlayAlertSound 2 200
 	SetBorderColor 96 96 96 255
-	SetFontSize 36
+	SetFontSize 37
 Show
 	BaseType "Annulment Shard" "Horizon Shard" "Ancient Shard" "Harbinger's Shard"
 	MinimapIcon 2 Yellow Triangle
