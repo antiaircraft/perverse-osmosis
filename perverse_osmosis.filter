@@ -1126,7 +1126,7 @@ Show #magic
 	SetBackgroundColor 136 136 255 180
 Show #craftable magic
 	Class "Divination Card"
-	BaseType "Blessing of God" "Merciless Armament" "The Jester" "The Road to Power" "The Spoiled Prince" "The Tyrant"
+	BaseType "Blessing of God" "Merciless Armament" "The Golden Era" "The Jester" "The Road to Power" "The Spoiled Prince" "The Tyrant"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 136 136 255 180
