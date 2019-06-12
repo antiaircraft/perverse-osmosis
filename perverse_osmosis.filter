@@ -1134,7 +1134,7 @@ Show #currency magic
 	SetBorderColor 170 158 130 255
 Show #normal
 	Class "Divination Card"
-	BaseType "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Her Mask" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Obscured" "The Metalsmith's Gift" "The Price of Protection" "The Surveyor" "Sambodhi's Vow"
+	BaseType "Boon of Justice" "Boundless Realms" "Buried Treasure" "Cartographer's Delight" "Her Mask" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Obscured" "The Metalsmith's Gift" "The Price of Protection" "The Surveyor" "Sambodhi's Vow"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 200 200 200 180
@@ -1147,7 +1147,7 @@ Show #craftable normal
 	SetBorderColor 184 218 242 255
 Show #currency normal
 	Class "Divination Card"
-	BaseType "Emperor of Purity" "The Celestial Justicar" "The Chains that Bind" "The Dark Mage" "The Ethereal" "The Flora's Gift" "The Porcupine"
+	BaseType "Emperor of Purity" "Imperial Legacy" "The Celestial Justicar" "The Chains that Bind" "The Dark Mage" "The Ethereal" "The Flora's Gift" "The Porcupine"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 200 200 200 180
