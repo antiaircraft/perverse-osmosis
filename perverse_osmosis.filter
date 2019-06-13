@@ -10,7 +10,7 @@
 #	Maps
 Show
 	BaseType "Breachstone"
-	MinimapIcon 1 Red Hexagon
+	MinimapIcon 1 White Hexagon
 	PlayEffect Red Temp
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 0 0 0 0
@@ -36,7 +36,7 @@ Show
 	SetBorderColor 96 96 96 255
 Show
 	Class "Leaguestone"
-	MinimapIcon 0 White Hexagon
+	MinimapIcon 0 Red Hexagon
 	PlayEffect White
 	PlayAlertSound 13 200
 #	PlayAlertSound 13 150
@@ -57,48 +57,6 @@ Show
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 0 0 0 0
 Show
-	Corrupted True
-	Class "Map"
-	MapTier > 15
-	ShapedMap True
-	MinimapIcon 0 Red Hexagon
-	PlayEffect Red
-	SetBackgroundColor 57 57 57 247
-	SetBorderColor 210 0 0 255
-Show
-	Class "Map"
-	MapTier > 15
-	ShapedMap True
-	MinimapIcon 0 Red Hexagon
-	PlayEffect Red
-	SetBackgroundColor 57 57 57 247
-	SetBorderColor 0 0 0 0
-Show
-	Corrupted True
-	Class "Map"
-	MapTier > 10
-	ShapedMap True
-	MinimapIcon 0 White Hexagon
-	PlayEffect White Temp
-	SetBackgroundColor 57 57 57 247
-	SetBorderColor 210 0 0 255
-Show
-	Class "Map"
-	MapTier > 10
-	ShapedMap True
-	MinimapIcon 0 White Hexagon
-	PlayEffect White Temp
-	SetBackgroundColor 57 57 57 247
-	SetBorderColor 0 0 0 0
-Show
-	Corrupted True
-	Class "Map"
-	ShapedMap True
-	MinimapIcon 1 White Hexagon
-	PlayEffect White Temp
-	SetBackgroundColor 57 57 57 247
-	SetBorderColor 210 0 0 255
-Show
 	Class "Map"
 	ShapedMap True
 	MinimapIcon 1 White Hexagon
@@ -109,14 +67,14 @@ Show
 	Corrupted True
 	Class "Map"
 	MapTier > 15
-	MinimapIcon 1 Red Hexagon
+	MinimapIcon 0 White Hexagon
 	PlayEffect Red Temp
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 210 0 0 255
 Show
 	Class "Map"
 	MapTier > 15
-	MinimapIcon 1 Red Hexagon
+	MinimapIcon 0 White Hexagon
 	PlayEffect Red Temp
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 0 0 0 0
@@ -221,7 +179,7 @@ Show
 	Corrupted True
 	Class "Amulets"
 	BaseType "Talisman"
-	MinimapIcon 2 Red Square
+	MinimapIcon 0 White Square
 	PlayEffect Red Temp
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 210 0 0 255
@@ -295,6 +253,7 @@ Show
 	Sockets = 6
 	Rarity = Rare
 	BaseType "Sacrificial Garb"
+	MinimapIcon 2 Yellow Square
 	PlayAlertSoundPositional 11 175
 #	PlayAlertSoundPositional 11 125
 	SetBorderColor 170 158 130 255
@@ -329,6 +288,7 @@ Show
 	Corrupted False
 	Sockets = 6
 	BaseType "Sacrificial Garb"
+	MinimapIcon 2 Yellow Square
 	PlayAlertSoundPositional 11 175
 #	PlayAlertSoundPositional 11 125
 	SetBackgroundColor 0 0 0 180
@@ -352,6 +312,7 @@ Show
 #	Vendor Recipes
 Show
 	Sockets = 6
+	MinimapIcon 2 Yellow Square
 	PlayAlertSoundPositional 11 175
 #	PlayAlertSoundPositional 11 125
 	SetBackgroundColor 0 0 0 180
@@ -1199,7 +1160,7 @@ Show #currency magic
 	SetBorderColor 170 158 130 255
 Show #normal
 	Class "Divination Card"
-	BaseType "Boon of Justice" "Boundless Realms" "Buried Treasure" "Cartographer's Delight" "Her Mask" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Obscured" "The Metalsmith's Gift" "The Price of Protection" "The Surveyor" "Sambodhi's Vow"
+	BaseType "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Obscured" "The Metalsmith's Gift" "The Price of Protection" "The Surveyor" "Sambodhi's Vow"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 175
 #	PlayAlertSoundPositional 3 125
@@ -1220,6 +1181,14 @@ Show #currency normal
 #	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 200 200 200 180
 	SetBorderColor 170 158 130 255
+Show #map fragments & stuff
+	Class "Divination Card"
+	BaseType "Buried Treasure" "Her Mask"
+	MinimapIcon 2 Blue Diamond
+	PlayAlertSoundPositional 3 175
+#	PlayAlertSoundPositional 3 125
+	SetBackgroundColor 200 200 200 180
+	SetBorderColor 96 96 96 255
 Show #essences
 	Class "Divination Card"
 	BaseType "The Cacophony" "Three Voices" "Harmony of Souls"
