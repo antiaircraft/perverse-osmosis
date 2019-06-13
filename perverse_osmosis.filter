@@ -68,14 +68,14 @@ Show
 	Class "Map"
 	MapTier > 15
 	MinimapIcon 0 White Hexagon
-	PlayEffect Red Temp
+	PlayEffect White Temp
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 210 0 0 255
 Show
 	Class "Map"
 	MapTier > 15
 	MinimapIcon 0 White Hexagon
-	PlayEffect Red Temp
+	PlayEffect White Temp
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 0 0 0 0
 Show
@@ -180,7 +180,7 @@ Show
 	Class "Amulets"
 	BaseType "Talisman"
 	MinimapIcon 0 White Square
-	PlayEffect Red Temp
+	PlayEffect White Temp
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 210 0 0 255
 	SetFontSize 37
