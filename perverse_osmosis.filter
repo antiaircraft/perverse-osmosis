@@ -38,8 +38,8 @@ Show
 	Class "Leaguestone"
 	MinimapIcon 0 Red Hexagon
 	PlayEffect White
-	PlayAlertSound 13 200
-#	PlayAlertSound 13 150
+	PlayAlertSound 6 200
+#	PlayAlertSound 6 150
 	SetBorderColor 96 96 96 255
 Show
 	Corrupted True
