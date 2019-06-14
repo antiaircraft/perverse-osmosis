@@ -1,5 +1,6 @@
 ##	Sound Lookup
-#4, 6, 5
+#4, 5
+#6 is legacy
 #3
 #1
 #13
@@ -17,11 +18,12 @@ Show
 Show
 	Class "Map Fragments"
 	BaseType "Divine Vessel"
-	MinimapIcon 1 White Hexagon
-	PlayEffect White Temp
+	MinimapIcon 1 Green Hexagon
+	PlayEffect Green Temp
 	PlayAlertSound 13 200
 #	PlayAlertSound 13 150
-	SetBorderColor 96 96 96 255
+	SetBorderColor 74 230 58 255
+#	SetBorderColor 96 96 96 255
 Show
 	Class "Map Fragments"
 	BaseType "Scarab"
