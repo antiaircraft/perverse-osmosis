@@ -1,5 +1,6 @@
 ##	Sound Lookup
-#4, 6, 5
+#4, 5
+#6 is legacy
 #3
 #1
 #13
@@ -17,11 +18,12 @@ Show
 Show
 	Class "Map Fragments"
 	BaseType "Divine Vessel"
-	MinimapIcon 1 White Hexagon
-	PlayEffect White Temp
+	MinimapIcon 1 Green Hexagon
+	PlayEffect Green Temp
 	PlayAlertSound 13 200
 #	PlayAlertSound 13 150
-	SetBorderColor 96 96 96 255
+	SetBorderColor 74 230 58 255
+#	SetBorderColor 96 96 96 255
 Show
 	Class "Map Fragments"
 	BaseType "Scarab"
@@ -38,8 +40,8 @@ Show
 	Class "Leaguestone"
 	MinimapIcon 0 Red Hexagon
 	PlayEffect White
-	PlayAlertSound 13 200
-#	PlayAlertSound 13 150
+	PlayAlertSound 6 200
+#	PlayAlertSound 6 150
 	SetBorderColor 96 96 96 255
 Show
 	Corrupted True
@@ -68,14 +70,14 @@ Show
 	Class "Map"
 	MapTier > 15
 	MinimapIcon 0 White Hexagon
-	PlayEffect Red Temp
+	PlayEffect White Temp
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 210 0 0 255
 Show
 	Class "Map"
 	MapTier > 15
 	MinimapIcon 0 White Hexagon
-	PlayEffect Red Temp
+	PlayEffect White Temp
 	SetBackgroundColor 57 57 57 247
 	SetBorderColor 0 0 0 0
 Show
@@ -115,7 +117,7 @@ Show
 	Class "Fishing Rods"
 	MinimapIcon 0 Red Square
 	PlayEffect Red
-	PlayAlertSoundPositional 1 300
+	PlayAlertSoundPositional 5 300
 	SetBorderColor 184 218 242 255
 	SetFontSize 43
 Show
@@ -126,7 +128,7 @@ Show
 	PlayEffect Red
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 170 158 130 255
-	SetFontSize 43
+	SetFontSize 40
 Show
 	SocketGroup "RGB"
 	Class "Fishing Rods"
@@ -134,7 +136,7 @@ Show
 	PlayEffect Red
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 170 158 130 255
-	SetFontSize 43
+	SetFontSize 40
 Show
 	Corrupted True
 	Rarity >= Unique
@@ -143,7 +145,7 @@ Show
 	PlayEffect Red
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 210 0 0 255
-	SetFontSize 43
+	SetFontSize 40
 Show
 	Corrupted True
 	Class "Fishing Rods"
@@ -151,25 +153,25 @@ Show
 	PlayEffect Red
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 210 0 0 255
-	SetFontSize 43
+	SetFontSize 40
 Show
 	Rarity >= Unique
 	Class "Fishing Rods"
 	MinimapIcon 1 Red Square
 	PlayEffect Red
 	PlayAlertSoundPositional 1 300
-	SetFontSize 43
+	SetFontSize 40
 Show
 	Class "Fishing Rods"
 	MinimapIcon 1 Red Square
 	PlayEffect Red
 	PlayAlertSoundPositional 1 300
-	SetFontSize 43
+	SetFontSize 40
 Show
 	Corrupted True
 	Rarity >= Unique
 	Class "Amulets"
-	BaseType "Talisman"
+	BaseType "Greatwolf Talisman"
 	MinimapIcon 0 Red Square
 	PlayEffect Red
 	PlayAlertSoundPositional 1 300
@@ -178,12 +180,31 @@ Show
 Show
 	Corrupted True
 	Class "Amulets"
-	BaseType "Talisman"
-	MinimapIcon 0 White Square
+	BaseType "Greatwolf Talisman"
+	MinimapIcon 1 Red Square
 	PlayEffect Red Temp
 	PlayAlertSoundPositional 1 300
 	SetBorderColor 210 0 0 255
 	SetFontSize 37
+Show
+	Corrupted True
+	Rarity >= Unique
+	Class "Amulets"
+	BaseType "Talisman"
+	MinimapIcon 2 Red Square
+	PlayEffect Red Temp
+	PlayAlertSoundPositional 1 300
+	SetBorderColor 210 0 0 255
+	SetFontSize 40
+Show
+	Corrupted True
+	Class "Amulets"
+	BaseType "Talisman"
+	MinimapIcon 2 White Square
+	PlayEffect White Temp
+	PlayAlertSoundPositional 1 300
+	SetBorderColor 210 0 0 255
+	SetFontSize 34
 	
 ###000f
 #	Divine Recipie
@@ -671,24 +692,24 @@ Show
 	BaseType "Mirror Shard"
 	MinimapIcon 0 Red Triangle
 	PlayEffect Red
-	PlayAlertSound 6 300
-#	PlayAlertSound 6 275
+	PlayAlertSound 4 300
+#	PlayAlertSound 4 275
 	SetBorderColor 170 158 130 255
 	SetFontSize 45
 Show
 	BaseType "Eternal Orb"
 	MinimapIcon 0 Yellow Circle
 	PlayEffect Yellow
-	PlayAlertSound 4 300
-#	PlayAlertSound 4 275
+	PlayAlertSound 6 300
+#	PlayAlertSound 6 275
 	SetBorderColor 184 218 242 255
 	SetFontSize 43
 Show
 	BaseType "Albino Rhoa Feather"
 	MinimapIcon 0 Red Circle
 	PlayEffect Red
-	PlayAlertSound 13 300
-#	PlayAlertSound 13 275
+	PlayAlertSound 5 300
+#	PlayAlertSound 5 275
 	SetBackgroundColor 255 255 255 240
 	SetTextColor 0 0 0 255
 	SetFontSize 43
@@ -913,27 +934,27 @@ Show
 	Class "Gem"
 	BaseType "Empower" "Enhance" "Enlighten"
 	GemLevel >= 4
-	MinimapIcon 1 Red Square
-	PlayEffect Red
+	MinimapIcon 0 White Square
+	PlayEffect Blue
 	SetBorderColor 210 0 0 255
 Show
 	Class "Gem"
 	BaseType "Empower" "Enhance" "Enlighten"
 	GemLevel >= 3
-	MinimapIcon 1 Red Square
-	PlayEffect Red
+	MinimapIcon 1 White Square
+	PlayEffect Blue
 Show
 	Corrupted True
 	Class "Gem"
 	BaseType "Empower" "Enhance" "Enlighten" "Portal" "Added Chaos Damage Support"
-	MinimapIcon 2 Red Square
-	PlayEffect Red Temp
+	MinimapIcon 2 White Square
+	PlayEffect Blue Temp
 	SetBorderColor 210 0 0 255
 Show
 	Class "Gem"
 	BaseType "Empower" "Enhance" "Enlighten" "Portal" "Added Chaos Damage Support"
-	MinimapIcon 2 Red Square
-	PlayEffect Red Temp
+	MinimapIcon 2 White Square
+	PlayEffect Blue Temp
 Show
 	Corrupted True
 	Class "Gem"
@@ -950,26 +971,26 @@ Show
 	Corrupted True
 	Class "Gem"
 	GemLevel >= 20
-	MinimapIcon 2 Red Square
-	PlayEffect Red Temp
+	MinimapIcon 2 White Square
+	PlayEffect Blue Temp
 	SetBorderColor 210 0 0 255
 Show
 	Class "Gem"
 	GemLevel >= 20
-	MinimapIcon 2 Red Square
-	PlayEffect Red Temp
+	MinimapIcon 2 White Square
+	PlayEffect Blue Temp
 Show
 	Corrupted True
 	Class "Gem"
 	Quality >= 20
-	MinimapIcon 2 Red Square
-	PlayEffect Red Temp
+	MinimapIcon 2 White Square
+	PlayEffect Blue Temp
 	SetBorderColor 210 0 0 255
 Show
 	Class "Gem"
 	Quality >= 20
-	MinimapIcon 2 Red Square
-	PlayEffect Red Temp
+	MinimapIcon 2 White Square
+	PlayEffect Blue Temp
 Show
 	Corrupted True
 	Class "Gem"
@@ -1017,13 +1038,13 @@ Show #mirror
 	BaseType "House of Mirrors"
 	MinimapIcon 0 Red Diamond
 	PlayEffect Red
-	PlayAlertSound 6 300
-#	PlayAlertSound 6 275
+	PlayAlertSound 4 300
+#	PlayAlertSound 4 275
 	PlayAlertSoundPositional 3 175
 #	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 184 218 242 255
-	SetFontSize 43
+	SetFontSize 40
 Show #crafting
 	Class "Divination Card"
 	BaseType "No Traces" "The Sephirot"
@@ -1090,11 +1111,14 @@ Show #cards
 Show #mirror cards
 	Class "Divination Card"
 	BaseType "The Immortal"
-	MinimapIcon 2 Blue Diamond
-	PlayAlertSoundPositional 3 175
+	MinimapIcon 2 Red Diamond
+	PlayEffect Red Temp
+	PlayAlertSoundPositional 4 300
+#	PlayAlertSoundPositional 3 175
 #	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 14 186 255 180
 	SetBorderColor 170 158 130 255
+	SetFontSize 37
 Show #uniques
 	Class "Divination Card"
 	BaseType "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour" "Birth of the Three" "Boon of the First Ones" "Dark Temptation" "Death" "Doedre's Madness" "Earth Drinker" "Glimmer of Hope" "Heterochromia" "Hubris" "Hunter's Resolve" "Hunter's Reward" "Jack in the Box" "Light and Truth" "Might is Right" "Mitts" "Rats" "Rebirth" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Army of Blood" "The Battle Born" "The Beast" "The Betrayal" "The Blazing Fire" "The Body" "The Breach" "The Calling" "The Coming Storm" "The Conduit" "The Demoness" "The Doctor" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Endless Darkness" "The Fathomless Depths" "The Formless Sea" "The Forsaken" "The Garish Power" "The Gladiator" "The Harvester" "The Hermit" "The Hunger" "The Incantation" "The King's Heart" "The Last One Standing" "The Lion" "The Lunaris Priestess" "The Master" "The Mayor" "The Messenger" "The Oath" "The Offering" "The Pack Leader" "The Pact" "The Penitent" "The Polymath" "The Professor" "The Queen" "The Risk" "The Scarred Meadow" "The Scavenger" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Sun" "The Sword King's Salute" "The Tower" "The Twilight Moon" "The Valkyrie" "The Vast" "The Visionary" "The Watcher" "The Wind" "The Witch" "The Wolf" "The Wolf's Shadow" "The Wolven King's Bite" "The Wretched" "Thunderous Skies" "Time-Lost Relic" "Tranquillity"
