@@ -481,9 +481,9 @@ Show #daggers
 	Rarity = Rare
 	Class "Daggers"
 	BaseType "Platinum Kris" "Imperial Skean" "Demon Dagger" "Sai"
-	SetBackgroundColor 0 0 0 160
+#	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
-	SetFontSize 24
+	SetFontSize 28
 Show #1h axes
 	ItemLevel >= 85
 	Rarity = Rare
@@ -500,11 +500,18 @@ Show #1h maces
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
+Show #1h swords (3 slot)
+	ItemLevel >= 85
+	Rarity = Rare
+	Class "One Hand Sword"
+	BaseType "Corsair Sword"
+	SetBorderColor 184 218 242 200
+	SetFontSize 28
 Show #1h swords
 	ItemLevel >= 85
 	Rarity = Rare
 	Class "One Hand Sword"
-	BaseType "Corsair Sword" "Legion Sword" "Vaal Blade" "Eternal Sword" "Midnight Blade" "Tiger Hook"
+	BaseType "Legion Sword" "Vaal Blade" "Eternal Sword" "Midnight Blade" "Tiger Hook"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
@@ -561,9 +568,9 @@ Show #wands
 	Rarity = Rare
 	Class "Wands"
 	BaseType "Imbued Wand" "Prophecy Wand" "Profane Wand"
-	SetBackgroundColor 0 0 0 160
+#	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
-	SetFontSize 24
+	SetFontSize 28
 Show #quivers
 	ItemLevel >= 85
 	Rarity = Rare
