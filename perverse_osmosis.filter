@@ -330,15 +330,15 @@ Show
 	SetBackgroundColor 0 0 0 180
 	SetBorderColor 170 158 130 220
 	SetFontSize 26
-Show
-	ItemLevel >= 61 # not when leveling
+Show # chisels, not when leveling
+	ItemLevel >= 61 
 	Quality = 20
 	BaseType "Rock Breaker" "Gavel" "Stone Hammer"
 	SetBorderColor 170 158 130 255
 	SetFontSize 28
-Show
+Show # chisels, not when leveling
 	Corrupted False
-	ItemLevel >= 61 # not when leveling
+	ItemLevel >= 61
 	Rarity = Normal
 	BaseType "Rock Breaker" "Gavel" "Stone Hammer"
 	SetBorderColor 170 158 130 255
