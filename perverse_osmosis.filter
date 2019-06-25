@@ -331,8 +331,14 @@ Show
 	SetBorderColor 170 158 130 220
 	SetFontSize 26
 Show
+	ItemLevel >= 61 # not when leveling
+	Quality = 20
+	BaseType "Rock Breaker" "Gavel" "Stone Hammer"
+	SetBorderColor 170 158 130 255
+	SetFontSize 28
+Show
 	Corrupted False
-	ItemLevel >= 61
+	ItemLevel >= 61 # not when leveling
 	Rarity = Normal
 	BaseType "Rock Breaker" "Gavel" "Stone Hammer"
 	SetBorderColor 170 158 130 255
@@ -356,6 +362,12 @@ Show
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 170 158 130 200
 	SetFontSize 24
+Show #glassblower recipe
+	Class "Flask"
+	Quality = 20
+	MinimapIcon 2 Yellow Circle
+	PlayAlertSoundPositional 11 200
+	SetFontSize 30
 	
 ###000b
 #	Jewels
@@ -919,11 +931,13 @@ Show
 	MinimapIcon 0 Red Square
 	PlayEffect Red
 	SetBorderColor 210 0 0 255
+	SetFontSize 40
 Show
 	Class "Gem"
 	BaseType "Item Quantity"
 	MinimapIcon 0 Red Square
 	PlayEffect Red
+	SetFontSize 40
 Show
 	Corrupted True
 	Class "Gem"
