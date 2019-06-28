@@ -558,7 +558,7 @@ Show #2h maces
 	ItemLevel >= 85
 	Rarity = Rare
 	Class "Two Hand Mace"
-	BaseType "Coronal Maul" "Meatgrinder" "Piledriver"
+	BaseType "Coronal Maul" "Meatgrinder" "Piledriver" "Karui Maul"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
@@ -1347,7 +1347,7 @@ Hide #2h axes
 Hide #2h maces
 	ItemLevel >= 85
 	Class "Two Hand Mace"
-	BaseType "Coronal Maul" "Meatgrinder" "Piledriver"
+	BaseType "Coronal Maul" "Meatgrinder" "Piledriver" "Karui Maul"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
@@ -1560,7 +1560,7 @@ Hide #2h axes
 Hide #2h maces
 	ItemLevel >= 85
 	Class "Two Hand Mace"
-	BaseType "Coronal Maul" "Meatgrinder" "Piledriver"
+	BaseType "Coronal Maul" "Meatgrinder" "Piledriver" "Karui Maul"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
