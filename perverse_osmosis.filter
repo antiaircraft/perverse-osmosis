@@ -1120,7 +1120,7 @@ Show #corrupt rares
 	SetBorderColor 210 0 0 255
 Show #magic
 	Class "Divination Card"
-	BaseType "Prosperity" "Shard of Fate" "Struck by Lightning" "The Carrion Crow" "The Endurance" "The Inoculated" "The King's Blade" "The Lord in Black" "The Sigil" "The Surgeon" "The Rabid Rhoa" "The Twins"
+	BaseType "Prosperity" "Shard of Fate" "Struck by Lightning" "The Carrion Crow" "The Endurance" "The Inoculated" "The King's Blade" "The Lord in Black" "The Lord of Celebration" "The Sigil" "The Surgeon" "The Rabid Rhoa" "The Twins"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 136 136 255 180
