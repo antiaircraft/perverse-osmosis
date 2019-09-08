@@ -261,7 +261,7 @@ Show
 	Corrupted False
 	ItemLevel >= 85
 	Rarity = Rare
-	BaseType "Opal Ring" "Steel Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" 
+	BaseType "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" 
 	SetBorderColor 184 218 242 255
 Show
 	Corrupted False
@@ -294,7 +294,7 @@ Show
 Show
 	Corrupted False
 	ItemLevel >= 85
-	BaseType "Opal Ring" "Steel Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" 
+	BaseType "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" 
 	SetBackgroundColor 0 0 0 180
 	SetBorderColor 184 218 242 220
 	SetFontSize 28
@@ -316,7 +316,7 @@ Show
 	SetFontSize 26
 Show
 	Corrupted False
-	BaseType "Blue Pearl Amulet" "Marble Amulet" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Vanguard Belt" "Crystal Belt" "Two-Toned Boots" "Bone Helmet" "Sacrificial Garb" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise"
 	SetBackgroundColor 0 0 0 180
 	SetFontSize 26
 	
@@ -487,8 +487,14 @@ Show #daggers
 	ItemLevel >= 85
 	Rarity = Rare
 	Class "Daggers"
-	BaseType "Platinum Kris" "Imperial Skean" "Demon Dagger" "Sai"
-#	SetBackgroundColor 0 0 0 160
+	BaseType "Sai"
+	SetBorderColor 184 218 242 200
+	SetFontSize 28
+Show #rune daggers
+	ItemLevel >= 85
+	Rarity = Rare
+	Class "Rune Dagger"
+	BaseType "Platinum Kris" "Imperial Skean" "Demon Dagger"
 	SetBorderColor 184 218 242 200
 	SetFontSize 28
 Show #1h axes
@@ -534,7 +540,15 @@ Show #staves
 	ItemLevel >= 85
 	Rarity = Rare
 	Class "Staves"
-	BaseType "Lathi" "Ezomyte Staff" "Maelström Staff" "Imperial Staff" "Judgement Staff" "Eclipse Staff"
+	BaseType "Lathi" "Ezomyte Staff" "Imperial Staff" "Eclipse Staff"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 24
+Show #war staves
+	ItemLevel >= 85
+	Rarity = Rare
+	Class "Warstaff"
+	BaseType "Maelström Staff" "Judgement Staff"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 24
@@ -574,8 +588,7 @@ Show #wands
 	ItemLevel >= 85
 	Rarity = Rare
 	Class "Wands"
-	BaseType "Imbued Wand" "Prophecy Wand" "Profane Wand"
-#	SetBackgroundColor 0 0 0 160
+	BaseType "Convoking Wand" "Imbued Wand" "Prophecy Wand" "Profane Wand"
 	SetBorderColor 184 218 242 200
 	SetFontSize 28
 Show #quivers
@@ -600,7 +613,7 @@ Show #rings
 	Rarity = Rare
 	ItemLevel >= 85
 	Class "Rings"
-	BaseType "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring"
+	BaseType "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring"
 	SetBorderColor 184 218 242 255
 	SetFontSize 30
 Show #amulets
@@ -1000,7 +1013,7 @@ Show
 #	Divination Cards
 Show #currency
 	Class "Divination Card"
-	BaseType "Emperor's Luck" "Loyalty" "Lucky Connections" "Monochrome" "The Fool" "The Innocent" "The Master Artisan" "The Puzzle" "The Scholar" "The Survivalist" "Vinia's Token"
+	BaseType "Emperor's Luck" "Loyalty" "Lucky Connections" "Monochrome" "The Fool" "The Heroic Shot" "The Innocent" "The Master Artisan" "The Puzzle" "The Scholar" "The Survivalist" "Vinia's Token"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 170 158 130 180
@@ -1080,7 +1093,7 @@ Show #mirror cards
 	SetFontSize 37
 Show #uniques
 	Class "Divination Card"
-	BaseType "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour" "Birth of the Three" "Boon of the First Ones" "Dark Temptation" "Death" "Doedre's Madness" "Earth Drinker" "Glimmer of Hope" "Heterochromia" "Hubris" "Hunter's Resolve" "Hunter's Reward" "Jack in the Box" "Light and Truth" "Might is Right" "Mitts" "Rats" "Rebirth" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Army of Blood" "The Battle Born" "The Beast" "The Betrayal" "The Blazing Fire" "The Body" "The Breach" "The Calling" "The Coming Storm" "The Conduit" "The Demoness" "The Doctor" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Endless Darkness" "The Fathomless Depths" "The Formless Sea" "The Forsaken" "The Garish Power" "The Gladiator" "The Harvester" "The Hermit" "The Hunger" "The Incantation" "The King's Heart" "The Last One Standing" "The Lion" "The Lunaris Priestess" "The Master" "The Mayor" "The Messenger" "The Oath" "The Offering" "The Pack Leader" "The Pact" "The Penitent" "The Polymath" "The Professor" "The Queen" "The Risk" "The Scarred Meadow" "The Scavenger" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Sun" "The Sword King's Salute" "The Tower" "The Twilight Moon" "The Valkyrie" "The Vast" "The Visionary" "The Watcher" "The Wind" "The Witch" "The Wolf" "The Wolf's Shadow" "The Wolven King's Bite" "The Wretched" "Thirst for Knowledge" "Thunderous Skies" "Time-Lost Relic" "Tranquillity"
+	BaseType "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour" "Birth of the Three" "Boon of the First Ones" "Dark Temptation" "Death" "Doedre's Madness" "Earth Drinker" "Glimmer of Hope" "Heterochromia" "Hubris" "Hunter's Resolve" "Hunter's Reward" "Jack in the Box" "Light and Truth" "Might is Right" "Mitts" "Rats" "Rebirth" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Army of Blood" "The Battle Born" "The Beast" "The Betrayal" "The Blazing Fire" "The Body" "The Breach" "The Calling" "The Coming Storm" "The Conduit" "The Demoness" "The Doctor" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Endless Darkness" "The Fathomless Depths" "The Formless Sea" "The Forsaken" "The Garish Power" "The Gladiator" "The Harvester" "The Hermit" "The Hunger" "The Incantation" "The King's Heart" "The Last One Standing" "The Lion" "The Lunaris Priestess" "The Master" "The Mayor" "The Messenger" "The Oath" "The Offering" "The Pack Leader" "The Pact" "The Penitent" "The Polymath" "The Primordial" "The Professor" "The Queen" "The Risk" "The Scarred Meadow" "The Scavenger" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Sun" "The Sword King's Salute" "The Tower" "The Twilight Moon" "The Valkyrie" "The Vast" "The Visionary" "The Watcher" "The Wind" "The Witch" "The Wolf" "The Wolf's Shadow" "The Wolven King's Bite" "The Wretched" "Thirst for Knowledge" "Thunderous Skies" "Time-Lost Relic" "Tranquillity"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 175 96 37 180
@@ -1160,7 +1173,7 @@ Show #currency normal
 	SetBorderColor 170 158 130 255
 Show #map fragments & stuff
 	Class "Divination Card"
-	BaseType "Buried Treasure" "Her Mask"
+	BaseType "Buried Treasure" "Her Mask" "The Deal"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 200 200 200 180
@@ -1287,7 +1300,16 @@ Show #daggers
 	Rarity >= Magic
 	ItemLevel >= 85
 	Class "Daggers"
-	BaseType "Platinum Kris" "Imperial Skean" "Demon Dagger" "Sai"
+	BaseType "Sai"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #rune daggers
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 85
+	Class "Rune Dagger"
+	BaseType "Platinum Kris" "Imperial Skean" "Demon Dagger"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
@@ -1326,7 +1348,16 @@ Show #staves
 	Rarity >= Magic
 	ItemLevel >= 85
 	Class "Staves"
-	BaseType "Lathi" "Ezomyte Staff" "Maelström Staff" "Imperial Staff" "Judgement Staff" "Eclipse Staff"
+	BaseType "Lathi" "Ezomyte Staff" "Imperial Staff" "Eclipse Staff"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Show #war staves
+	Identified True
+	Rarity >= Magic
+	ItemLevel >= 85
+	Class "Warstaff"
+	BaseType "Maelström Staff" "Judgement Staff"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
@@ -1363,7 +1394,7 @@ Show #wands
 	Rarity >= Magic
 	ItemLevel >= 85
 	Class "Wands"
-	BaseType "Imbued Wand" "Prophecy Wand" "Profane Wand"
+	BaseType "Convoking Wand" "Imbued Wand" "Prophecy Wand" "Profane Wand"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
@@ -1390,7 +1421,7 @@ Show #rings
 	Rarity >= Magic
 	ItemLevel >= 85
 	Class "Rings"
-	BaseType "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring"
+	BaseType "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
@@ -1504,7 +1535,14 @@ Hide #claws
 Hide #daggers
 	ItemLevel >= 85
 	Class "Daggers"
-	BaseType "Platinum Kris" "Imperial Skean" "Demon Dagger" "Sai"
+	BaseType "Sai"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Hide #rune daggers
+	ItemLevel >= 85
+	Class "Rune Dagger"
+	BaseType "Platinum Kris" "Imperial Skean" "Demon Dagger"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
@@ -1539,7 +1577,14 @@ Hide #sceptres
 Hide #staves
 	ItemLevel >= 85
 	Class "Staves"
-	BaseType "Lathi" "Ezomyte Staff" "Maelström Staff" "Imperial Staff" "Judgement Staff" "Eclipse Staff"
+	BaseType "Lathi" "Ezomyte Staff" "Imperial Staff" "Eclipse Staff"
+	SetBackgroundColor 0 0 0 160
+	SetBorderColor 184 218 242 200
+	SetFontSize 22
+Hide #war staves
+	ItemLevel >= 85
+	Class "Warstaff"
+	BaseType "Maelström Staff" "Judgement Staff"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
@@ -1574,7 +1619,7 @@ Hide #2h swords
 Hide #wands
 	ItemLevel >= 85
 	Class "Wands"
-	BaseType "Imbued Wand" "Prophecy Wand" "Profane Wand"
+	BaseType "Convoking Wand" "Imbued Wand" "Prophecy Wand" "Profane Wand"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
@@ -1595,7 +1640,7 @@ Hide #belts
 Hide #rings
 	ItemLevel >= 85
 	Class "Rings"
-	BaseType "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring"
+	BaseType "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
@@ -1631,6 +1676,6 @@ Show
 	SetBorderColor 170 158 130 180
 	SetFontSize 20
 Hide
-	Class "Belts" "Flasks" "Amulets" "Rings" "Quivers" "Shields" "Swords" "Sceptres" "Maces" "Bows" "Wands" "Boots" "Jewel" "Daggers" "Staves" "Axes" "Body Armours" "Helmet" "Gloves" "Claws"
+	Class "Belts" "Flasks" "Amulets" "Rings" "Quivers" "Shields" "Swords" "Sceptres" "Maces" "Bows" "Wands" "Boots" "Jewel" "Daggers" "Rune Dagger" "Staves" "Warstaff" "Axes" "Body Armours" "Helmet" "Gloves" "Claws"
 	SetBackgroundColor 0 0 0 140
 	SetFontSize 18
