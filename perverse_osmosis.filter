@@ -7,6 +7,13 @@
 #12
 #11, 16, 2, 10
 
+###0012
+#	Incubators
+Show # item incubators
+	Class "Incubator"
+	MinimapIcon 1 Blue Square
+	PlayEffect Blue Temp
+	SetTextColor 184 218 242 255
 ###0011
 #	Maps
 Show
@@ -872,6 +879,13 @@ Show
 	SetBackgroundColor 57 57 57 247
 	SetFontSize 30
 Show
+	Class "Currency"
+	BaseType "Timeless"
+	MinimapIcon 2 White Triangle
+	PlayAlertSoundPositional 12 150
+	SetBackgroundColor 57 57 57 247
+	SetFontSize 30
+Show
 	BaseType "Orb of Chance" "Jeweller's Orb" "Chromatic Orb" "Orb of Binding"
 	DisableDropSound
 	PlayAlertSoundPositional 11 150
@@ -1206,7 +1220,7 @@ Show #quality gems
 	SetBorderColor 136 136 255 255
 Show #prophecies
 	Class "Divination Card"
-	BaseType "The Jeweller's Boon" "The Valley of Steel Boxes"
+	BaseType "The Jeweller's Boon" "The Valley of Steel Boxes" "Vile Power"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 181 75 255 180
@@ -1439,7 +1453,7 @@ Show #restore flasks
 	Rarity >= Magic
 	ItemLevel >= 20
 	Class "Life Flasks" "Mana Flasks" "Hybrid Flasks"
-	BaseType "Hallowed Hybrid Flask" "Eternal Life Flask" "Divine Life Flask" "Eternal Mana Flask" "Divine Mana Flask" "Sanctified Mana Flask"
+	BaseType "Hallowed Hybrid Flask" "Eternal Life Flask" "Divine Life Flask" "Eternal Mana Flask" "Divine Mana Flask"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
@@ -1654,7 +1668,7 @@ Hide #amulets
 Hide #restore flasks
 	ItemLevel >= 20
 	Class "Life Flasks" "Mana Flasks" "Hybrid Flasks"
-	BaseType "Hallowed Hybrid Flask" "Eternal Life Flask" "Divine Life Flask" "Eternal Mana Flask" "Divine Mana Flask" "Sanctified Mana Flask"
+	BaseType "Hallowed Hybrid Flask" "Eternal Life Flask" "Divine Life Flask" "Eternal Mana Flask" "Divine Mana Flask"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
 	SetFontSize 22
