@@ -7,6 +7,13 @@
 #12
 #11, 16, 2, 10
 
+###0012
+#	Incubators
+Show # item incubators
+	Class "Incubator"
+	MinimapIcon 1 Blue Square
+	PlayEffect Blue Temp
+	SetTextColor 184 218 242 255
 ###0011
 #	Maps
 Show
