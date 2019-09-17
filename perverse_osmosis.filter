@@ -1210,7 +1210,7 @@ Show #gems
 	SetBackgroundColor 27 162 155 180
 Show #corrupt gems
 	Class "Divination Card"
-	BaseType "Dialla's Subjugation" "The Artist" "The Cataclysm" "The Dragon's Heart" "The Rite of Elements" "The Wilted Rose" "Volatile Power" "Wealth and Power"
+	BaseType "Dialla's Subjugation" "The Artist" "The Cataclysm" "The Dragon's Heart" "The Rite of Elements" "The Skeleton" "The Wilted Rose" "Volatile Power" "Wealth and Power"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 27 162 155 180
