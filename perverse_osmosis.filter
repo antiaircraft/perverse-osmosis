@@ -13,7 +13,7 @@
 
 ## Megumin equivalents
 #1 - "megumin_osmosis/ChomusukeFaint.mp3"
-#2 - "megumin_osmosis/MeguminHai.mp3"
+#2 - "megumin_osmosis/MeguminExplodes.mp3"
 #3 - "megumin_osmosis/MeguminOi.mp3"
 #4 - "megumin_osmosis/MeguminExplosion.mp3"
 #5 - "megumin_osmosis/MeguminHuwaa.mp3"
@@ -22,7 +22,7 @@
 #11 - "megumin_osmosis/MeguminHa.mp3"
 #12 - "megumin_osmosis/MeguminNande.mp3"
 #13 - "megumin_osmosis/MeguminYoroshi.mp3"
-#16 - "megumin_osmosis/MeguminOh.mp3"
+#16 - "megumin_osmosis/MeguminHaha.mp3"
 
 ###0012
 #	Incubators
@@ -234,13 +234,13 @@ Show
 	Rarity >= Unique
 	MinimapIcon 2 Yellow Square
 	PlayEffect Brown Temp
-	CustomAlertSound "megumin_osmosis/MeguminHai.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminExplodes.mp3"
 	SetBorderColor 170 158 130 255
 Show
 	LinkedSockets = 6
 	MinimapIcon 2 Yellow Square
 	PlayEffect Yellow Temp
-	CustomAlertSound "megumin_osmosis/MeguminHai.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminExplodes.mp3"
 	SetBorderColor 170 158 130 255
 	
 ###000e
@@ -687,7 +687,7 @@ Show
 	BaseType "Remnant of Corruption"
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Blue
-	CustomAlertSound "megumin_osmosis/MeguminOh.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 	SetBorderColor 210 0 0 255
 	SetTextColor 184 218 242 255
 Show
@@ -695,7 +695,7 @@ Show
 	BaseType "Essence of Delirium" "Essence of Horror" "Essence of Insanity" "Essence of Hysteria"
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Blue
-	CustomAlertSound "megumin_osmosis/MeguminOh.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 	SetBorderColor 184 218 242 255
 	SetTextColor 184 218 242 255
 Show
@@ -704,7 +704,7 @@ Show
 	DropLevel >= 68
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Blue Temp
-	CustomAlertSound "megumin_osmosis/MeguminOh.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 	SetBorderColor 184 218 242 255
 	SetTextColor 184 218 242 255
 Show
@@ -712,7 +712,7 @@ Show
 	BaseType "Essence"
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Blue Temp
-	CustomAlertSound "megumin_osmosis/MeguminOh.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 	SetTextColor 184 218 242 255
 	
 ###0004
@@ -774,27 +774,27 @@ Show
 	BaseType "Divine Orb" "Orb of Annulment"
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Yellow Temp
-	CustomAlertSound "megumin_osmosis/MeguminHai.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminExplodes.mp3"
 	SetBorderColor 184 218 242 255
 	SetFontSize 37
 Show
 	BaseType "Ancient Orb"
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Yellow Temp
-	CustomAlertSound "megumin_osmosis/MeguminHai.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminExplodes.mp3"
 	SetBorderColor 175 96 37 255
 	SetFontSize 37
 Show
 	BaseType "Orb of Horizons" "Harbinger's Orb"
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Yellow Temp
-	CustomAlertSound "megumin_osmosis/MeguminHai.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminExplodes.mp3"
 	SetBorderColor 96 96 96 255
 	SetFontSize 37
 Show
 	BaseType "Annulment Shard" "Horizon Shard" "Ancient Shard" "Harbinger's Shard"
 	MinimapIcon 2 Yellow Triangle
-	CustomAlertSound "megumin_osmosis/MeguminHai.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminExplodes.mp3"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 170 158 130 220
 	SetFontSize 34
@@ -809,31 +809,31 @@ Show
 Show
 	BaseType "Chaos Orb"
 	MinimapIcon 2 Yellow Circle
-	CustomAlertSound "megumin_osmosis/MeguminOh.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 	SetBorderColor 255 255 119 255
 	SetFontSize 34
 Show
 	BaseType "Blessed Orb"
 	MinimapIcon 2 Yellow Circle
-	CustomAlertSound "megumin_osmosis/MeguminOh.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 	SetBorderColor 184 218 242 255
 	SetFontSize 34
 Show
 	BaseType "Resonator"
 	MinimapIcon 2 Yellow Triangle
-	CustomAlertSound "megumin_osmosis/MeguminOh.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 	SetBorderColor 184 218 242 255
 	SetFontSize 34
 Show
 	BaseType "Regal Orb"
 	MinimapIcon 2 Yellow Circle
-	CustomAlertSound "megumin_osmosis/MeguminOh.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 	SetBorderColor 136 136 255 255
 	SetFontSize 34
 Show
 	BaseType "Vaal Orb"
 	MinimapIcon 2 Yellow Circle
-	CustomAlertSound "megumin_osmosis/MeguminOh.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 	SetBorderColor 210 0 0 255
 	SetFontSize 34
 Show
@@ -845,13 +845,13 @@ Show
 	SetFontSize 34
 Show
 	BaseType "Chaos Shard" "Regal Shard"
-	CustomAlertSound "megumin_osmosis/MeguminOh.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 170 158 130 200
 Show
 	BaseType "Sextant"
 	MinimapIcon 2 Yellow Circle
-	CustomAlertSound "megumin_osmosis/MeguminOh.mp3"
+	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 	SetBorderColor 96 96 96 255
 Show
 	BaseType "Orb of Fusing" "Orb of Alchemy" "Glassblower's Bauble" "Orb of Regret" "Engineer's Orb"
