@@ -376,6 +376,7 @@ Show
 Show #glassblower recipe
 	Class "Flask"
 	Quality = 20
+	Rarity = Normal
 	MinimapIcon 2 Yellow Circle
 	SetBorderColor 170 158 130 255
 	PlayAlertSoundPositional 11 200
@@ -772,14 +773,14 @@ Show
 	SetBorderColor 175 96 37 255
 	SetFontSize 37
 Show
-	BaseType "Orb of Horizons" "Harbinger's Orb"
+	BaseType "Harbinger's Orb"
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Yellow Temp
 	PlayAlertSound 2 200
 	SetBorderColor 96 96 96 255
 	SetFontSize 37
 Show
-	BaseType "Annulment Shard" "Horizon Shard" "Ancient Shard" "Harbinger's Shard"
+	BaseType "Annulment Shard" "Ancient Shard" "Harbinger's Shard"
 	MinimapIcon 2 Yellow Triangle
 	PlayAlertSoundPositional 2 200
 	SetBackgroundColor 0 0 0 200
@@ -793,6 +794,12 @@ Show
 	PlayAlertSound 12 175
 	SetBorderColor 175 96 37 255
 	SetFontSize 34
+Show
+	BaseType "Orb of Horizons"
+	MinimapIcon 2 Yellow Circle
+	PlayAlertSound 16 175
+	SetBorderColor 96 96 96 255
+	SetFontSize 37
 Show
 	BaseType "Chaos Orb"
 	MinimapIcon 2 Yellow Circle
@@ -831,7 +838,7 @@ Show
 	SetBorderColor 14 186 255 255
 	SetFontSize 34
 Show
-	BaseType "Chaos Shard" "Regal Shard"
+	BaseType "Horizon Shard" "Chaos Shard" "Regal Shard"
 	PlayAlertSoundPositional 16 175
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 170 158 130 200
@@ -1171,7 +1178,7 @@ Show #currency magic
 	SetBorderColor 170 158 130 255
 Show #normal
 	Class "Divination Card"
-	BaseType "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Obscured" "The Metalsmith's Gift" "The Price of Protection" "The Surveyor" "Sambodhi's Vow"
+	BaseType "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Bargain" "The Obscured" "The Metalsmith's Gift" "The Price of Protection" "The Surveyor" "Sambodhi's Vow"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	SetBackgroundColor 200 200 200 180
