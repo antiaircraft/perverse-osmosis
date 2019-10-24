@@ -215,7 +215,7 @@ Show
 	SetFontSize 34
 	
 ###000f
-#	Divine Recipie
+#	Divine Recipe
 Show
 	LinkedSockets = 6
 	Rarity >= Unique
