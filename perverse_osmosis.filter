@@ -12,17 +12,17 @@
 #16	Chaos Orb Tier
 
 ## Megumin equivalents
-#1 - "megumin_osmosis/ChomusukeFaint.mp3"
-#2 - "megumin_osmosis/MeguminExplodes.mp3"
-#3 - "megumin_osmosis/MeguminOi.mp3"
-#4 - "megumin_osmosis/MeguminExplosion.mp3"
-#5 - "megumin_osmosis/MeguminHuwaa.mp3"
-#6 - "megumin_osmosis/MeguminNani.mp3"
-#10 - "megumin_osmosis/MeguminHyoizaburo.mp3"
-#11 - "megumin_osmosis/MeguminHa.mp3"
-#12 - "megumin_osmosis/MeguminNande.mp3"
-#13 - "megumin_osmosis/MeguminYoroshi.mp3"
-#16 - "megumin_osmosis/MeguminHaha.mp3"
+#1 - CustomAlertSound "megumin_osmosis/ChomusukeFaint.mp3"
+#2 - CustomAlertSound "megumin_osmosis/MeguminExplodes.mp3"
+#3 - CustomAlertSound "megumin_osmosis/MeguminOi.mp3"
+#4 - CustomAlertSound "megumin_osmosis/MeguminExplosion.mp3"
+#5 - CustomAlertSound "megumin_osmosis/MeguminHuwaa.mp3"
+#6 - CustomAlertSound "megumin_osmosis/MeguminNani.mp3"
+#10 - CustomAlertSound "megumin_osmosis/MeguminHyoizaburo.mp3"
+#11 - CustomAlertSound "megumin_osmosis/MeguminHa.mp3"
+#12 - CustomAlertSound "megumin_osmosis/MeguminNande.mp3"
+#13 - CustomAlertSound "megumin_osmosis/MeguminYoroshi.mp3"
+#16 - CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 
 ###0012
 #	Incubators
@@ -228,7 +228,7 @@ Show
 	SetFontSize 34
 	
 ###000f
-#	Divine Recipie
+#	Divine Recipe
 Show
 	LinkedSockets = 6
 	Rarity >= Unique
@@ -389,6 +389,7 @@ Show
 Show #glassblower recipe
 	Class "Flask"
 	Quality = 20
+	Rarity = Normal
 	MinimapIcon 2 Yellow Circle
 	SetBorderColor 170 158 130 255
 	CustomAlertSound "megumin_osmosis/MeguminHa.mp3"
@@ -517,7 +518,7 @@ Show #daggers
 Show #rune daggers
 	ItemLevel >= 85
 	Rarity = Rare
-	Class "Rune Dagger"
+	Class "Rune Daggers"
 	BaseType "Platinum Kris" "Imperial Skean" "Demon Dagger"
 	SetBorderColor 184 218 242 200
 	SetFontSize 28
@@ -571,7 +572,7 @@ Show #staves
 Show #war staves
 	ItemLevel >= 85
 	Rarity = Rare
-	Class "Warstaff"
+	Class "Warstaves"
 	BaseType "Maelström Staff" "Judgement Staff"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
@@ -785,14 +786,14 @@ Show
 	SetBorderColor 175 96 37 255
 	SetFontSize 37
 Show
-	BaseType "Orb of Horizons" "Harbinger's Orb"
+	BaseType "Harbinger's Orb"
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Yellow Temp
 	CustomAlertSound "megumin_osmosis/MeguminExplodes.mp3"
 	SetBorderColor 96 96 96 255
 	SetFontSize 37
 Show
-	BaseType "Annulment Shard" "Horizon Shard" "Ancient Shard" "Harbinger's Shard"
+	BaseType "Annulment Shard" "Ancient Shard" "Harbinger's Shard"
 	MinimapIcon 2 Yellow Triangle
 	CustomAlertSound "megumin_osmosis/MeguminExplodes.mp3"
 	SetBackgroundColor 0 0 0 200
@@ -806,6 +807,12 @@ Show
 	CustomAlertSound "megumin_osmosis/MeguminNande.mp3"
 	SetBorderColor 175 96 37 255
 	SetFontSize 34
+Show
+	BaseType "Orb of Horizons"
+	MinimapIcon 2 Yellow Circle
+	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
+	SetBorderColor 96 96 96 255
+	SetFontSize 37
 Show
 	BaseType "Chaos Orb"
 	MinimapIcon 2 Yellow Circle
@@ -844,7 +851,7 @@ Show
 	SetBorderColor 14 186 255 255
 	SetFontSize 34
 Show
-	BaseType "Chaos Shard" "Regal Shard"
+	BaseType "Horizon Shard" "Chaos Shard" "Regal Shard"
 	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 170 158 130 200
@@ -1057,6 +1064,15 @@ Show #mirror
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 184 218 242 255
 	SetFontSize 40
+Show #rhoa feather
+	Class "Divination Card"
+	BaseType "The Fishmonger"
+	MinimapIcon 0 Red Diamond
+	PlayEffect Red
+	CustomAlertSound "megumin_osmosis/MeguminExplosion.mp3"
+	SetBackgroundColor 170 158 130 180
+	SetBorderColor 184 218 242 255
+	SetFontSize 37
 Show #crafting
 	Class "Divination Card"
 	BaseType "No Traces" "The Sephirot"
@@ -1116,20 +1132,27 @@ Show #mirror cards
 	Class "Divination Card"
 	BaseType "The Immortal"
 	MinimapIcon 2 Red Diamond
-	PlayEffect Red Temp
+	PlayEffect Red
 	CustomAlertSound "megumin_osmosis/MeguminExplosion.mp3"
 	SetBackgroundColor 14 186 255 180
 	SetBorderColor 170 158 130 255
 	SetFontSize 37
 Show #uniques
 	Class "Divination Card"
-	BaseType "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour" "Birth of the Three" "Boon of the First Ones" "Dark Temptation" "Death" "Doedre's Madness" "Earth Drinker" "Glimmer of Hope" "Heterochromia" "Hubris" "Hunter's Resolve" "Hunter's Reward" "Jack in the Box" "Light and Truth" "Might is Right" "Mitts" "Rats" "Rebirth" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Army of Blood" "The Battle Born" "The Beast" "The Betrayal" "The Blazing Fire" "The Body" "The Breach" "The Calling" "The Coming Storm" "The Conduit" "The Demoness" "The Doctor" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Endless Darkness" "The Fathomless Depths" "The Formless Sea" "The Forsaken" "The Garish Power" "The Gladiator" "The Harvester" "The Hermit" "The Hunger" "The Incantation" "The King's Heart" "The Last One Standing" "The Lion" "The Lunaris Priestess" "The Master" "The Mayor" "The Messenger" "The Oath" "The Offering" "The Pack Leader" "The Pact" "The Penitent" "The Polymath" "The Primordial" "The Professor" "The Queen" "The Risk" "The Samurai's Eye" "The Scarred Meadow" "The Scavenger" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Sun" "The Sword King's Salute" "The Tower" "The Twilight Moon" "The Valkyrie" "The Vast" "The Visionary" "The Watcher" "The Wind" "The Witch" "The Wolf" "The Wolf's Shadow" "The Wolven King's Bite" "The Wretched" "Thirst for Knowledge" "Thunderous Skies" "Time-Lost Relic" "Tranquillity"
+	BaseType "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour" "Baited Expectations" "Birth of the Three" "Boon of the First Ones" "Dark Temptation" "Death" "Doedre's Madness" "Earth Drinker" "Glimmer of Hope" "Heterochromia" "Hubris" "Hunter's Resolve" "Hunter's Reward" "Jack in the Box" "Light and Truth" "Might is Right" "Mitts" "Rats" "Rebirth" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Army of Blood" "The Battle Born" "The Beast" "The Betrayal" "The Blazing Fire" "The Body" "The Breach" "The Calling" "The Coming Storm" "The Conduit" "The Craving" "The Demoness" "The Doctor" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Endless Darkness" "The Escape" "The Fathomless Depths" "The Formless Sea" "The Forsaken" "The Garish Power" "The Gladiator" "The Harvester" "The Hermit" "The Hunger" "The Incantation" "The King's Heart" "The Last One Standing" "The Lion" "The Lunaris Priestess" "The Master" "The Mayor" "The Messenger" "The Oath" "The Offering" "The Pack Leader" "The Pact" "The Penitent" "The Polymath" "The Primordial" "The Professor" "The Queen" "The Risk" "The Samurai's Eye" "The Scarred Meadow" "The Scavenger" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Sun" "The Sword King's Salute" "The Tower" "The Twilight Moon" "The Valkyrie" "The Vast" "The Visionary" "The Watcher" "The Wind" "The Witch" "The Wolf" "The Wolf's Shadow" "The Wolven King's Bite" "The Wretched" "Thirst for Knowledge" "Thunderous Skies" "Time-Lost Relic" "Tranquillity"
 	MinimapIcon 2 Blue Diamond
 	CustomAlertSound "megumin_osmosis/MeguminOi.mp3"
 	SetBackgroundColor 175 96 37 180
+Show #lab uniques
+	Class "Divination Card"
+	BaseType "Divine Justice"
+	MinimapIcon 2 Blue Diamond
+	CustomAlertSound "megumin_osmosis/MeguminOi.mp3"
+	SetBackgroundColor 175 96 37 180
+	SetBorderColor 184 218 242 255
 Show #corrupt uniques
 	Class "Divination Card"
-	BaseType "Anarchy's Price" "Arrogance of the Vaal" "Atziri's Arsenal" "Audacity" "Blind Venture" "Forbidden Power" "Hope" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Avenger" "The Brittle Emperor" "The Cursed King" "The Darkest Dream" "The Deceiver" "The Devastator" "The Encroaching Darkness" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Insatiable" "The Landing" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek"
+	BaseType "Anarchy's Price" "Arrogance of the Vaal" "Atziri's Arsenal" "Audacity" "Blind Venture" "Etched in Blood" "Forbidden Power" "Hope" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Avenger" "The Brittle Emperor" "The Cursed King" "The Darkest Dream" "The Deceiver" "The Devastator" "The Encroaching Darkness" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Insatiable" "The Landing" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek"
 	MinimapIcon 2 Blue Diamond
 	CustomAlertSound "megumin_osmosis/MeguminOi.mp3"
 	SetBackgroundColor 175 96 37 180
@@ -1183,7 +1206,7 @@ Show #currency magic
 	SetBorderColor 170 158 130 255
 Show #normal
 	Class "Divination Card"
-	BaseType "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Obscured" "The Metalsmith's Gift" "The Price of Protection" "The Surveyor" "Sambodhi's Vow"
+	BaseType "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Bargain" "The Obscured" "The Metalsmith's Gift" "The Price of Protection" "The Surveyor" "Sambodhi's Vow"
 	MinimapIcon 2 Blue Diamond
 	CustomAlertSound "megumin_osmosis/MeguminOi.mp3"
 	SetBackgroundColor 200 200 200 180
@@ -1203,7 +1226,7 @@ Show #currency normal
 	SetBorderColor 170 158 130 255
 Show #map fragments & stuff
 	Class "Divination Card"
-	BaseType "Buried Treasure" "Her Mask" "The Deal"
+	BaseType "Buried Treasure" "Cameria's Cut" "Her Mask" "The Deal"
 	MinimapIcon 2 Blue Diamond
 	CustomAlertSound "megumin_osmosis/MeguminOi.mp3"
 	SetBackgroundColor 200 200 200 180
@@ -1222,7 +1245,7 @@ Show #gems
 	SetBackgroundColor 27 162 155 180
 Show #corrupt gems
 	Class "Divination Card"
-	BaseType "Dialla's Subjugation" "The Artist" "The Cataclysm" "The Dragon's Heart" "The Rite of Elements" "The Skeleton" "The Wilted Rose" "Volatile Power" "Wealth and Power"
+	BaseType "Deathly Designs" "Dialla's Subjugation" "The Artist" "The Bones" "The Cataclysm" "The Dragon's Heart" "The Rite of Elements" "The Skeleton" "The Wilted Rose" "Volatile Power" "Wealth and Power"
 	MinimapIcon 2 Blue Diamond
 	CustomAlertSound "megumin_osmosis/MeguminOi.mp3"
 	SetBackgroundColor 27 162 155 180
@@ -1338,7 +1361,7 @@ Show #rune daggers
 	Identified True
 	Rarity >= Magic
 	ItemLevel >= 85
-	Class "Rune Dagger"
+	Class "Rune Daggers"
 	BaseType "Platinum Kris" "Imperial Skean" "Demon Dagger"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
@@ -1386,7 +1409,7 @@ Show #war staves
 	Identified True
 	Rarity >= Magic
 	ItemLevel >= 85
-	Class "Warstaff"
+	Class "Warstaves"
 	BaseType "Maelström Staff" "Judgement Staff"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
@@ -1571,7 +1594,7 @@ Hide #daggers
 	SetFontSize 22
 Hide #rune daggers
 	ItemLevel >= 85
-	Class "Rune Dagger"
+	Class "Rune Daggers"
 	BaseType "Platinum Kris" "Imperial Skean" "Demon Dagger"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
@@ -1613,7 +1636,7 @@ Hide #staves
 	SetFontSize 22
 Hide #war staves
 	ItemLevel >= 85
-	Class "Warstaff"
+	Class "Warstaves"
 	BaseType "Maelström Staff" "Judgement Staff"
 	SetBackgroundColor 0 0 0 160
 	SetBorderColor 184 218 242 200
@@ -1706,6 +1729,6 @@ Hide
 	SetBorderColor 170 158 130 180
 	SetFontSize 20
 Hide
-	Class "Belts" "Flasks" "Amulets" "Rings" "Quivers" "Shields" "Swords" "Sceptres" "Maces" "Bows" "Wands" "Boots" "Jewel" "Daggers" "Rune Dagger" "Staves" "Warstaff" "Axes" "Body Armours" "Helmet" "Gloves" "Claws"
+	Class "Belts" "Flasks" "Amulets" "Rings" "Quivers" "Shields" "Swords" "Sceptres" "Maces" "Bows" "Wands" "Boots" "Jewel" "Daggers" "Rune Daggers" "Staves" "Warstaves" "Axes" "Body Armours" "Helmet" "Gloves" "Claws"
 	SetBackgroundColor 0 0 0 140
 	SetFontSize 18
