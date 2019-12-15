@@ -750,7 +750,7 @@ Show
 	SetTextColor 0 0 0 255
 	SetFontSize 43
 Show
-	BaseType "Exalted Orb"
+	BaseType "Exalted Orb" "Awakener's Orb"
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow
 	CustomAlertSound "megumin_osmosis/MeguminHyoizaburo.mp3"
@@ -820,7 +820,7 @@ Show
 	SetBorderColor 255 255 119 255
 	SetFontSize 34
 Show
-	BaseType "Blessed Orb"
+	BaseType "Blessed Orb" "Catalyst"
 	MinimapIcon 2 Yellow Circle
 	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 	SetBorderColor 184 218 242 255
@@ -953,6 +953,20 @@ Show
 Show
 	Corrupted True
 	Class "Gem"
+	BaseType "Awakened"
+	GemLevel >= 6
+	MinimapIcon 0 White Square
+	PlayEffect Blue
+	SetBorderColor 210 0 0 255
+Show
+	Class "Gem"
+	BaseType "Awakened"
+	GemLevel >= 5
+	MinimapIcon 1 White Square
+	PlayEffect Blue
+Show
+	Corrupted True
+	Class "Gem"
 	BaseType "Empower" "Enhance" "Enlighten"
 	GemLevel >= 4
 	MinimapIcon 0 White Square
@@ -967,13 +981,13 @@ Show
 Show
 	Corrupted True
 	Class "Gem"
-	BaseType "Empower" "Enhance" "Enlighten" "Portal" "Added Chaos Damage Support"
+	BaseType "Empower" "Enhance" "Enlighten" "Portal" "Added Chaos Damage Support" "Awakened"
 	MinimapIcon 2 White Square
 	PlayEffect Blue Temp
 	SetBorderColor 210 0 0 255
 Show
 	Class "Gem"
-	BaseType "Empower" "Enhance" "Enlighten" "Portal" "Added Chaos Damage Support"
+	BaseType "Empower" "Enhance" "Enlighten" "Portal" "Added Chaos Damage Support" "Awakened"
 	MinimapIcon 2 White Square
 	PlayEffect Blue Temp
 Show
@@ -1259,7 +1273,7 @@ Show #quality gems
 	SetBorderColor 136 136 255 255
 Show #prophecies
 	Class "Divination Card"
-	BaseType "The Jeweller's Boon" "The Valley of Steel Boxes" "Vile Power"
+	BaseType "The Jeweller's Boon" "The Side Quest" "The Valley of Steel Boxes" "Vile Power"
 	MinimapIcon 2 Blue Diamond
 	CustomAlertSound "megumin_osmosis/MeguminOi.mp3"
 	SetBackgroundColor 181 75 255 180
