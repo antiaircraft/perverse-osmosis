@@ -1335,7 +1335,7 @@ Show #currency uniques
 	SetBorderColor 170 158 130 255
 Show #rares
 	Class "Divination Card"
-	BaseType "Lantador's Lost Love" "The Lover"
+	BaseType "Lantador's Lost Love" "The Journalist" "The Lover"
 	SetBackgroundColor 255 255 119 180
 Show #craftable rares
 	Class "Divination Card"
