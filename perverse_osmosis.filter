@@ -674,7 +674,7 @@ Show
 Show
 	Class "Jewel"
 	Rarity <= Magic
-	SetBackgroundColor 0 0 0 240
+	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
 Show # chisels, not when leveling
