@@ -689,6 +689,7 @@ Show # chisels, not when leveling
 	Corrupted False
 	AreaLevel > 67
 	Rarity = Normal
+	Mirrored False
 	BaseType "Rock Breaker" "Gavel" "Stone Hammer"
 	SetBackgroundColor 0 0 0 240
 	SetBorderColor 170 158 130 255
