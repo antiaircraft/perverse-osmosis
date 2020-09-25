@@ -1234,15 +1234,47 @@ Show
 	SetBorderColor 170 158 130 255
 	SetFontSize 18
 
+#!TODO! color diamonds for div cards based on what they give. add drop noises based on rewards
 ### Divination Cards
 Show
 	Class "Divination Card"
 	MinimapIcon 2 Blue Diamond
 	PlayAlertSoundPositional 3 125
 	Continue
-Show #currency
+Show #currency #!TODO! split this up
 	Class "Divination Card"
-	BaseType "Emperor's Luck" "Loyalty" "Lucky Connections" "Monochrome" "The Fool" "The Heroic Shot" "The Innocent" "The Master Artisan" "The Puzzle" "The Scholar" "The Survivalist" "Vinia's Token"
+	BaseType "Emperor's Luck" "The Master Artisan"
+	MinimapIcon 2 Yellow Diamond
+	SetBackgroundColor 170 158 130 180
+Show #fusing shard-like
+	Class "Divination Card"
+	BaseType "Loyalty" "Lucky Connections"
+	MinimapIcon 2 Yellow Diamond
+	SetBackgroundColor 170 158 130 180
+Show #chromatic shard-like
+	Class "Divination Card"
+	BaseType "The Heroic Shot"
+	MinimapIcon 2 Yellow Diamond
+	SetBackgroundColor 170 158 130 180
+Show #chance shard-like
+	Class "Divination Card"
+	BaseType "The Fool" 
+	MinimapIcon 2 Yellow Diamond
+	SetBackgroundColor 170 158 130 180
+Show #regret shard-like
+	Class "Divination Card"
+	BaseType "The Innocent" "Vinia's Token"
+	MinimapIcon 2 Yellow Diamond
+	SetBackgroundColor 170 158 130 180
+Show #scroll fragment-like
+	Class "Divination Card"
+	BaseType "The Scholar" 
+	MinimapIcon 2 Yellow Diamond
+	SetBackgroundColor 170 158 130 180
+Show #alchemy shard-like
+	Class "Divination Card"
+	BaseType "The Survivalist"
+	MinimapIcon 2 Yellow Diamond
 	SetBackgroundColor 170 158 130 180
 Show #mirror
 	Class "Divination Card"
@@ -1252,28 +1284,28 @@ Show #mirror
 	PlayAlertSound 4 275
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 184 218 242 255
-	SetFontSize 40
+	SetFontSize 45
 Show #mirror cards
 	Class "Divination Card"
 	BaseType "The Immortal"
-	MinimapIcon 2 Red Diamond
+	MinimapIcon 1 Red Diamond
 	PlayEffect Red
-	PlayAlertSoundPositional 4 300
+	PlayAlertSound 4 250
 	SetBackgroundColor 14 186 255 180
 	SetBorderColor 170 158 130 255
-	SetFontSize 37
+	SetFontSize 42
 Show #rhoa feather
 	Class "Divination Card"
 	BaseType "The Fishmonger"
 	MinimapIcon 2 Red Diamond
 	PlayEffect Red
-	PlayAlertSound 4 275
+	PlayAlertSound 1 250
 	SetBackgroundColor 255 255 255 180
 	SetBorderColor 0 0 0 255
 	SetFontSize 37
 Show #crafting
 	Class "Divination Card"
-	BaseType "Demigod's Wager" "No Traces" "The Sephirot"
+	BaseType "No Traces" 
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 184 218 242 255
 Show #regal
@@ -1281,24 +1313,86 @@ Show #regal
 	BaseType "Coveted Possession"
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 136 136 255 255
-Show #chaos / exalted
+Show #exalted
 	Class "Divination Card"
-	BaseType "Abandoned Wealth" "Chaotic Disposition" "Rain of Chaos" "The Hoarder" "The Saint's Treasure" "The Wrath" "Three Faces in the Dark"
+	BaseType "Brother's Stash"
+	MinimapIcon 0 Yellow Diamond
+	PlayEffect Yellow
+	PlayAlertSound 10 250
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 255 255 119 255
-Show #vaal orbs
+	SetFontSize 42
+Show #exalted shard-like
+	Class "Divination Card"
+	BaseType "Abandoned Wealth" "The Hoarder" "The Saint's Treasure"
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow Temp
+	PlayAlertSound 10 225
+	SetBackgroundColor 170 158 130 180
+	SetBorderColor 255 255 119 255
+	SetFontSize 36
+Show #annul shard-like
+	Class "Divination Card"
+	BaseType "Demigod's Wager"
+	MinimapIcon 1 Yellow Diamond
+	SetBackgroundColor 170 158 130 180
+	SetBorderColor 184 218 242 255
+	SetFontSize 33
+Show #divine shard-like
+	Class "Divination Card"
+	BaseType "The Sephirot"
+	MinimapIcon 1 Yellow Diamond
+	SetBackgroundColor 170 158 130 180
+	SetBorderColor 184 218 242 255
+	SetFontSize 33
+Show #chaos
+	Class "Divination Card"
+	BaseType "Chaotic Disposition"
+	MinimapIcon 1 Yellow Diamond
+	PlayAlertSound 16 175
+	SetBackgroundColor 170 158 130 180
+	SetBorderColor 255 255 119 255
+	SetFontSize 33
+Show #chaos shard-like
+	Class "Divination Card"
+	BaseType "Rain of Chaos" "The Wrath" "Three Faces in the Dark"
+	MinimapIcon 2 Yellow Diamond
+	PlayAlertSound 16 150
+	SetBackgroundColor 170 158 130 180
+	SetBorderColor 255 255 119 255
+Show #vaal shard-like
 	Class "Divination Card"
 	BaseType "The Catalyst" "The Inventor"
+	MinimapIcon 2 Yellow Diamond
+	PlayAlertSound 16 150
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 210 0 0 255
 Show #gemcutter's
 	Class "Divination Card"
+	MinimapIcon 2 Yellow Diamond
 	BaseType "The Gemcutter" "The Union"
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 27 162 155 255
-Show #map currency's
+Show #chisel
 	Class "Divination Card"
-	BaseType "The Cartographer" "The Journey" "Underground Forest"
+	BaseType "The Cartographer"
+	MinimapIcon 2 Yellow Diamond
+	PlayAlertSound 11 200
+	SetBackgroundColor 170 158 130 180
+	SetBorderColor 96 96 96 255
+Show #harbinger's shard-like
+	Class "Divination Card"
+	BaseType "The Journey"
+	MinimapIcon 1 Yellow Diamond
+	PlayAlertSound 2 175
+	SetBackgroundColor 170 158 130 180
+	SetBorderColor 96 96 96 255
+	SetFontSize 33
+Show #sextant shard-like
+	Class "Divination Card"
+	BaseType "Monochrome" "Underground Forest"
+	MinimapIcon 2 Yellow Diamond
+	PlayAlertSound 16 125
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 96 96 96 255
 Show #fossils
@@ -1378,7 +1472,7 @@ Show #currency normal
 	SetBorderColor 170 158 130 255
 Show #map fragments & stuff
 	Class "Divination Card"
-	BaseType "Buried Treasure" "Cameria's Cut" "Her Mask" "More is Never Enough" "The Deal"
+	BaseType "Buried Treasure" "Cameria's Cut" "Her Mask" "More is Never Enough" "The Deal" "The Puzzle"
 	SetBackgroundColor 200 200 200 180
 	SetBorderColor 96 96 96 255
 Show #essences
