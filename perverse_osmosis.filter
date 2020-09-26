@@ -1335,6 +1335,7 @@ Show #annul shard-like
 	Class "Divination Card"
 	BaseType "Demigod's Wager"
 	MinimapIcon 1 Yellow Diamond
+	PlayAlertSound 2 175
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 184 218 242 255
 	SetFontSize 33
@@ -1342,6 +1343,7 @@ Show #divine shard-like
 	Class "Divination Card"
 	BaseType "The Sephirot"
 	MinimapIcon 1 Yellow Diamond
+	PlayAlertSound 2 175
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 184 218 242 255
 	SetFontSize 33
@@ -1460,16 +1462,20 @@ Show #normal
 	Class "Divination Card"
 	BaseType "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Bargain" "The Obscured" "The Metalsmith's Gift" "The Price of Protection" "The Surveyor" "Sambodhi's Vow"
 	SetBackgroundColor 200 200 200 180
-Show #craftable normal
-	Class "Divination Card" 
-	BaseType "Bowyer's Dream" "The Dapper Prodigy" "The Warlord"
-	SetBackgroundColor 200 200 200 180
-	SetBorderColor 184 218 242 255
-Show #currency normal
+Show #normal jeweller's recipe
 	Class "Divination Card"
-	BaseType "Emperor of Purity" "Imperial Legacy" "The Celestial Justicar" "The Chains that Bind" "The Dark Mage" "The Ethereal" "The Flora's Gift" "The Porcupine" "The Sacrifice"
+	BaseType "The Flora's Gift"
+	PlayAlertSound 11 125
 	SetBackgroundColor 200 200 200 180
 	SetBorderColor 170 158 130 255
+Show #normal divine recipe
+	Class "Divination Card"
+	BaseType "Bowyer's Dream" "Emperor of Purity" "The Celestial Justicar" "The Chains that Bind" "The Dapper Prodigy" "Imperial Legacy" "The Dark Mage" "The Ethereal" "The Porcupine" "The Sacrifice" "The Warlord"
+	MinimapIcon 1 Yellow Diamond
+	PlayAlertSound 2 175
+	SetBackgroundColor 200 200 200 180
+	SetBorderColor 170 158 130 255
+	SetFontSize 33
 Show #map fragments & stuff
 	Class "Divination Card"
 	BaseType "Buried Treasure" "Cameria's Cut" "Her Mask" "More is Never Enough" "The Deal" "The Puzzle"
