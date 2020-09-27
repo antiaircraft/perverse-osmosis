@@ -1415,41 +1415,6 @@ Show #cards
 	Class "Divination Card"
 	BaseType "The Gambler" "The Nurse"
 	SetBackgroundColor 14 186 255 180
-Show #uniques #!TODO! split this up
-	Class "Divination Card"
-	BaseType "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour"  "Birth of the Three" "Boon of the First Ones" "Council of Cats" "Cursed Words" "Dark Temptation" "Death" "Doedre's Madness" "Earth Drinker" "Glimmer of Hope" "Heterochromia" "Hubris" "Hunter's Resolve" "Hunter's Reward" "Jack in the Box" "Light and Truth" "Might is Right" "Mitts" "Rats" "Rebirth" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Army of Blood" "The Battle Born" "The Beast" "The Betrayal" "The Blazing Fire" "The Body" "The Breach" "The Calling" "The Coming Storm" "The Conduit" "The Craving" "The Demoness" "The Doctor" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Endless Darkness" "The Escape" "The Fathomless Depths" "The Formless Sea" "The Forsaken" "The Garish Power" "The Gladiator" "The Harvester" "The Hermit" "The Hunger" "The Incantation" "The King's Heart" "The Last One Standing" "The Lion" "The Lunaris Priestess" "The Master" "The Mayor" "The Messenger" "The Oath" "The Offering" "The Pack Leader" "The Pact" "The Penitent" "The Polymath" "The Primordial" "The Professor" "The Queen" "The Risk" "The Samurai's Eye" "The Scarred Meadow" "The Scavenger" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Sun" "The Sword King's Salute" "The Tower" "The Twilight Moon" "The Valkyrie" "The Vast" "The Visionary" "The Watcher" "The Wind" "The Witch" "The Wolf" "The Wolf's Shadow" "The Wolven King's Bite" "The World Eater" "The Wretched" "Thirst for Knowledge" "Thunderous Skies" "Time-Lost Relic" "Tranquillity"
-	MinimapIcon 2 Brown Diamond
-	SetBackgroundColor 175 96 37 180
-Show #uniques
-	Class "Divination Card"
-	BaseType "The Deep Ones"
-	MinimapIcon 2 Brown Diamond
-	SetBackgroundColor 175 96 37 180
-Show #fishing uniques
-	Class "Divination Card"
-	BaseType "Baited Expectations"
-	MinimapIcon 2 Brown Diamond
-	SetBackgroundColor 175 96 37 180
-Show #lab uniques
-	Class "Divination Card"
-	BaseType "Divine Justice"
-	MinimapIcon 2 Brown Diamond
-	SetBackgroundColor 175 96 37 180
-	SetBorderColor 184 218 242 255
-Show #corrupt uniques
-	Class "Divination Card"
-	BaseType "Anarchy's Price" "Arrogance of the Vaal" "Atziri's Arsenal" "Audacity" "Blind Venture" "Echoes of Love" "Etched in Blood" "Forbidden Power" "Hope" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Avenger" "The Brittle Emperor" "The Chosen" "The Cursed King" "The Darkest Dream" "The Deceiver" "The Devastator" "The Encroaching Darkness" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Insatiable" "The Landing" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Undaunted" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek" "Unchained"
-	MinimapIcon 2 Brown Diamond
-	SetBackgroundColor 175 96 37 180
-	SetBorderColor 210 0 0 255
-Show #unique divine recipe
-	Class "Divination Card"
-	BaseType "Humility" "Vanity"
-	MinimapIcon 1 Yellow Diamond
-	PlayAlertSound 2 175
-	SetBackgroundColor 175 96 37 180
-	SetBorderColor 170 158 130 255
-	SetFontSize 33
 Show #rares
 	Class "Divination Card"
 	BaseType "Lantador's Lost Love" "The Journalist" "The Lover"
@@ -1538,6 +1503,41 @@ Show #essences
 	Class "Divination Card"
 	BaseType "The Cacophony" "Three Voices" "Harmony of Souls"
 	SetBackgroundColor 184 218 242 180
+Show #uniques #!TODO! split this up
+	Class "Divination Card"
+	BaseType "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour"  "Birth of the Three" "Boon of the First Ones" "Council of Cats" "Cursed Words" "Dark Temptation" "Death" "Doedre's Madness" "Earth Drinker" "Glimmer of Hope" "Heterochromia" "Hubris" "Hunter's Resolve" "Hunter's Reward" "Jack in the Box" "Light and Truth" "Might is Right" "Mitts" "Rats" "Rebirth" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Army of Blood" "The Battle Born" "The Beast" "The Betrayal" "The Blazing Fire" "The Body" "The Breach" "The Calling" "The Coming Storm" "The Conduit" "The Craving" "The Demoness" "The Doctor" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Endless Darkness" "The Escape" "The Fathomless Depths" "The Formless Sea" "The Forsaken" "The Garish Power" "The Gladiator" "The Harvester" "The Hermit" "The Hunger" "The Incantation" "The King's Heart" "The Last One Standing" "The Lion" "The Lunaris Priestess" "The Master" "The Mayor" "The Messenger" "The Oath" "The Offering" "The Pack Leader" "The Pact" "The Penitent" "The Polymath" "The Primordial" "The Professor" "The Queen" "The Risk" "The Samurai's Eye" "The Scarred Meadow" "The Scavenger" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Sun" "The Sword King's Salute" "The Tower" "The Twilight Moon" "The Valkyrie" "The Vast" "The Visionary" "The Watcher" "The Wind" "The Witch" "The Wolf" "The Wolf's Shadow" "The Wolven King's Bite" "The World Eater" "The Wretched" "Thirst for Knowledge" "Thunderous Skies" "Time-Lost Relic" "Tranquillity"
+	MinimapIcon 2 Brown Diamond
+	SetBackgroundColor 175 96 37 180
+Show #uniques
+	Class "Divination Card"
+	BaseType "The Deep Ones"
+	MinimapIcon 2 Brown Diamond
+	SetBackgroundColor 175 96 37 180
+Show #fishing uniques
+	Class "Divination Card"
+	BaseType "Baited Expectations"
+	MinimapIcon 2 Brown Diamond
+	SetBackgroundColor 175 96 37 180
+Show #lab uniques
+	Class "Divination Card"
+	BaseType "Divine Justice"
+	MinimapIcon 2 Brown Diamond
+	SetBackgroundColor 175 96 37 180
+	SetBorderColor 184 218 242 255
+Show #corrupt uniques
+	Class "Divination Card"
+	BaseType "Anarchy's Price" "Arrogance of the Vaal" "Atziri's Arsenal" "Audacity" "Blind Venture" "Echoes of Love" "Etched in Blood" "Forbidden Power" "Hope" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Avenger" "The Brittle Emperor" "The Chosen" "The Cursed King" "The Darkest Dream" "The Deceiver" "The Devastator" "The Encroaching Darkness" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Insatiable" "The Landing" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Undaunted" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek" "Unchained"
+	MinimapIcon 2 Brown Diamond
+	SetBackgroundColor 175 96 37 180
+	SetBorderColor 210 0 0 255
+Show #unique divine recipe
+	Class "Divination Card"
+	BaseType "Humility" "Vanity"
+	MinimapIcon 1 Yellow Diamond
+	PlayAlertSound 2 175
+	SetBackgroundColor 175 96 37 180
+	SetBorderColor 170 158 130 255
+	SetFontSize 33
 Show #gems
 	Class "Divination Card"
 	BaseType "Dying Anguish" "Gift of the Gemling Queen" "The Enlightened" "The Fox"
