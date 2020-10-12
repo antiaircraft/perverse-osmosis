@@ -749,11 +749,11 @@ Show #veiled mods
 	SetFontSize 30
 	Continue
 Show
-	Rarity = Rare
 	Class "Amulets"
 	BaseType "Greatwolf Talisman"
 	SetBackgroundColor 0 0 0 240
-	SetFontSize 33
+	SetFontSize 36
+	PlayAlertSoundPositional 1 200
 	Continue
 Show
 	HasInfluence Shaper Elder Hunter Redeemer Crusader Warlord
@@ -1487,21 +1487,25 @@ Show #breachstones
 Show #map fragments
 	Class "Divination Card"
 	BaseType "Her Mask" "Last Hope" "Sambodhi's Vow"
+	MinimapIcon 2 Grey Diamond
 	SetBackgroundColor 200 200 200 180
 	SetBorderColor 96 96 96 255
 Show #splinters
 	Class "Divination Card"
 	BaseType "The Puzzle"
+	MinimapIcon 2 Grey Diamond
 	SetBackgroundColor 200 200 200 180
 	SetBorderColor 96 96 96 255
 Show #scarabs
 	Class "Divination Card"
 	BaseType "Buried Treasure" "Cameria's Cut" "More is Never Enough" "The Deal"
+	MinimapIcon 2 Grey Diamond
 	SetBackgroundColor 200 200 200 180
 	SetBorderColor 96 96 96 255
 Show #essences
 	Class "Divination Card"
 	BaseType "The Cacophony" "Three Voices" "Harmony of Souls"
+	MinimapIcon 2 Yellow Diamond
 	SetBackgroundColor 184 218 242 180
 Show #uniques #!TODO! split this up
 	Class "Divination Card"
@@ -1510,7 +1514,7 @@ Show #uniques #!TODO! split this up
 	SetBackgroundColor 175 96 37 180
 Show #uniques
 	Class "Divination Card"
-	BaseType "The Deep Ones"
+	BaseType "The Deep Ones" "Succor of the Sinless"
 	MinimapIcon 2 Brown Diamond
 	SetBackgroundColor 175 96 37 180
 Show #fishing uniques
@@ -1537,21 +1541,21 @@ Show #unique divine recipe
 	PlayAlertSound 2 175
 	SetBackgroundColor 175 96 37 180
 	SetBorderColor 170 158 130 255
-	SetFontSize 33
-Show #gems
+	SetFontSize 33 
+Show #gems #!TODO! split these up
 	Class "Divination Card"
 	BaseType "Dying Anguish" "Gift of the Gemling Queen" "The Enlightened" "The Fox"
 	MinimapIcon 2 Cyan Diamond
 	SetBackgroundColor 27 162 155 180
-Show #corrupt gems
+Show #corrupt gems #!TODO! split these up
 	Class "Divination Card"
 	BaseType "Deathly Designs" "Dialla's Subjugation" "The Artist" "The Bones" "The Cataclysm" "The Dragon's Heart" "The Rite of Elements" "The Skeleton" "The Wilted Rose" "Volatile Power" "Wealth and Power"
 	MinimapIcon 2 Cyan Diamond
 	SetBackgroundColor 27 162 155 180
 	SetBorderColor 210 0 0 255
-Show #quality gems
+Show #quality gems #!TODO! split these up
 	Class "Divination Card"
-	BaseType "Gemcutter's Promise" "Grave Knowledge" "The Doppelganger" "The Summoner" "The Realm"
+	BaseType "Gemcutter's Promise" "Grave Knowledge" "The Bitter Blossom" "The Doppelganger" "The Summoner" "The Realm" 
 	MinimapIcon 2 Cyan Diamond
 	SetBackgroundColor 27 162 155 180
 	SetBorderColor 136 136 255 255
