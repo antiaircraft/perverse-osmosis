@@ -25,6 +25,9 @@
 #210   0   0 Corrupted
 #136 136 255 Quality
 
+## Colors (Custom)
+# 73  85  79 Labyrinth (or 97 130 113)
+
 ## Font Sizes
 #0-14 are the same
 #18 is smallest readable
@@ -497,21 +500,21 @@ Show #body armour
 Show #boots
 	Rarity = Rare
 	Class "Boots"
-	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots"
+	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots" "Stormrider Boots" "Dreamquest Slippers" "Brimstone Treads"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
 Show #gloves
 	Rarity = Rare
 	Class "Gloves"
-	BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts"
+	BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Sinistral Gloves" "Nexus Gloves" "Debilitation Gauntlets"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
 Show #helmets
 	Rarity = Rare
 	Class "Helmets"
-	BaseType "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Deicide Mask" "Vaal Mask"
+	BaseType "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Deicide Mask" "Vaal Mask" "Penitent Mask" "Blizzard Crown" "Archdemon Crown"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
@@ -715,12 +718,12 @@ Show
 	SetBackgroundColor 0 0 0 240
 	SetFontSize 27
 	Continue
-#Show #atlas jewelry
-#	Rarity = Rare
-#	BaseType "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Stygian Vise" "Crystal Belt" "Vanguard Belt" "Marble Amulet"
-#	SetBackgroundColor 0 0 0 240
-#	SetFontSize 30
-#	Continue
+Show #notable bases
+	Rarity = Rare
+	BaseType "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Stygian Vise" "Crystal Belt" "Vanguard Belt" "Marble Amulet"
+	SetBackgroundColor 0 0 0 240
+	SetFontSize 30
+	Continue
 Show #glassblower's recipe
 	Class "Flask"
 	Rarity = Normal
@@ -741,6 +744,12 @@ Show
 	Class "Belts" "Amulets" "Rings" "Quivers" "Shields" "Swords" "Sceptres" "Maces" "Bows" "Wands" "Boots" "Daggers" "Rune Daggers" "Staves" "Warstaves" "Axes" "Body Armours" "Helmet" "Gloves" "Claws" "Flask" "Jewel"
 	MinimapIcon 2 Brown Square
 	SetBackgroundColor 0 0 0 240
+	SetFontSize 30
+	Continue
+Show #enchants
+	AnyEnchantment True
+	SetBackgroundColor 0 0 0 240
+	SetBorderColor 73 85 79 255
 	SetFontSize 30
 	Continue
 Show #veiled mods
@@ -1534,12 +1543,12 @@ Show #fishing uniques
 	BaseType "Baited Expectations"
 	MinimapIcon 2 Brown Diamond
 	SetBackgroundColor 175 96 37 180
-Show #lab uniques
+Show #enchanted uniques
 	Class "Divination Card"
 	BaseType "Divine Justice"
 	MinimapIcon 2 Brown Diamond
 	SetBackgroundColor 175 96 37 180
-	SetBorderColor 184 218 242 255
+	SetBorderColor 73 85 79 255
 Show #corrupt uniques
 	Class "Divination Card"
 	BaseType "Anarchy's Price" "Arrogance of the Vaal" "Atziri's Arsenal" "Audacity" "Blind Venture" "Brotherhood in Exile" "Echoes of Love" "Etched in Blood" "Fateful Meeting" "Forbidden Power" "Hope" "Love Through Ice" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Astromancer" "The Avenger" "The Brittle Emperor" "The Chosen" "The Cursed King" "The Darkest Dream" "The Deceiver" "The Devastator" "The Encroaching Darkness" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Gulf" "The Insatiable" "The Landing" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Undaunted" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek" "Unchained"
