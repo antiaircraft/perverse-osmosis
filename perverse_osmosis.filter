@@ -165,7 +165,7 @@ Hide #boots
 	Rarity < Unique
 	ItemLevel >= 86
 	Class "Boots"
-	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots"
+	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots" "Stormrider Boots" "Dreamquest Slippers" "Brimstone Treads"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 18
@@ -175,7 +175,7 @@ Hide #gloves
 	Rarity < Unique
 	ItemLevel >= 85
 	Class "Gloves"
-	BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts"
+	BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Sinistral Gloves" "Nexus Gloves" "Debilitation Gauntlets"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 18
@@ -185,7 +185,7 @@ Hide #helmets
 	Rarity < Unique
 	ItemLevel >= 86
 	Class "Helmets"
-	BaseType "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Deicide Mask" "Vaal Mask"
+	BaseType "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Deicide Mask" "Vaal Mask" "Penitent Mask" "Blizzard Crown" "Archdemon Crown"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 18
@@ -964,7 +964,7 @@ Show
 	SetFontSize 45
 Show
     Class "Currency"
-	BaseType "Awakener's Orb" "Hunter's Exalted Orb" "Redeemer's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb"
+	BaseType "Awakener's Orb" "Hunter's Exalted Orb" "Redeemer's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb" "Maven's Orb"
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow
 	PlayAlertSound 10 250
@@ -1172,6 +1172,13 @@ Show
 	SetFontSize 30
 Show
 	Class "Currency"
+	BaseType "Crescent Splinter"
+	MinimapIcon 2 Grey Triangle
+	PlayAlertSoundPositional 12 150
+	SetBackgroundColor 57 57 57 247
+	SetFontSize 30
+Show
+	Class "Currency"
 	BaseType "Simulacrum Splinter"
 	MinimapIcon 2 Grey Triangle
 	PlayAlertSoundPositional 12 150
@@ -1244,6 +1251,11 @@ Show
 Show #currency #!TODO! split this up
 	Class "Divination Card"
 	BaseType "Emperor's Luck" "The Master Artisan"
+	MinimapIcon 2 Yellow Diamond
+	SetBackgroundColor 170 158 130 180
+Show #alteration
+	Class "Divination Card"
+	BaseType "Acclimatisation"
 	MinimapIcon 2 Yellow Diamond
 	SetBackgroundColor 170 158 130 180
 Show #fusing shard-like
@@ -1411,9 +1423,9 @@ Show #stacked decks
 	BaseType "Lucky Deck"
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 14 186 255 255
-Show #cards
+Show #divination cards
 	Class "Divination Card"
-	BaseType "The Gambler" "The Nurse"
+	BaseType "The Gambler" "The Nurse" "The Patient"
 	SetBackgroundColor 14 186 255 180
 Show #rares
 	Class "Divination Card"
@@ -1422,7 +1434,7 @@ Show #rares
 	SetBackgroundColor 255 255 119 180
 Show #craftable rares
 	Class "Divination Card"
-	BaseType "Destined to Crumble" "Nook's Crown" "The Opulent" "Perfection"
+	BaseType "Destined to Crumble" "Dying Light" "Nook's Crown" "The Opulent" "Perfection" "Prometheus' Armoury"
 	MinimapIcon 2 White Diamond
 	SetBackgroundColor 255 255 119 180
 	SetBorderColor 184 218 242 255
@@ -1440,12 +1452,12 @@ Show #corrupt rare maps
 	SetBorderColor 210 0 0 255
 Show #magic
 	Class "Divination Card"
-	BaseType "Prosperity" "Struck by Lightning" "The Carrion Crow" "The Inoculated" "The King's Blade" "The Lord in Black" "The Lord of Celebration" "The Sigil" "The Surgeon" "The Rabid Rhoa" "The Twins" "The Web"
+	BaseType "Keeper's Corruption" "Prosperity" "Struck by Lightning" "The Bear Woman" "The Carrion Crow" "The Inoculated" "The King's Blade" "The Lord in Black" "The Lord of Celebration" "The Sigil" "The Surgeon" "The Rabid Rhoa" "The Twins" "The Web"
 	MinimapIcon 2 White Diamond
 	SetBackgroundColor 136 136 255 180
 Show #craftable magic
 	Class "Divination Card"
-	BaseType "Blessing of God" "Merciless Armament" "Shard of Fate" "The Archmage's Right Hand" "The Endurance" "The Golden Era" "The Jester" "The Mountain" "The Road to Power" "The Spoiled Prince" "The Tyrant"
+	BaseType "A Familiar Call" "Blessing of God" "Merciless Armament" "Shard of Fate" "The Archmage's Right Hand" "The Endurance" "The Golden Era" "The Jester" "The Mountain" "The Road to Power" "The Spoiled Prince" "The Tyrant"
 	MinimapIcon 2 White Diamond
 	SetBackgroundColor 136 136 255 180
 	SetBorderColor 184 218 242 255
@@ -1456,7 +1468,7 @@ Show #normal
 	SetBackgroundColor 200 200 200 180
 Show #normal maps
 	Class "Divination Card"
-	BaseType "Boundless Realms" "Cartographer's Delight" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Price of Protection" "The Surveyor"
+	BaseType "Boundless Realms" "Cartographer's Delight" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Tumbleweed" "The Price of Protection" "The Surveyor"
 	MinimapIcon 2 Grey Diamond
 	SetBackgroundColor 200 200 200 180
 Show #normal jeweller's recipe
@@ -1468,7 +1480,7 @@ Show #normal jeweller's recipe
 	SetBorderColor 170 158 130 255
 Show #normal divine recipe
 	Class "Divination Card"
-	BaseType "Bowyer's Dream" "Emperor of Purity" "The Celestial Justicar" "The Chains that Bind" "The Dapper Prodigy" "Imperial Legacy" "The Dark Mage" "The Ethereal" "The Porcupine" "The Sacrifice" "The Warlord"
+	BaseType "Bowyer's Dream" "Draped in Dreams" "Emperor of Purity" "The Celestial Justicar" "The Chains that Bind" "The Dapper Prodigy" "Imperial Legacy" "The Dark Mage" "The Ethereal" "The Porcupine" "The Sacrifice" "The Warlord"
 	MinimapIcon 1 Yellow Diamond
 	PlayAlertSound 2 175
 	SetBackgroundColor 200 200 200 180
@@ -1509,12 +1521,12 @@ Show #essences
 	SetBackgroundColor 184 218 242 180
 Show #uniques #!TODO! split this up
 	Class "Divination Card"
-	BaseType "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour"  "Birth of the Three" "Boon of the First Ones" "Council of Cats" "Cursed Words" "Dark Temptation" "Death" "Doedre's Madness" "Earth Drinker" "Glimmer of Hope" "Heterochromia" "Hubris" "Hunter's Resolve" "Hunter's Reward" "Jack in the Box" "Light and Truth" "Might is Right" "Mitts" "Rats" "Rebirth" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Army of Blood" "The Battle Born" "The Beast" "The Betrayal" "The Blazing Fire" "The Body" "The Breach" "The Calling" "The Coming Storm" "The Conduit" "The Craving" "The Demoness" "The Doctor" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Endless Darkness" "The Escape" "The Fathomless Depths" "The Formless Sea" "The Forsaken" "The Garish Power" "The Gladiator" "The Harvester" "The Hermit" "The Hunger" "The Incantation" "The King's Heart" "The Last One Standing" "The Lion" "The Lunaris Priestess" "The Master" "The Mayor" "The Messenger" "The Oath" "The Offering" "The Pack Leader" "The Pact" "The Penitent" "The Polymath" "The Primordial" "The Professor" "The Queen" "The Risk" "The Samurai's Eye" "The Scarred Meadow" "The Scavenger" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Sun" "The Sword King's Salute" "The Tower" "The Twilight Moon" "The Valkyrie" "The Vast" "The Visionary" "The Watcher" "The Wind" "The Witch" "The Wolf" "The Wolf's Shadow" "The Wolven King's Bite" "The World Eater" "The Wretched" "Thirst for Knowledge" "Thunderous Skies" "Time-Lost Relic" "Tranquillity"
+	BaseType "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour"  "Birth of the Three" "Boon of the First Ones" "Council of Cats" "Cursed Words" "Dark Temptation" "Death" "Doedre's Madness" "Earth Drinker" "Glimmer of Hope" "Heterochromia" "Hubris" "Hunter's Resolve" "Hunter's Reward" "Jack in the Box" "Light and Truth" "Might is Right" "Mitts" "Peaceful Moments" "Rats" "Rebirth" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Army of Blood" "The Battle Born" "The Beast" "The Betrayal" "The Blazing Fire" "The Body" "The Breach" "The Cache" "The Calling" "The Coming Storm" "The Conduit" "The Craving" "The Demoness" "The Doctor" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Endless Darkness" "The Escape" "The Fathomless Depths" "The Formless Sea" "The Forsaken" "The Garish Power" "The Gladiator" "The Harvester" "The Hermit" "The Hunger" "The Incantation" "The King's Heart" "The Last One Standing" "The Lion" "The Lunaris Priestess" "The Master" "The Mayor" "The Messenger" "The Oath" "The Offering" "The Pack Leader" "The Pact" "The Penitent" "The Polymath" "The Primordial" "The Professor" "The Queen" "The Risk" "The Samurai's Eye" "The Scarred Meadow" "The Scavenger" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Sun" "The Sword King's Salute" "The Tower" "The Twilight Moon" "The Unexpected Prize" "The Valkyrie" "The Vast" "The Visionary" "The Watcher" "The Wind" "The Witch" "The Wolf" "The Wolf's Shadow" "The Wolven King's Bite" "The World Eater" "The Wretched" "Thirst for Knowledge" "Thunderous Skies" "Time-Lost Relic" "Tranquillity"
 	MinimapIcon 2 Brown Diamond
 	SetBackgroundColor 175 96 37 180
 Show #uniques
 	Class "Divination Card"
-	BaseType "The Deep Ones" "Succor of the Sinless"
+	BaseType "Haunting Shadows" "Reckless Ambition" "Succor of the Sinless" "The Deep Ones" "The Long Watch" "The Whiteout"
 	MinimapIcon 2 Brown Diamond
 	SetBackgroundColor 175 96 37 180
 Show #fishing uniques
@@ -1530,7 +1542,7 @@ Show #lab uniques
 	SetBorderColor 184 218 242 255
 Show #corrupt uniques
 	Class "Divination Card"
-	BaseType "Anarchy's Price" "Arrogance of the Vaal" "Atziri's Arsenal" "Audacity" "Blind Venture" "Echoes of Love" "Etched in Blood" "Forbidden Power" "Hope" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Avenger" "The Brittle Emperor" "The Chosen" "The Cursed King" "The Darkest Dream" "The Deceiver" "The Devastator" "The Encroaching Darkness" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Insatiable" "The Landing" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Undaunted" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek" "Unchained"
+	BaseType "Anarchy's Price" "Arrogance of the Vaal" "Atziri's Arsenal" "Audacity" "Blind Venture" "Brotherhood in Exile" "Echoes of Love" "Etched in Blood" "Fateful Meeting" "Forbidden Power" "Hope" "Love Through Ice" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Astromancer" "The Avenger" "The Brittle Emperor" "The Chosen" "The Cursed King" "The Darkest Dream" "The Deceiver" "The Devastator" "The Encroaching Darkness" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Gulf" "The Insatiable" "The Landing" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Undaunted" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek" "Unchained"
 	MinimapIcon 2 Brown Diamond
 	SetBackgroundColor 175 96 37 180
 	SetBorderColor 210 0 0 255
@@ -1549,7 +1561,7 @@ Show #gems #!TODO! split these up
 	SetBackgroundColor 27 162 155 180
 Show #corrupt gems #!TODO! split these up
 	Class "Divination Card"
-	BaseType "Deathly Designs" "Dialla's Subjugation" "The Artist" "The Bones" "The Cataclysm" "The Dragon's Heart" "The Rite of Elements" "The Skeleton" "The Wilted Rose" "Volatile Power" "Wealth and Power"
+	BaseType "Deathly Designs" "Dialla's Subjugation" "The Artist" "The Bitter Blossom" "The Bones" "The Cataclysm" "The Cheater" "The Dragon's Heart" "The Rite of Elements" "The Skeleton" "The Wilted Rose" "Volatile Power" "Wealth and Power"
 	MinimapIcon 2 Cyan Diamond
 	SetBackgroundColor 27 162 155 180
 	SetBorderColor 210 0 0 255
@@ -1566,7 +1578,7 @@ Show #prophecies #!TODO!# give these borders?
 	SetBackgroundColor 181 75 255 180
 Show #prophecies for uniques
     Class "Divination Card"
-    BaseType "Akil's Prophecy" "The Mad King" "Vile Power"
+    BaseType "A Note in the Wind" "Akil's Prophecy" "The Mad King" "Vile Power"
     MinimapIcon 2 Purple Diamond
     SetBackgroundColor 181 75 255 180
     SetBorderColor 175 96 37 255
