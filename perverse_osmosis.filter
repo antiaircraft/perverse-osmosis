@@ -718,12 +718,12 @@ Show
 	SetBackgroundColor 0 0 0 240
 	SetFontSize 27
 	Continue
-Show #notable bases
-	Rarity = Rare
-	BaseType "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Stygian Vise" "Crystal Belt" "Vanguard Belt" "Marble Amulet"
-	SetBackgroundColor 0 0 0 240
-	SetFontSize 30
-	Continue
+#Show #notable bases
+#	Rarity = Rare
+#	BaseType "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Stygian Vise" "Crystal Belt" "Vanguard Belt" "Marble Amulet"
+#	SetBackgroundColor 0 0 0 240
+#	SetFontSize 30
+#	Continue
 Show #glassblower's recipe
 	Class "Flask"
 	Rarity = Normal
