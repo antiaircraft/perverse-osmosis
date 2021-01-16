@@ -718,12 +718,6 @@ Show
 	SetBackgroundColor 0 0 0 240
 	SetFontSize 27
 	Continue
-#Show #notable bases
-#	Rarity = Rare
-#	BaseType "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Stygian Vise" "Crystal Belt" "Vanguard Belt" "Marble Amulet"
-#	SetBackgroundColor 0 0 0 240
-#	SetFontSize 30
-#	Continue
 Show #glassblower's recipe
 	Class "Flask"
 	Rarity = Normal
@@ -1127,12 +1121,13 @@ Show
 	SetFontSize 33
 Show
     Class "Currency"
-	BaseType "Sextant"
+	BaseType "Sextant" "Orb of Unmaking"
 	MinimapIcon 2 Yellow Circle
 	PlayAlertSound 16 150
 	SetBorderColor 96 96 96 255
 	SetFontSize 30
 Show
+	Class "Currency"
 	BaseType "Orb of Fusing" "Orb of Alchemy" "Glassblower's Bauble" "Orb of Regret" "Engineer's Orb"
 	MinimapIcon 2 Yellow Circle
 	PlayAlertSoundPositional 11 200
