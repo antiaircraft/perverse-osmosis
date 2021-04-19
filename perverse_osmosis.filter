@@ -158,7 +158,7 @@ Hide #body armour
 	Rarity < Unique
 	ItemLevel >= 86
 	Class "Body Armour"
-	BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb"
+	BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb" "Grasping Mail"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 18
@@ -168,7 +168,7 @@ Hide #boots
 	Rarity < Unique
 	ItemLevel >= 86
 	Class "Boots"
-	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots" "Stormrider Boots" "Dreamquest Slippers" "Brimstone Treads"
+	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots" "Stormrider Boots" "Dreamquest Slippers" "Brimstone Treads" "Blessed Boots"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 18
@@ -178,7 +178,7 @@ Hide #gloves
 	Rarity < Unique
 	ItemLevel >= 85
 	Class "Gloves"
-	BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Sinistral Gloves" "Nexus Gloves" "Debilitation Gauntlets"
+	BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Sinistral Gloves" "Nexus Gloves" "Debilitation Gauntlets" "Apothecary's Gloves"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 18
@@ -358,7 +358,7 @@ Hide #quivers
 	Rarity < Unique
 	ItemLevel >= 85
 	Class "Quivers"
-	BaseType "Two-Point Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver"
+	BaseType "Two-Point Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver" "Artillery Quiver"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 18
@@ -378,7 +378,7 @@ Hide #rings
 	Rarity < Unique
 	ItemLevel >= 85
 	Class "Rings"
-	BaseType "Cogwork Ring" "Geodesic Ring" "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring"
+	BaseType "Cogwork Ring" "Geodesic Ring" "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring" "Iolite Ring"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 18
@@ -388,7 +388,7 @@ Hide #amulets
 	Rarity < Unique
 	ItemLevel >= 86
 	Class "Amulets"
-	BaseType "Astrolabe Amulet" "Simplex Amulet" "Blue Pearl Amulet" "Marble Amulet" "Ruby Amulet" "Onyx Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Gold Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet"
+	BaseType "Astrolabe Amulet" "Simplex Amulet" "Blue Pearl Amulet" "Marble Amulet" "Ruby Amulet" "Onyx Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Gold Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Seaglass Amulet"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 18
@@ -493,21 +493,21 @@ Show
 Show #body armour
 	Rarity = Rare
 	Class "Body Armour"
-	BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb"
+	BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb" "Grasping Mail"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
 Show #boots
 	Rarity = Rare
 	Class "Boots"
-	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots" "Stormrider Boots" "Dreamquest Slippers" "Brimstone Treads"
+	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots" "Stormrider Boots" "Dreamquest Slippers" "Brimstone Treads" "Blessed Boots"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
 Show #gloves
 	Rarity = Rare
 	Class "Gloves"
-	BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Sinistral Gloves" "Nexus Gloves" "Debilitation Gauntlets"
+	BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Sinistral Gloves" "Nexus Gloves" "Debilitation Gauntlets" "Apothecary's Gloves"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
@@ -633,7 +633,7 @@ Show #wands
 Show #quivers
 	Rarity = Rare
 	Class "Quivers"
-	BaseType "Two-Point Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver"
+	BaseType "Two-Point Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver" "Artillery Quiver"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
@@ -647,14 +647,14 @@ Show #belts
 Show #rings
 	Rarity = Rare
 	Class "Rings"
-	BaseType "Cogwork Ring" "Geodesic Ring" "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring"
+	BaseType "Cogwork Ring" "Geodesic Ring" "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring" "Iolite Ring"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
 Show #amulets
 	Rarity = Rare
 	Class "Amulets"
-	BaseType "Astrolabe Amulet" "Simplex Amulet" "Blue Pearl Amulet" "Marble Amulet" "Ruby Amulet" "Onyx Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Gold Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet"
+	BaseType "Astrolabe Amulet" "Simplex Amulet" "Blue Pearl Amulet" "Marble Amulet" "Ruby Amulet" "Onyx Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Gold Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Seaglass Amulet"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
@@ -1099,7 +1099,7 @@ Show
 Show
     Class "Currency"
 	BaseType "Regal Shard"
-	MinimapIcon 2 Yellow Circle
+	MinimapIcon 2 Yellow Triangle
 	PlayAlertSoundPositional 16 175
 	SetBackgroundColor 0 0 0 220
 	SetBorderColor 136 136 255 255
@@ -1259,7 +1259,7 @@ Show #currency #!TODO! split this up
 	SetBackgroundColor 170 158 130 180
 Show #alteration
 	Class "Divination Card"
-	BaseType "Acclimatisation"
+	BaseType "Acclimatisation" "Society's Remorse"
 	MinimapIcon 2 Yellow Diamond
 	SetBackgroundColor 170 158 130 180
 Show #fusing shard-like
@@ -1450,7 +1450,7 @@ Show #corrupt rares
 	SetBorderColor 210 0 0 255
 Show #corrupt rare maps
 	Class "Divination Card"
-	BaseType "Left to Fate" "Lingering Remnants" "The Easy Stroll" "The Explorer" "The Trial"
+	BaseType "Left to Fate" "Lingering Remnants" "The Easy Stroll" "The Explorer" "The Trial" "Triskaidekaphobia"
 	MinimapIcon 2 Grey Diamond
 	SetBackgroundColor 255 255 119 180
 	SetBorderColor 210 0 0 255
@@ -1461,7 +1461,7 @@ Show #magic
 	SetBackgroundColor 136 136 255 180
 Show #craftable magic
 	Class "Divination Card"
-	BaseType "A Familiar Call" "Blessing of God" "Merciless Armament" "Shard of Fate" "The Archmage's Right Hand" "The Endurance" "The Golden Era" "The Jester" "The Mountain" "The Road to Power" "The Spoiled Prince" "The Tyrant"
+	BaseType "A Familiar Call" "Blessing of God" "Merciless Armament" "Shard of Fate" "The Archmage's Right Hand" "The Endurance" "The Golden Era" "The Jester" "The Mountain" "The Road to Power" "The Shortcut" "The Spoiled Prince" "The Tyrant"
 	MinimapIcon 2 White Diamond
 	SetBackgroundColor 136 136 255 180
 	SetBorderColor 184 218 242 255
@@ -1470,6 +1470,12 @@ Show #normal
 	BaseType "The Metalsmith's Gift"
 	MinimapIcon 2 White Diamond
 	SetBackgroundColor 200 200 200 180
+Show #craftable normal
+	Class "Divination Card"
+	BaseType "Broken Promises"
+	MinimapIcon 2 White Diamond
+	SetBackgroundColor 200 200 200 180
+	SetBorderColor 184 218 242 255
 Show #normal maps
 	Class "Divination Card"
 	BaseType "Boundless Realms" "Cartographer's Delight" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Tumbleweed" "The Price of Protection" "The Surveyor"
@@ -1514,7 +1520,7 @@ Show #splinters
 	SetBorderColor 96 96 96 255
 Show #scarabs
 	Class "Divination Card"
-	BaseType "Buried Treasure" "Cameria's Cut" "More is Never Enough" "The Deal"
+	BaseType "Buried Treasure" "Cameria's Cut" "More is Never Enough" "The Card Sharp" "The Deal"
 	MinimapIcon 2 Grey Diamond
 	SetBackgroundColor 200 200 200 180
 	SetBorderColor 96 96 96 255
@@ -1530,7 +1536,7 @@ Show #uniques #!TODO! split this up
 	SetBackgroundColor 175 96 37 180
 Show #uniques
 	Class "Divination Card"
-	BaseType "Haunting Shadows" "Reckless Ambition" "Succor of the Sinless" "The Deep Ones" "The Long Watch" "The Whiteout"
+	BaseType "Haunting Shadows" "Prejudice" "Reckless Ambition" "Succor of the Sinless" "The Adventuring Spirit" "The Deep Ones" "The Hook" "The Long Watch" "The Whiteout" "Winter's Embrace"
 	MinimapIcon 2 Brown Diamond
 	SetBackgroundColor 175 96 37 180
 Show #fishing uniques
@@ -1546,7 +1552,7 @@ Show #enchanted uniques
 	SetBorderColor 73 85 79 255
 Show #corrupt uniques
 	Class "Divination Card"
-	BaseType "Anarchy's Price" "Arrogance of the Vaal" "Atziri's Arsenal" "Audacity" "Blind Venture" "Brotherhood in Exile" "Echoes of Love" "Etched in Blood" "Fateful Meeting" "Forbidden Power" "Hope" "Love Through Ice" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Astromancer" "The Avenger" "The Brittle Emperor" "The Chosen" "The Cursed King" "The Darkest Dream" "The Deceiver" "The Devastator" "The Encroaching Darkness" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Gulf" "The Insatiable" "The Landing" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Undaunted" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek" "Unchained"
+	BaseType "A Modest Request" "Anarchy's Price" "Arrogance of the Vaal" "Atziri's Arsenal" "Audacity" "Blind Venture" "Brotherhood in Exile" "Deadly Joy" "Echoes of Love" "Etched in Blood" "Fateful Meeting" "Forbidden Power" "Hope" "Love Through Ice" "Luck of the Vaal" "Luminous Trove" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Astromancer" "The Avenger" "The Brittle Emperor" "The Chosen" "The Cursed King" "The Darkest Dream" "The Deceiver" "The Devastator" "The Encroaching Darkness" "The Enthusiasts" "The Eternal War" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Gulf" "The Insatiable" "The Landing" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Undaunted" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek" "Unchained"
 	MinimapIcon 2 Brown Diamond
 	SetBackgroundColor 175 96 37 180
 	SetBorderColor 210 0 0 255
