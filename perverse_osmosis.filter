@@ -38,6 +38,9 @@
 #210   0   0 Corrupted
 #136 136 255 Quality
 
+## Colors (Custom)
+# 73  85  79 Labyrinth (or 97 130 113)
+
 ## Font Sizes
 #0-14 are the same
 #18 is smallest readable
@@ -168,7 +171,7 @@ Hide #body armour
 	Rarity < Unique
 	ItemLevel >= 86
 	Class "Body Armour"
-	BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb"
+	BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb" "Grasping Mail"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 18
@@ -178,7 +181,7 @@ Hide #boots
 	Rarity < Unique
 	ItemLevel >= 86
 	Class "Boots"
-	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots"
+	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots" "Stormrider Boots" "Dreamquest Slippers" "Brimstone Treads" "Blessed Boots"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 18
@@ -188,7 +191,7 @@ Hide #gloves
 	Rarity < Unique
 	ItemLevel >= 85
 	Class "Gloves"
-	BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts"
+	BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Sinistral Gloves" "Nexus Gloves" "Debilitation Gauntlets" "Apothecary's Gloves"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 18
@@ -198,7 +201,7 @@ Hide #helmets
 	Rarity < Unique
 	ItemLevel >= 86
 	Class "Helmets"
-	BaseType "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Deicide Mask" "Vaal Mask"
+	BaseType "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Deicide Mask" "Vaal Mask" "Penitent Mask" "Blizzard Crown" "Archdemon Crown"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 18
@@ -368,7 +371,7 @@ Hide #quivers
 	Rarity < Unique
 	ItemLevel >= 85
 	Class "Quivers"
-	BaseType "Two-Point Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver"
+	BaseType "Two-Point Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver" "Artillery Quiver"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 18
@@ -388,7 +391,7 @@ Hide #rings
 	Rarity < Unique
 	ItemLevel >= 85
 	Class "Rings"
-	BaseType "Cogwork Ring" "Geodesic Ring" "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring"
+	BaseType "Cogwork Ring" "Geodesic Ring" "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring" "Iolite Ring"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 18
@@ -398,7 +401,7 @@ Hide #amulets
 	Rarity < Unique
 	ItemLevel >= 86
 	Class "Amulets"
-	BaseType "Astrolabe Amulet" "Simplex Amulet" "Blue Pearl Amulet" "Marble Amulet" "Ruby Amulet" "Onyx Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Gold Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet"
+	BaseType "Astrolabe Amulet" "Simplex Amulet" "Blue Pearl Amulet" "Marble Amulet" "Ruby Amulet" "Onyx Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Gold Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Seaglass Amulet"
 	SetBackgroundColor 0 0 0 200
 	SetBorderColor 184 218 242 255
 	SetFontSize 18
@@ -503,28 +506,28 @@ Show
 Show #body armour
 	Rarity = Rare
 	Class "Body Armour"
-	BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb"
+	BaseType "Astral Plate" "Glorious Plate" "Zodiac Leather" "Assassin's Garb" "Occultist's Vestment" "Vaal Regalia" "Full Dragonscale" "General's Brigandine" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Sacrificial Garb" "Grasping Mail"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
 Show #boots
 	Rarity = Rare
 	Class "Boots"
-	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots"
+	BaseType "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Murder Boots" "Two-Toned Boots" "Stormrider Boots" "Dreamquest Slippers" "Brimstone Treads" "Blessed Boots"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
 Show #gloves
 	Rarity = Rare
 	Class "Gloves"
-	BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts"
+	BaseType "Titan Gauntlets" "Spiked Gloves" "Slink Gloves" "Gripped Gloves" "Sorcerer Gloves" "Fingerless Silk Gloves" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Sinistral Gloves" "Nexus Gloves" "Debilitation Gauntlets" "Apothecary's Gloves"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
 Show #helmets
 	Rarity = Rare
 	Class "Helmets"
-	BaseType "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Deicide Mask" "Vaal Mask"
+	BaseType "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Deicide Mask" "Vaal Mask" "Penitent Mask" "Blizzard Crown" "Archdemon Crown"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
@@ -643,7 +646,7 @@ Show #wands
 Show #quivers
 	Rarity = Rare
 	Class "Quivers"
-	BaseType "Two-Point Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver"
+	BaseType "Two-Point Arrow Quiver" "Sharktooth Arrow Quiver" "Blunt Arrow Quiver" "Fire Arrow Quiver" "Broadhead Arrow Quiver" "Penetrating Arrow Quiver" "Spike-Point Arrow Quiver" "Artillery Quiver"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
@@ -657,14 +660,14 @@ Show #belts
 Show #rings
 	Rarity = Rare
 	Class "Rings"
-	BaseType "Cogwork Ring" "Geodesic Ring" "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring"
+	BaseType "Cogwork Ring" "Geodesic Ring" "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amethyst Ring" "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Paua Ring" "Jet Ring" "Gold Ring" "Diamond Ring" "Moonstone Ring" "Unset Ring" "Iolite Ring"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
 Show #amulets
 	Rarity = Rare
 	Class "Amulets"
-	BaseType "Astrolabe Amulet" "Simplex Amulet" "Blue Pearl Amulet" "Marble Amulet" "Ruby Amulet" "Onyx Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Gold Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet"
+	BaseType "Astrolabe Amulet" "Simplex Amulet" "Blue Pearl Amulet" "Marble Amulet" "Ruby Amulet" "Onyx Amulet" "Citrine Amulet" "Agate Amulet" "Turquoise Amulet" "Gold Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Seaglass Amulet"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 24
 	Continue
@@ -728,12 +731,6 @@ Show
 	SetBackgroundColor 0 0 0 240
 	SetFontSize 27
 	Continue
-#Show #atlas jewelry
-#	Rarity = Rare
-#	BaseType "Vermillion Ring" "Cerulean Ring" "Opal Ring" "Steel Ring" "Stygian Vise" "Crystal Belt" "Vanguard Belt" "Marble Amulet"
-#	SetBackgroundColor 0 0 0 240
-#	SetFontSize 30
-#	Continue
 Show #glassblower's recipe
 	Class "Flask"
 	Rarity = Normal
@@ -756,17 +753,23 @@ Show
 	SetBackgroundColor 0 0 0 240
 	SetFontSize 30
 	Continue
+Show #enchants
+	AnyEnchantment True
+	SetBackgroundColor 0 0 0 240
+	SetBorderColor 73 85 79 255
+	SetFontSize 30
+	Continue
 Show #veiled mods
 	HasExplicitMod "Veil" # covers all master-specific veiled mods and generic "Veiled"
 	SetBackgroundColor 0 0 0 240
 	SetFontSize 30
 	Continue
 Show
-	Rarity = Rare
 	Class "Amulets"
 	BaseType "Greatwolf Talisman"
 	SetBackgroundColor 0 0 0 240
-	SetFontSize 33
+	SetFontSize 36
+	CustomAlertSound "megumin_osmosis/ChomusukeFaint.mp3"
 	Continue
 Show
 	HasInfluence Shaper Elder Hunter Redeemer Crusader Warlord
@@ -813,7 +816,7 @@ Hide
 Show
 	Class "Gem"
 	Quality > 0
-	MinimapIcon 2 Yellow Square
+	MinimapIcon 2 Yellow Raindrop
 	PlayEffect Cyan Temp
 	SetBackgroundColor 0 0 0 240
 	SetBorderColor 170 158 130 255
@@ -822,7 +825,7 @@ Show
 Show
 	Class "Gem"
 	BaseType "Vaal"
-	MinimapIcon 2 Yellow Square
+	#MinimapIcon 2 Yellow Raindrop
 	PlayEffect Cyan Temp
 	SetBackgroundColor 0 0 0 240
 	SetFontSize 27
@@ -831,7 +834,7 @@ Show
 	Corrupted False
 	Class "Gem"
 	BaseType "Portal" "Empower" "Enhance" "Enlighten"
-	MinimapIcon 2 Cyan Square
+	MinimapIcon 2 Cyan Raindrop
 	PlayEffect Cyan
 	SetBackgroundColor 0 0 0 240
 	SetFontSize 30
@@ -839,7 +842,7 @@ Show
 Show
 	Class "Gem"
 	GemLevel = 20
-	MinimapIcon 2 Cyan Square
+	MinimapIcon 2 Cyan Raindrop
 	PlayEffect Cyan
 	SetBackgroundColor 0 0 0 240
 	SetFontSize 30
@@ -847,7 +850,7 @@ Show
 Show
 	Class "Gem"
 	Quality = 20
-	MinimapIcon 2 Cyan Square
+	MinimapIcon 2 Cyan Raindrop
 	PlayEffect Cyan
 	SetBackgroundColor 0 0 0 240
 	SetFontSize 30
@@ -855,7 +858,7 @@ Show
 Show
 	Class "Gem"
 	GemLevel > 20
-	MinimapIcon 1 Cyan Square
+	MinimapIcon 1 Cyan Raindrop
 	PlayEffect Cyan
 	SetBackgroundColor 0 0 0 240
 	SetFontSize 33
@@ -863,7 +866,7 @@ Show
 Show
 	Class "Gem"
 	Quality > 20
-	MinimapIcon 1 Cyan Square
+	MinimapIcon 1 Cyan Raindrop
 	PlayEffect Cyan
 	SetBackgroundColor 0 0 0 240
 	SetFontSize 33
@@ -871,7 +874,7 @@ Show
 Show
 	Class "Gem"
 	BaseType "Awakened"
-	MinimapIcon 1 Cyan Square
+	MinimapIcon 1 Cyan Raindrop
 	PlayEffect Cyan
 	SetBackgroundColor 0 0 0 240
 	SetFontSize 36
@@ -880,7 +883,7 @@ Show
 	Class "Gem"
 	BaseType "Empower" "Enhance" "Enlighten"
 	GemLevel = 4
-	MinimapIcon 1 Cyan Square
+	MinimapIcon 1 Cyan Raindrop
 	PlayEffect Cyan
 	SetBackgroundColor 0 0 0 240
 	SetFontSize 36
@@ -889,7 +892,7 @@ Show #!TODO!# this should have some kind of drop noise
 	Class "Gem"
 	BaseType "Awakened"
 	GemLevel = 6
-	MinimapIcon 0 Cyan Square
+	MinimapIcon 0 Cyan Raindrop
 	PlayEffect Cyan
 	SetBackgroundColor 0 0 0 240
 	SetFontSize 39
@@ -898,7 +901,7 @@ Show #!TODO!# this should have some kind of drop noise
 Show
 	Class "Gem"
 	BaseType "Item Quantity Support"
-	MinimapIcon 0 Red Square
+	MinimapIcon 0 Red Raindrop
 	PlayEffect Red
 	SetBackgroundColor 0 0 0 240
 	SetFontSize 45
@@ -977,7 +980,7 @@ Show
 	SetFontSize 45
 Show
     Class "Currency"
-	BaseType "Awakener's Orb" "Hunter's Exalted Orb" "Redeemer's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb"
+	BaseType "Awakener's Orb" "Hunter's Exalted Orb" "Redeemer's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb" "Maven's Orb"
 	MinimapIcon 1 Yellow Circle
 	PlayEffect Yellow
 	CustomAlertSound "megumin_osmosis/MeguminHyoizaburo.mp3"
@@ -1109,7 +1112,7 @@ Show
 Show
     Class "Currency"
 	BaseType "Regal Shard"
-	MinimapIcon 2 Yellow Circle
+	MinimapIcon 2 Yellow Triangle
 	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 	SetBackgroundColor 0 0 0 220
 	SetBorderColor 136 136 255 255
@@ -1131,12 +1134,13 @@ Show
 	SetFontSize 33
 Show
     Class "Currency"
-	BaseType "Sextant"
+	BaseType "Sextant" "Orb of Unmaking"
 	MinimapIcon 2 Yellow Circle
 	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 	SetBorderColor 96 96 96 255
 	SetFontSize 30
 Show
+	Class "Currency"
 	BaseType "Orb of Fusing" "Orb of Alchemy" "Glassblower's Bauble" "Orb of Regret" "Engineer's Orb"
 	MinimapIcon 2 Yellow Circle
 	CustomAlertSound "megumin_osmosis/MeguminHa.mp3"
@@ -1169,7 +1173,7 @@ Show
 	SetFontSize 30
 Show
 	BaseType "Gemcutter's Prism"
-	MinimapIcon 2 Yellow Circle
+	MinimapIcon 2 Cyan Circle
 	CustomAlertSound "megumin_osmosis/MeguminHa.mp3"
 	SetBorderColor 27 162 155 255
 	SetFontSize 30
@@ -1182,6 +1186,13 @@ Show
 	BaseType "Orb of Chance" "Jeweller's Orb" "Chromatic Orb" "Orb of Binding"
 	DisableDropSound
 	CustomAlertSound "megumin_osmosis/MeguminHa.mp3"
+	SetFontSize 30
+Show
+	Class "Currency"
+	BaseType "Crescent Splinter"
+	MinimapIcon 2 Grey Triangle
+	CustomAlertSound "megumin_osmosis/MeguminNande.mp3"
+	SetBackgroundColor 57 57 57 247
 	SetFontSize 30
 Show
 	Class "Currency"
@@ -1259,6 +1270,11 @@ Show #currency #!TODO! split this up
 	BaseType "Emperor's Luck" "The Master Artisan"
 	MinimapIcon 2 Yellow Diamond
 	SetBackgroundColor 170 158 130 180
+Show #alteration
+	Class "Divination Card"
+	BaseType "Acclimatisation" "Society's Remorse"
+	MinimapIcon 2 Yellow Diamond
+	SetBackgroundColor 170 158 130 180
 Show #fusing shard-like
 	Class "Divination Card"
 	BaseType "Loyalty" "Lucky Connections"
@@ -1316,14 +1332,17 @@ Show #rhoa feather
 	SetBackgroundColor 255 255 255 180
 	SetBorderColor 0 0 0 255
 	SetFontSize 37
-Show #crafting
+Show #scouring shard-like
 	Class "Divination Card"
-	BaseType "No Traces" 
+	BaseType "No Traces"
+	MinimapIcon 2 Yellow Diamond
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 184 218 242 255
-Show #regal
+Show #regal shard-like
 	Class "Divination Card"
 	BaseType "Coveted Possession"
+	MinimapIcon 2 Yellow Diamond
+	CustomAlertSound "megumin_osmosis/MeguminHaha.mp3"
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 136 136 255 255
 Show #exalted
@@ -1413,6 +1432,7 @@ Show #sextant shard-like
 Show #fossils
 	Class "Divination Card"
 	BaseType "The Tinkerer's Table"
+	MinimapIcon 2 Yellow Diamond
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 170 158 130 255
 Show #stacked decks
@@ -1420,111 +1440,175 @@ Show #stacked decks
 	BaseType "Lucky Deck"
 	SetBackgroundColor 170 158 130 180
 	SetBorderColor 14 186 255 255
-Show #cards
+Show #divination cards
 	Class "Divination Card"
-	BaseType "The Gambler" "The Nurse"
+	BaseType "The Gambler" "The Nurse" "The Patient"
 	SetBackgroundColor 14 186 255 180
-Show #uniques
-	Class "Divination Card"
-	BaseType "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour" "Baited Expectations" "Birth of the Three" "Boon of the First Ones" "Council of Cats" "Dark Temptation" "Death" "Doedre's Madness" "Earth Drinker" "Glimmer of Hope" "Heterochromia" "Hubris" "Hunter's Resolve" "Hunter's Reward" "Jack in the Box" "Light and Truth" "Might is Right" "Mitts" "Rats" "Rebirth" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Army of Blood" "The Battle Born" "The Beast" "The Betrayal" "The Blazing Fire" "The Body" "The Breach" "The Calling" "The Coming Storm" "The Conduit" "The Craving" "The Demoness" "The Doctor" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Endless Darkness" "The Escape" "The Fathomless Depths" "The Formless Sea" "The Forsaken" "The Garish Power" "The Gladiator" "The Harvester" "The Hermit" "The Hunger" "The Incantation" "The King's Heart" "The Last One Standing" "The Lion" "The Lunaris Priestess" "The Master" "The Mayor" "The Messenger" "The Oath" "The Offering" "The Pack Leader" "The Pact" "The Penitent" "The Polymath" "The Primordial" "The Professor" "The Queen" "The Risk" "The Samurai's Eye" "The Scarred Meadow" "The Scavenger" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Sun" "The Sword King's Salute" "The Tower" "The Twilight Moon" "The Valkyrie" "The Vast" "The Visionary" "The Watcher" "The Wind" "The Witch" "The Wolf" "The Wolf's Shadow" "The Wolven King's Bite" "The World Eater" "The Wretched" "Thirst for Knowledge" "Thunderous Skies" "Time-Lost Relic" "Tranquillity"
-	SetBackgroundColor 175 96 37 180
-Show #lab uniques
-	Class "Divination Card"
-	BaseType "Divine Justice"
-	SetBackgroundColor 175 96 37 180
-	SetBorderColor 184 218 242 255
-Show #corrupt uniques
-	Class "Divination Card"
-	BaseType "Anarchy's Price" "Arrogance of the Vaal" "Atziri's Arsenal" "Audacity" "Blind Venture" "Echoes of Love" "Etched in Blood" "Forbidden Power" "Hope" "Luck of the Vaal" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Avenger" "The Brittle Emperor" "The Chosen" "The Cursed King" "The Darkest Dream" "The Deceiver" "The Devastator" "The Encroaching Darkness" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Insatiable" "The Landing" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Undaunted" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek" "Unchained"
-	SetBackgroundColor 175 96 37 180
-	SetBorderColor 210 0 0 255
-Show #currency uniques
-	Class "Divination Card"
-	BaseType "Humility" "Vanity"
-	SetBackgroundColor 175 96 37 180
-	SetBorderColor 170 158 130 255
 Show #rares
 	Class "Divination Card"
 	BaseType "Lantador's Lost Love" "The Journalist" "The Lover"
+	MinimapIcon 2 White Diamond
 	SetBackgroundColor 255 255 119 180
 Show #craftable rares
 	Class "Divination Card"
-	BaseType "Destined to Crumble" "Nook's Crown" "The Opulent" "Perfection"
+	BaseType "Destined to Crumble" "Dying Light" "Nook's Crown" "The Opulent" "Perfection" "Prometheus' Armoury"
+	MinimapIcon 2 White Diamond
 	SetBackgroundColor 255 255 119 180
 	SetBorderColor 184 218 242 255
 Show #corrupt rares
 	Class "Divination Card"
-	BaseType "Call to the First Ones" "Left to Fate" "Lingering Remnants" "The Easy Stroll" "The Explorer" "The Trial" "The Warden"
+	BaseType "Call to the First Ones" "The Warden"
+	MinimapIcon 2 White Diamond
+	SetBackgroundColor 255 255 119 180
+	SetBorderColor 210 0 0 255
+Show #corrupt rare maps
+	Class "Divination Card"
+	BaseType "Left to Fate" "Lingering Remnants" "The Easy Stroll" "The Explorer" "The Trial" "Triskaidekaphobia"
+	MinimapIcon 2 Grey Diamond
 	SetBackgroundColor 255 255 119 180
 	SetBorderColor 210 0 0 255
 Show #magic
 	Class "Divination Card"
-	BaseType "Prosperity" "Shard of Fate" "Struck by Lightning" "The Carrion Crow" "The Endurance" "The Inoculated" "The King's Blade" "The Lord in Black" "The Lord of Celebration" "The Mountain" "The Sigil" "The Surgeon" "The Rabid Rhoa" "The Twins"
+	BaseType "Keeper's Corruption" "Prosperity" "Struck by Lightning" "The Bear Woman" "The Carrion Crow" "The Inoculated" "The King's Blade" "The Lord in Black" "The Lord of Celebration" "The Sigil" "The Surgeon" "The Rabid Rhoa" "The Twins" "The Web"
+	MinimapIcon 2 White Diamond
 	SetBackgroundColor 136 136 255 180
 Show #craftable magic
 	Class "Divination Card"
-	BaseType "Blessing of God" "Merciless Armament" "The Archmage's Right Hand" "The Golden Era" "The Jester" "The Road to Power" "The Spoiled Prince" "The Tyrant"
+	BaseType "A Familiar Call" "Blessing of God" "Merciless Armament" "Shard of Fate" "The Archmage's Right Hand" "The Endurance" "The Golden Era" "The Jester" "The Mountain" "The Road to Power" "The Shortcut" "The Spoiled Prince" "The Tyrant"
+	MinimapIcon 2 White Diamond
 	SetBackgroundColor 136 136 255 180
 	SetBorderColor 184 218 242 255
-Show #currency magic
-	Class "Divination Card"
-	BaseType "The Web"
-	SetBackgroundColor 136 136 255 180
-	SetBorderColor 170 158 130 255
 Show #normal
 	Class "Divination Card"
-	BaseType "Boon of Justice" "Boundless Realms" "Cartographer's Delight" "Last Hope" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Bargain" "The Obscured" "The Metalsmith's Gift" "The Price of Protection" "The Surveyor" "Sambodhi's Vow"
+	BaseType "The Metalsmith's Gift"
+	MinimapIcon 2 White Diamond
+	SetBackgroundColor 200 200 200 180
+Show #craftable normal
+	Class "Divination Card"
+	BaseType "Broken Promises"
+	MinimapIcon 2 White Diamond
+	SetBackgroundColor 200 200 200 180
+	SetBorderColor 184 218 242 255
+Show #normal maps
+	Class "Divination Card"
+	BaseType "Boundless Realms" "Cartographer's Delight" "Lost Worlds" "Rain Tempter" "The Arena Champion" "The Tumbleweed" "The Price of Protection" "The Surveyor"
+	MinimapIcon 2 Grey Diamond
 	SetBackgroundColor 200 200 200 180
 Show #normal jeweller's recipe
 	Class "Divination Card"
 	BaseType "The Flora's Gift"
+	MinimapIcon 2 Yellow Diamond
 	CustomAlertSound "megumin_osmosis/MeguminHa.mp3"
 	SetBackgroundColor 200 200 200 180
 	SetBorderColor 170 158 130 255
 Show #normal divine recipe
 	Class "Divination Card"
-	BaseType "Bowyer's Dream" "Emperor of Purity" "The Celestial Justicar" "The Chains that Bind" "The Dapper Prodigy" "Imperial Legacy" "The Dark Mage" "The Ethereal" "The Porcupine" "The Sacrifice" "The Warlord"
+	BaseType "Bowyer's Dream" "Draped in Dreams" "Emperor of Purity" "The Celestial Justicar" "The Chains that Bind" "The Dapper Prodigy" "Imperial Legacy" "The Dark Mage" "The Ethereal" "The Porcupine" "The Sacrifice" "The Warlord"
 	MinimapIcon 1 Yellow Diamond
 	CustomAlertSound "megumin_osmosis/MeguminExplodes.mp3"
 	SetBackgroundColor 200 200 200 180
 	SetBorderColor 170 158 130 255
 	SetFontSize 33
-Show #map fragments & stuff
+Show #offering
 	Class "Divination Card"
-	BaseType "Buried Treasure" "Cameria's Cut" "Her Mask" "More is Never Enough" "The Deal" "The Puzzle"
+	BaseType "Boon of Justice"
+	MinimapIcon 2 Grey Diamond
+	SetBackgroundColor 200 200 200 180
+Show #breachstones
+	Class "Divination Card"
+	BaseType "The Bargain" "The Obscured"
+	MinimapIcon 2 Grey Diamond
+	SetBackgroundColor 200 200 200 180
+Show #map fragments
+	Class "Divination Card"
+	BaseType "Her Mask" "Last Hope" "Sambodhi's Vow"
+	MinimapIcon 2 Grey Diamond
+	SetBackgroundColor 200 200 200 180
+	SetBorderColor 96 96 96 255
+Show #splinters
+	Class "Divination Card"
+	BaseType "The Puzzle"
+	MinimapIcon 2 Grey Diamond
+	SetBackgroundColor 200 200 200 180
+	SetBorderColor 96 96 96 255
+Show #scarabs
+	Class "Divination Card"
+	BaseType "Buried Treasure" "Cameria's Cut" "More is Never Enough" "The Card Sharp" "The Deal"
+	MinimapIcon 2 Grey Diamond
 	SetBackgroundColor 200 200 200 180
 	SetBorderColor 96 96 96 255
 Show #essences
 	Class "Divination Card"
 	BaseType "The Cacophony" "Three Voices" "Harmony of Souls"
+	MinimapIcon 2 Yellow Diamond
 	SetBackgroundColor 184 218 242 180
-Show #gems
+Show #uniques #!TODO! split this up
+	Class "Divination Card"
+	BaseType "A Dab of Ink" "A Mother's Parting Gift" "Alone in the Darkness" "Assassin's Favour"  "Birth of the Three" "Boon of the First Ones" "Council of Cats" "Cursed Words" "Dark Temptation" "Death" "Doedre's Madness" "Earth Drinker" "Glimmer of Hope" "Heterochromia" "Hubris" "Hunter's Resolve" "Hunter's Reward" "Jack in the Box" "Light and Truth" "Might is Right" "Mitts" "Peaceful Moments" "Rats" "Rebirth" "Scholar of the Seas" "The Admirer" "The Aesthete" "The Army of Blood" "The Battle Born" "The Beast" "The Betrayal" "The Blazing Fire" "The Body" "The Breach" "The Cache" "The Calling" "The Coming Storm" "The Conduit" "The Craving" "The Demoness" "The Doctor" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Endless Darkness" "The Escape" "The Fathomless Depths" "The Formless Sea" "The Forsaken" "The Garish Power" "The Gladiator" "The Harvester" "The Hermit" "The Hunger" "The Incantation" "The King's Heart" "The Last One Standing" "The Lion" "The Lunaris Priestess" "The Master" "The Mayor" "The Messenger" "The Oath" "The Offering" "The Pack Leader" "The Pact" "The Penitent" "The Polymath" "The Primordial" "The Professor" "The Queen" "The Risk" "The Samurai's Eye" "The Scarred Meadow" "The Scavenger" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Sun" "The Sword King's Salute" "The Tower" "The Twilight Moon" "The Unexpected Prize" "The Valkyrie" "The Vast" "The Visionary" "The Watcher" "The Wind" "The Witch" "The Wolf" "The Wolf's Shadow" "The Wolven King's Bite" "The World Eater" "The Wretched" "Thirst for Knowledge" "Thunderous Skies" "Time-Lost Relic" "Tranquillity"
+	MinimapIcon 2 Brown Diamond
+	SetBackgroundColor 175 96 37 180
+Show #uniques
+	Class "Divination Card"
+	BaseType "Haunting Shadows" "Prejudice" "Reckless Ambition" "Succor of the Sinless" "The Adventuring Spirit" "The Deep Ones" "The Hook" "The Long Watch" "The Whiteout" "Winter's Embrace"
+	MinimapIcon 2 Brown Diamond
+	SetBackgroundColor 175 96 37 180
+Show #fishing uniques
+	Class "Divination Card"
+	BaseType "Baited Expectations"
+	MinimapIcon 2 Brown Diamond
+	SetBackgroundColor 175 96 37 180
+Show #enchanted uniques
+	Class "Divination Card"
+	BaseType "Divine Justice"
+	MinimapIcon 2 Brown Diamond
+	SetBackgroundColor 175 96 37 180
+	SetBorderColor 73 85 79 255
+Show #corrupt uniques
+	Class "Divination Card"
+	BaseType "A Modest Request" "Anarchy's Price" "Arrogance of the Vaal" "Atziri's Arsenal" "Audacity" "Blind Venture" "Brotherhood in Exile" "Deadly Joy" "Echoes of Love" "Etched in Blood" "Fateful Meeting" "Forbidden Power" "Hope" "Love Through Ice" "Luck of the Vaal" "Luminous Trove" "Lysah's Respite" "Mawr Blaidd" "Pride Before the Fall" "The Astromancer" "The Avenger" "The Brittle Emperor" "The Chosen" "The Cursed King" "The Darkest Dream" "The Deceiver" "The Devastator" "The Encroaching Darkness" "The Enthusiasts" "The Eternal War" "The Eye of the Dragon" "The Feast" "The Fiend" "The Fletcher" "The Gentleman" "The Gulf" "The Insatiable" "The Landing" "The Lich" "The Mercenary" "The One With All" "The Poet" "The Ruthless Ceinture" "The Siren" "The Thaumaturgist" "The Throne" "The Traitor" "The Undaunted" "The Wolverine" "Treasure Hunter" "Turn the Other Cheek" "Unchained"
+	MinimapIcon 2 Brown Diamond
+	SetBackgroundColor 175 96 37 180
+	SetBorderColor 210 0 0 255
+Show #unique divine recipe
+	Class "Divination Card"
+	BaseType "Humility" "Vanity"
+	MinimapIcon 1 Yellow Diamond
+	CustomAlertSound "megumin_osmosis/MeguminExplodes.mp3"
+	SetBackgroundColor 175 96 37 180
+	SetBorderColor 170 158 130 255
+	SetFontSize 33 
+Show #gems #!TODO! split these up
 	Class "Divination Card"
 	BaseType "Dying Anguish" "Gift of the Gemling Queen" "The Enlightened" "The Fox"
+	MinimapIcon 2 Cyan Diamond
 	SetBackgroundColor 27 162 155 180
-Show #corrupt gems
+Show #corrupt gems #!TODO! split these up
 	Class "Divination Card"
-	BaseType "Deathly Designs" "Dialla's Subjugation" "The Artist" "The Bones" "The Cataclysm" "The Dragon's Heart" "The Rite of Elements" "The Skeleton" "The Wilted Rose" "Volatile Power" "Wealth and Power"
+	BaseType "Deathly Designs" "Dialla's Subjugation" "The Artist" "The Bitter Blossom" "The Bones" "The Cataclysm" "The Cheater" "The Dragon's Heart" "The Rite of Elements" "The Skeleton" "The Wilted Rose" "Volatile Power" "Wealth and Power"
+	MinimapIcon 2 Cyan Diamond
 	SetBackgroundColor 27 162 155 180
 	SetBorderColor 210 0 0 255
-Show #quality gems
+Show #quality gems #!TODO! split these up
 	Class "Divination Card"
-	BaseType "Gemcutter's Promise" "Grave Knowledge" "The Doppelganger" "The Summoner" "The Realm"
+	BaseType "Gemcutter's Promise" "Grave Knowledge" "The Bitter Blossom" "The Doppelganger" "The Summoner" "The Realm" 
+	MinimapIcon 2 Cyan Diamond
 	SetBackgroundColor 27 162 155 180
 	SetBorderColor 136 136 255 255
 Show #prophecies #!TODO!# give these borders?
 	Class "Divination Card"
 	BaseType "Friendship" "The Side Quest" "The Valley of Steel Boxes" "The Iron Bard"
+	MinimapIcon 2 Purple Diamond
 	SetBackgroundColor 181 75 255 180
 Show #prophecies for uniques
     Class "Divination Card"
-    BaseType "Akil's Prophecy" "The Mad King" "Vile Power"
-    MinimapIcon 2 Blue Diamond
+    BaseType "A Note in the Wind" "Akil's Prophecy" "The Mad King" "Vile Power"
+    MinimapIcon 2 Purple Diamond
     SetBackgroundColor 181 75 255 180
     SetBorderColor 175 96 37 255
 Show #prophecies for crafting
 	Class "Divination Card"
 	BaseType "The Jeweller's Boon"
+	MinimapIcon 2 Purple Diamond
 	SetBackgroundColor 181 75 255 180
 	SetBorderColor 184 218 242 255
 	
